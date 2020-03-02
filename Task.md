@@ -27,18 +27,20 @@
 > Setting > Organization Setting > Job Grade Category
 - [x] Add Job Grade Category
 - [x] Edit Job Grade Category 
-- [ ] Delete Job Grade Category 
+- [x] Delete Job Grade Category  **Delete Masih Belum Sempurna**
 ---
 
 ### Subject              :  *Selenium 30 Mar - 3 Apr*
-- [ ] Add Cost Center  
-- [ ] Edit Cost Center
-- [ ] Edit Cost Center 
-- [ ] Delete Cost Center 
-- [ ] Edit Job Family Grade
-- [ ] Add Job Status
-- [ ] Edit Job Status
-- [ ] Delete Job Status
+> Setting > Organization Setting > Cost Center
+- [x] Add Cost Center  
+- [x] Edit Cost Center
+- [x] Delete Cost Center
+> Setting > Organization Setting > Job Family Grade
+- [x] Edit Job Family Grade
+> Setting > Organization Setting > Job Status
+- [x] Add Job Status
+- [x] Edit Job Status
+- [x] Delete Job Status
 ---
 
 ### Subject              :  *Selenium 6 Apr - 9 Apr*
@@ -56,9 +58,29 @@
 - [ ] View Cost Center Position Report  
 - [ ] View Position List Report
 ---
-	
-	 
-	
+
+> Done Script
+```JAVA
+<class name="source.dataon.setting.organization_setting.company.TAddCompany"/>
+<class name="source.dataon.setting.organization_setting.company.TUpdateCompany"/>
+<class name="source.dataon.setting.organization_setting.company.TDeleteCompany"/>
+
+<class name="source.dataon.setting.organization_setting.organization_structure.TUpdateDepartement"/>
+<class name="source.dataon.setting.organization_setting.organization_structure.TUpdatePosition"/>
+<class name="source.dataon.setting.organization_setting.job_title.TUpdateJobTitle"/>
+
+<class name="source.dataon.setting.organization_setting.job_grade.TAddJobGrade"/>
+<class name="source.dataon.setting.organization_setting.job_grade.TUpdateJobGrade"/>
+<class name="source.dataon.setting.organization_setting.job_grade.TDeleteJobGrade"/>
+
+<class name="source.dataon.setting.organization_setting.job_grade_category.TAddJobGradeCategory"/>
+<class name="source.dataon.setting.organization_setting.job_grade_category.TUpdateJobGradeCategory"/>
+<class name="source.dataon.setting.organization_setting.job_grade_category.TDeleteJobGradeCategory"/>
+
+<class name="source.dataon.setting.organization_setting.cost_center.TAddCostCenter"/>
+<class name="source.dataon.setting.organization_setting.cost_center.TUpdateCostCenter"/>
+<class name="source.dataon.setting.organization_setting.cost_center.TDeleteCostCenter"/>
+```
 
 	
 	 
