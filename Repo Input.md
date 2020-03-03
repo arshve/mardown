@@ -154,3 +154,42 @@ if (!GRADE.equalsIgnoreCase("")) {
     }
 }
 ```
+
+# Conditional Radio Button
+```JAVA
+if (OPT_TO_REJECT.equalsIgnoreCase("Yes")) {
+    WebElement inp_pos_flag = fluentWait(By.xpath("//input[@id='inp_give_option_reject' and @title='Yes']"));
+    inp_pos_flag.click();
+    String inp_pos_flagval = inp_pos_flag.getAttribute("title");
+    try {
+        Assert.assertEquals(inp_pos_flagval, "Yes");
+        String[][] data = {
+                {"<small>[Radio Button]</small>"},
+                {"<b>Position Flag</b>"},
+                {inp_pos_flagval}
+        };
+        test.get().pass(MarkupHelper.createTable(data));
+    } catch (AssertionError e) {
+        test.get().fail(MarkupHelper
+                .createCodeBlock("Position Flag \n[EXPECTED] : Yes, [ACTUAL] : " + inp_pos_flagval));
+        throw e;
+    }
+} else {
+    WebElement inp_pos_flag = fluentWait(By.xpath("//input[@id='inp_trackable_acceptance' and @title='No']"));
+    inp_pos_flag.click();
+    String inp_pos_flagval = inp_pos_flag.getAttribute("title");
+    try {
+        Assert.assertEquals(inp_pos_flagval, "Track Acceptance");
+        String[][] data = {
+                {"<small>[Radio Button]</small>"},
+                {"<b>Position Flag</b>"},
+                {inp_pos_flagval}
+        };
+        test.get().pass(MarkupHelper.createTable(data));
+    } catch (AssertionError e) {
+        test.get().fail(MarkupHelper
+                .createCodeBlock("Position Flag \n[EXPECTED] : No, [ACTUAL] : " + inp_pos_flagval));
+        throw e;
+    }
+}
+```

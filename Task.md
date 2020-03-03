@@ -44,19 +44,24 @@
 ---
 
 ### Subject              :  *Selenium 6 Apr - 9 Apr*
-- [ ] Edit Job Family Level  
-- [ ] Add Job Family
-- [ ] Edit Job Family 
+> Setting > Organization Setting > Job Family Level
+- [x] Edit Job Family Level 
+> Setting > Organization Setting > Job Family
+- [x] Add Job Family
+- [x] Edit Job Family 
+> Setting > Organization Setting > Organization Structure
 - [ ] View Organization Structure
-- [ ] Add Company Policy
-- [ ] Edit Company Policy
+> Organization > Company Policy
+- [x] Add Company Policy **Field Revisi** **Baru Satu Skenario** **-filter**
+- [x] Edit Company Policy **Field Revisi** **Organization Unit**
 ---
 
 ### Subject              :  *Selenium 13 Apr - 17 Apr*
-- [ ] View Vacant Position Report   
-- [ ] View Job Grade Report
-- [ ] View Cost Center Position Report  
-- [ ] View Position List Report
+> Organization > Organization Report
+- [x] View Vacant Position Report   
+- [x] View Job Grade Report
+- [x] View Cost Center Position Report **Save Filter** **Email This Report**
+- [x] View Position List Report
 ---
 
 > Done Script
@@ -80,6 +85,25 @@
 <class name="source.dataon.setting.organization_setting.cost_center.TAddCostCenter"/>
 <class name="source.dataon.setting.organization_setting.cost_center.TUpdateCostCenter"/>
 <class name="source.dataon.setting.organization_setting.cost_center.TDeleteCostCenter"/>
+
+<class name="source.dataon.setting.organization_setting.organization_structure.job_status.TAddJobStatus"/>
+<class name="source.dataon.setting.organization_setting.organization_structure.job_status.TUpdateJobStatus"/>
+<class name="source.dataon.setting.organization_setting.organization_structure.job_status.TDeleteJobStatus"/>
+
+<class name="source.dataon.setting.organization_setting.organization_structure.job_family_grade.TUpdateJobFamilyGrade"/>
+<class name="source.dataon.setting.organization_setting.job_family_level.TUpdateJobFamilyLevel"/>
+
+<class name="source.dataon.setting.organization_setting.job_family.TAddJobFamily"/>
+<class name="source.dataon.setting.organization_setting.job_family.TUpdateJobFamily"/>
+
+<class name="source.dataon.organization.company_policy.TAddCompanyPolicy"/>
+<class name="source.dataon.organization.company_policy.TEditCompanyPolicy"/>
+
+<class name="source.dataon.organization.organization_report.TViewVacantPositionReport"/>
+<class name="source.dataon.organization.organization_report.TViewJobGradeReport"/>
+<class name="source.dataon.organization.organization_report.TViewCostCenterReport"/>
+<class name="source.dataon.organization.organization_report.TPositionListReport"/>
+
 ```
 
 	
