@@ -97,7 +97,7 @@
 <class name="source.dataon.setting.organization_setting.job_family.TUpdateJobFamily"/>
 
 <class name="source.dataon.organization.company_policy.TAddCompanyPolicy"/>
-<class name="source.dataon.organization.company_policy.TEditCompanyPolicy"/>
+<class name="source.dataon.organization.company_policy.TUpdateCompanyPolicy"/>
 
 <class name="source.dataon.organization.organization_report.TViewVacantPositionReport"/>
 <class name="source.dataon.organization.organization_report.TViewJobGradeReport"/>
