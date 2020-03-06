@@ -1,5 +1,4 @@
 ## Purchases
----
 * Quotation
   * Purchase Quotation
   * Quotation Comparison Sheet
@@ -23,7 +22,6 @@
   * Uninvoiced Purchase Order
 
 ## Sales
----
 * Customer
   * Customer Group
 * Recurring Sales
@@ -61,7 +59,6 @@
   * Uninvoiced Sales Order
 
 ## Organization
----
 * Organization Structure
 * Company Policy Request
 * Company Policy
@@ -76,7 +73,6 @@
 * Report Listing
 
 ## Employee
----
 * Employee Info
 * Employee Letter
 * Employee Requests
@@ -107,7 +103,6 @@
 * Employee Dashboard
 
 ## Career
----
 * Career Transition Request
 * Awards
 * Disciplines
@@ -121,7 +116,6 @@
 * Report Listing
 
 ## Time
----
 * Leave Pay Out
   * Leave Pay Out Request
 * My Attendance Entry Form
@@ -197,8 +191,7 @@
   * Employee Attendance Report
 * Report Listing
 
-## Reimbursement    
----
+## Reimbursement  
 * My Reimbursement Balance
 * Reimbursement Request
 * Reimbursement Cancellation Request
@@ -223,7 +216,6 @@
 * Report Listing
   
 ## Loan   
----
 * My Loan History
 * Loan Request
 * Loan Verification
@@ -239,7 +231,6 @@
 * Report Listing
 
 ## Payroll   
----
 * My Tax Form
 * Tax Form Verification
 * My Salary History
@@ -409,8 +400,7 @@
 * Salary Increment Review
 * Report Listing
 
-## Performance   
----
+## Performance  
 * Performance Form
 * Performance Planning Form
 * Performance Monitoring
@@ -436,8 +426,7 @@
 * Advanced Performance Dashboard
 * Report Listing
 
-## Training   
----
+## Training 
 * Training Course
 * Training Evaluation
 * Training Request
@@ -463,8 +452,7 @@
 * My E-Learning
 * Report Listing
 
-## Recruitment   
----
+## Recruitment 
 * Man Power Plan Request
 * Man Power Plan
 * Recruitment Request
@@ -480,7 +468,6 @@
 * Report Listin
 
 ## Setting   
----
 * Organization Setting
   * Company
   * Organization Structure
