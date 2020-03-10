@@ -5,6 +5,19 @@
 - [ ] this is an incomplete item
 ---
 
+URL: 192.168.101.155/sf6
+- Account: suksesgroup_mysql --> my sql (HR&ERP-Single Base)
+- superadmin: suksesgroup_mysql / suksesgroup_mysql/ password123
+- User Admin: suksesgroup_mysql / USR_001 /Pass1234!"
+
+gordon/password123
+ - [Sf1](http://192.168.0.112)
+ - [Sf2](http://192.168.0.170)
+ - [Sf3](http://192.168.0.185)
+ - [Sf4](http://192.168.101.155)
+
+---
+
 ### Learn Selenium       : *21 Feb - 6 Mar*
 
 ### Subject              : *Selenium 9 Mar - 20 Mar*
@@ -14,8 +27,8 @@
 - [x] Delete Company  
 > Setting > Organization Setting >  Organization Structure
 - [x] Edit Department **[Kurang Description]**
-- [x] Edit Position **[Belum Bisa Costume Position]** **[Kurang Description]**
-> Setting > Organization Setting > Company > Job Title
+- [x] Edit Position **[Kurang Description]** *[Kurang Targeting Position di Dalam Organization ]*
+> Setting > Organization Setting > Job Title
 - [x] Edit Job Title **[Kurang Description]**
 ---
 	
@@ -27,7 +40,7 @@
 > Setting > Organization Setting > Job Grade Category
 - [x] Add Job Grade Category
 - [x] Edit Job Grade Category 
-- [x] Delete Job Grade Category  **Delete Masih Belum Sempurna**
+- [x] Delete Job Grade Category  **[Delete Masih Belum Sempurna]**
 ---
 
 ### Subject              :  *Selenium 30 Mar - 3 Apr*
@@ -52,15 +65,15 @@
 > Setting > Organization Setting > Organization Structure
 - [ ] View Organization Structure
 > Organization > Company Policy
-- [x] Add Company Policy **Field Revisi** **Baru Satu Skenario** **-filter**
-- [x] Edit Company Policy **Field Revisi** **Organization Unit**
+- [x] Add Company Policy **[Field Revisi]** **[Baru Satu Skenario]** **[-filter]**
+- [x] Edit Company Policy **[Field Revisi]** **[Organization Unit]**
 ---
 
 ### Subject              :  *Selenium 13 Apr - 17 Apr*
 > Organization > Organization Report
 - [x] View Vacant Position Report   
 - [x] View Job Grade Report
-- [x] View Cost Center Position Report **Save Filter** **Email This Report**
+- [x] View Cost Center Position Report **[Save Filter]** **[Email This Report]**
 - [x] View Position List Report
 ---
 
