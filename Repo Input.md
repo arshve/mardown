@@ -70,6 +70,38 @@ if (!NAME.equalsIgnoreCase("")) {
     Thread.sleep(1000);
 }
 ```
+> Multiple Language Field With FCK Text Editor
+```JAVA
+if (!VISION.equalsIgnoreCase("")) {
+    String[] st_desc = VISION.split(", ");
+    String[] lang = LANG.split(", ");
+    for(int i = 0;i < st_desc.length;i++) {
+        try {
+            wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.xpath("//*[@id=\"inp_vision_"+ lang[i] +"___Frame\"]")));
+            wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.xpath("//*[@id=\"xEditingArea\"]/iframe")));
+            WebElement body = driver.findElement(By.tagName("body"));
+            if(body != null) {
+                System.out.println("body "+i+" exist");
+            } else {
+                System.out.println("body "+i+" not exist");
+            }
+            System.out.println(lang[i]); // debug
+            System.out.println(st_desc[i]); // debug
+            body.clear();
+            body.sendKeys(st_desc[i]);
+            Thread.sleep(500);
+            test.get().pass("<small>[Input FCK Text Editor]</small> Vision : " + st_desc[i]);
+            driver.switchTo().parentFrame();
+        } catch(Exception e) {
+            System.out.println("Error. "+e.getMessage());
+        }
+        System.out.println("loop "+i); // debug
+        driver.switchTo().parentFrame();
+    }
+    Thread.sleep(500);
+}
+```
+
 # INPUT ATTACHMENT
 ```JAVA
 if(!ATTACHMENT.equalsIgnoreCase("")) {

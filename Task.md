@@ -22,14 +22,14 @@ gordon/password123
 
 ### Subject              : *Selenium 9 Mar - 20 Mar*
 > Setting > Organization Setting > Company
-- [x] Add Company **[Kurang Description]**
-- [x] Edit Company **[Kurang Description]**
+- [x] Add Company
+- [x] Edit Company
 - [x] Delete Company  
 > Setting > Organization Setting >  Organization Structure
-- [x] Edit Department **[Kurang Description]**
-- [x] Edit Position **[Kurang Description]** *[Kurang Targeting Position di Dalam Organization ]*
+- [x] Edit Department 
+- [x] Edit Position *[Kurang Targeting Position di Dalam Organization]*
 > Setting > Organization Setting > Job Title
-- [x] Edit Job Title **[Kurang Description]**
+- [x] Edit Job Title 
 ---
 	
 ### Subject              : *Selenium 23 Mar - 27 Mar*
@@ -40,7 +40,7 @@ gordon/password123
 > Setting > Organization Setting > Job Grade Category
 - [x] Add Job Grade Category
 - [x] Edit Job Grade Category 
-- [x] Delete Job Grade Category  **[Delete Masih Belum Sempurna]**
+- [x] Delete Job Grade Category 
 ---
 
 ### Subject              :  *Selenium 30 Mar - 3 Apr*
