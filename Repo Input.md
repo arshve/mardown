@@ -1,7 +1,5 @@
 
 # SP6 ERP Selenium **Input** Repo
-
-# Table of Contents
 1. [Input Drop Down](#Input-Drop-Down)
 2. [Input Text](#Input-Text)
 3. [Input Kota Ajax](#Input-Kota-Ajax)
@@ -9,6 +7,8 @@
 5. [Attachment](#Input-Attachment)
 6. [Check Box](#Check-Box)
 7. [Insert Multiple Select input To Right Box](#Insert-Multiple-input-To-Right-Box)
+
+---
 
 ## Input Drop Down
 <details>
