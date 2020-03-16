@@ -21,6 +21,7 @@ gordon/password123
 ### Learn Selenium       : *21 Feb - 6 Mar*
 
 ### Subject              : *Selenium 9 Mar - 20 Mar*
+TCK2002-0548708
 > Setting > Organization Setting > Company
 - [x] Add Company
 - [x] Edit Company
@@ -33,6 +34,7 @@ gordon/password123
 ---
 	
 ### Subject              : *Selenium 23 Mar - 27 Mar*
+TCK2002-0548709
 > Setting > Organization Setting > Job Grade
 - [x] Add Job Grade 
 - [x] Edit Job Grade
@@ -44,6 +46,7 @@ gordon/password123
 ---
 
 ### Subject              :  *Selenium 30 Mar - 3 Apr*
+TCK2002-0548710
 > Setting > Organization Setting > Cost Center
 - [x] Add Cost Center  
 - [x] Edit Cost Center
@@ -57,6 +60,7 @@ gordon/password123
 ---
 
 ### Subject              :  *Selenium 6 Apr - 9 Apr*
+TCK2002-0548711
 > Setting > Organization Setting > Job Family Level
 - [x] Edit Job Family Level 
 > Setting > Organization Setting > Job Family
@@ -65,11 +69,12 @@ gordon/password123
 > Setting > Organization Setting > Organization Structure
 - [ ] View Organization Structure
 > Organization > Company Policy
-- [x] Add Company Policy **[Field Revisi]** **[Baru Satu Skenario]** **[-filter]**
-- [x] Edit Company Policy **[Field Revisi]** **[Organization Unit]**
+- [x] Add Company Policy 
+- [x] Edit Company Policy
 ---
 
 ### Subject              :  *Selenium 13 Apr - 17 Apr*
+TCK2002-0548712
 > Organization > Organization Report
 - [x] View Vacant Position Report   
 - [x] View Job Grade Report

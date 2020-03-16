@@ -1,5 +1,19 @@
 
-# INPUT DROP DOWN
+# SP6 ERP Selenium **Input** Repo
+
+# Table of Contents
+1. [Input Drop Down](#Input-Drop-Down)
+2. [Input Text](#Input-Text)
+3. [Input Kota Ajax](#Input-Kota-Ajax)
+4. [Input Multiple Language](#Input-Multiple-Language)
+5. [Attachment](#Input-Attachment)
+6. [Check Box](#Check-Box)
+7. [Insert Multiple Select input To Right Box](#Insert-Multiple-input-To-Right-Box)
+
+## Input Drop Down
+<details>
+<summary> Code! </summary>
+
 ```JAVA
 if (!CP_TYPE.equalsIgnoreCase("")) {
     Select inp_company_type = new Select(fluentWait(By.id("inp_company_type")));
@@ -15,8 +29,20 @@ if (!CP_TYPE.equalsIgnoreCase("")) {
     Thread.sleep(500);
 }
 ```
+<details>
+<summary> What is Look Like! </summary>
 
-# INPUT TEXT 
+![Example](https://i.ibb.co/bmMNvTT/Drop-Down-Input.png)
+
+</details>
+
+</details>
+
+
+## Input Text
+<details>
+<summary> Code! </summary>
+
 ```JAVA
 if(!CP_NAME.equalsIgnoreCase("")) {
     WebElement x = fluentWait(By.id("inp_company_name"));
@@ -27,9 +53,19 @@ if(!CP_NAME.equalsIgnoreCase("")) {
     Thread.sleep(500);
 }
 ```
+<details>
+<summary> What is Look Like! </summary>
 
+![Example](https://i.ibb.co/0DK0KLB/Text-Input.png)
 
-# INPUT KOTA AJAX
+</details>
+
+</details>
+
+## Input Kota Ajax
+<details>
+<summary> Code! </summary>
+
 ```JAVA
 if(!CITY.equalsIgnoreCase("")) {
     WebElement inp_city_id = fluentWait(By.id("inp_city_id"));
@@ -52,8 +88,19 @@ if(!CITY.equalsIgnoreCase("")) {
     Thread.sleep(500);
 }
 ```
+<details>
+<summary> What is Look Like! </summary>
 
-# INPUT MULTIPLE LANGUAGE FIELD
+![Example](https://i.ibb.co/qdRNmP9/City-Ajax-Input.png)
+
+</details>
+
+</details>
+
+## Input Multiple Language
+<details>
+<summary> Code! </summary>
+
 ```JAVA
 if (!NAME.equalsIgnoreCase("")) {
     String[] st_desc = NAME.split(", ");
@@ -70,7 +117,8 @@ if (!NAME.equalsIgnoreCase("")) {
     Thread.sleep(1000);
 }
 ```
-> Multiple Language Field With FCK Text Editor
+### Multiple Language Field With FCK Text Editor
+
 ```JAVA
 if (!VISION.equalsIgnoreCase("")) {
     String[] st_desc = VISION.split(", ");
@@ -102,7 +150,23 @@ if (!VISION.equalsIgnoreCase("")) {
 }
 ```
 
-# INPUT ATTACHMENT
+<details>
+<summary> What is Look Like! </summary>
+
+#### Standard
+![Example](https://i.ibb.co/qNVJ5XK/Standard-Language-Input.png)
+
+#### FCKEditor
+![Example](https://i.ibb.co/HGmSDQ6/FCKEditor-Input.png)
+
+</details>
+
+</details>
+
+## Input Attachment
+<details>
+<summary> Code! </summary>
+
 ```JAVA
 if(!ATTACHMENT.equalsIgnoreCase("")) {
     WebElement inp_filename_new = fluentWait(By.id("inp_filename_new"));
@@ -117,7 +181,19 @@ if(!ATTACHMENT.equalsIgnoreCase("")) {
 }
 ```
 
-#   Select Radio Button
+<details>
+<summary> What is Look Like! </summary>
+
+![Example](https://i.ibb.co/WgF2C8n/Attachment.png)
+
+</details>
+
+</details>
+
+##  Select Radio Button
+<details>
+<summary> Code! </summary>
+
 ```JAVA
 WebElement inp_pos_flag = fluentWait(By.xpath("//input[@name='inp_pos_flag' and @title='Job Position']"));
 inp_pos_flag.click();
@@ -139,55 +215,8 @@ try {
 Thread.sleep(500);
 ```
 
-#   Check Box
-```JAVA
-WebElement check = driver.findElement(By.id("inp_pos_active"));
-for(int i=0; i<2; i++) {
-    check.click();
-    test.get().pass("<small>[Textfield]</small> Check Box Clicked");
-}
-```
-```JAVA
-if (!STATUS.equalsIgnoreCase("Active")) {
-    WebElement inp_pos_active = fluentWait(By.id("inp_pos_active"));
-    inp_pos_active.click();
-    Thread.sleep(500);
-    if (!inp_pos_active.isSelected()) {
-        test.get()
-                .pass(MarkupHelper.createCodeBlock("[Checkbox] Active : Unchecked"));
-    } else {
-        test.get().fail(MarkupHelper.createCodeBlock("Failed Unchecked [Checkbox] Active"));
-    }
-}
-```
+### Conditional Radio Button
 
-# Insert Multiple input To Right Box
-```JAVA
-if (!GRADE.equalsIgnoreCase("")) {
-    String[] typeofL = GRADE.split(", ");
-    for (String eltypeofL : typeofL) {
-        if (eltypeofL != null && eltypeofL.length() > 0) {
-            WebElement tol = fluentWait(By.id("inp_lstgradecode"));
-            tol.sendKeys("");
-            tol.sendKeys(eltypeofL);
-            Thread.sleep(8000);
-            WebElement found = fluentWait(By.cssSelector("#unselinp_lstgradecode > option:nth-child(1)"));
-            actions.doubleClick(found).perform();
-            Thread.sleep(3000);
-            tol.clear();
-            Thread.sleep(500);
-            String[][] data = {
-                    {"<small>[Multiple Selectbox]</small>"},
-                    {"<b>Grade</b>"},
-                    {eltypeofL}
-            };
-            test.get().pass(MarkupHelper.createTable(data));
-        }
-    }
-}
-```
-
-# Conditional Radio Button
 ```JAVA
 if (OPT_TO_REJECT.equalsIgnoreCase("Yes")) {
     WebElement inp_pos_flag = fluentWait(By.xpath("//input[@id='inp_give_option_reject' and @title='Yes']"));
@@ -225,3 +254,108 @@ if (OPT_TO_REJECT.equalsIgnoreCase("Yes")) {
     }
 }
 ```
+
+<details>
+<summary> What is Look Like! </summary>
+
+![Example](https://i.ibb.co/H27CdgT/Radio-Box-Input.png)
+
+</details>
+
+</details>
+
+##   Check Box
+<details>
+<summary> Code! </summary>
+
+### Double Click Check
+```JAVA
+WebElement check = driver.findElement(By.id("inp_pos_active"));
+for(int i=0; i<2; i++) {
+    check.click();
+    test.get().pass("<small>[Textfield]</small> Check Box Clicked");
+}
+```
+
+### Single Click Check
+```JAVA
+if (!STATUS.equalsIgnoreCase("Active")) {
+    WebElement inp_pos_active = fluentWait(By.id("inp_pos_active"));
+    inp_pos_active.click();
+    Thread.sleep(500);
+    if (!inp_pos_active.isSelected()) {
+        test.get()
+                .pass(MarkupHelper.createCodeBlock("[Checkbox] Active : Unchecked"));
+    } else {
+        test.get().fail(MarkupHelper.createCodeBlock("Failed Unchecked [Checkbox] Active"));
+    }
+}
+```
+<details>
+<summary> What is Look Like! </summary>
+
+![Example](https://i.ibb.co/Yy1Vqhr/Check-Box-Input.png)
+
+</details>
+
+</details>
+
+
+## Insert Multiple input To Right Box
+<details>
+<summary> Code! </summary>
+
+### With Search
+```JAVA
+if (!GRADE.equalsIgnoreCase("")) {
+    String[] typeofL = GRADE.split(", ");
+    for (String eltypeofL : typeofL) {
+        if (eltypeofL != null && eltypeofL.length() > 0) {
+            WebElement tol = fluentWait(By.id("inp_lstgradecode"));
+            tol.sendKeys("");
+            tol.sendKeys(eltypeofL);
+            Thread.sleep(8000);
+            WebElement found = fluentWait(By.cssSelector("#unselinp_lstgradecode > option:nth-child(1)"));
+            actions.doubleClick(found).perform();
+            Thread.sleep(3000);
+            tol.clear();
+            Thread.sleep(500);
+            String[][] data = {
+                    {"<small>[Multiple Selectbox]</small>"},
+                    {"<b>Grade</b>"},
+                    {eltypeofL}
+            };
+            test.get().pass(MarkupHelper.createTable(data));
+        }
+    }
+}
+```
+### Without Search
+```JAVA
+if (!ORG_UNIT.equalsIgnoreCase("")) {
+        String[] split = ORG_UNIT.split(", ");
+        for(int i = 0;i < split.length;i++){
+            Select item = new Select(driver.findElement(By.xpath("//*[@id=\"unselinp_division\"]")));
+            item.selectByVisibleText(split[i]);
+            Thread.sleep(300);
+        }
+        WebElement found = fluentWait(By.cssSelector("#tr_inp_grade > td:nth-child(2) > table:nth-child(4) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > input:nth-child(1)"));
+        found.click();
+}
+Thread.sleep(1000);
+```
+
+<details>
+<summary> What is Look Like! </summary>
+
+#### With Search Box
+![Example](https://i.ibb.co/554tVtV/Multiple-Select-with-search.png)
+
+#### Without Search Box
+![Example](https://i.ibb.co/NL9PBqS/Multiple-Select-Without-search.png)
+
+</details>
+
+</details>
+
+
