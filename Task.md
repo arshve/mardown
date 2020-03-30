@@ -5,6 +5,9 @@
 - [ ] this is an incomplete item
 ---
 
+\\192.168.100.129\SharedFolder\QA\1.Quality Assurance\1.QA SunFish HR\3.SAT Form\SAT-2020
+\\192.168.100.129\SharedFolder\QA\2.Documentation\3. Misc\Selenium Tutorial\1. SF6 HR Automation Test Data
+
 URL: 192.168.101.155/sf6
 - Account: suksesgroup_mysql --> my sql (HR&ERP-Single Base)
 - superadmin: suksesgroup_mysql / suksesgroup_mysql/ password123
@@ -62,12 +65,12 @@ TCK2002-0548710
 ### Subject              :  *Selenium 6 Apr - 9 Apr*
 TCK2002-0548711
 > Setting > Organization Setting > Job Family Level
-- [x] Edit Job Family Level 
+- [x] Edit Job Family Level                                 - [A123 edited]
 > Setting > Organization Setting > Job Family
-- [x] Add Job Family
+- [x] Add Job Family                                        
 - [x] Edit Job Family 
-> Setting > Organization Setting > Organization Structure
-- [ ] View Organization Structure
+> Organization > Organization Structure
+- [x] View Organization Structure **Option Check**
 > Organization > Company Policy
 - [x] Add Company Policy 
 - [x] Edit Company Policy
