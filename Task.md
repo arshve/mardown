@@ -36,11 +36,6 @@ TCK2001-0543231
 - [ ] Edit Employee Skills
 - [ ] Edit Employee Interest
 - [ ] Edit Employee Document Controlt
-- [ ] Add Employee
-- [ ] Delete Employee
-- [ ] Add Document Management
-- [ ] Edit Document Management
-- [ ] Delete Document Management
   > Employee > Employee Letter
 - [ ] Add Employee Letter
 - [ ] Edit Employee Letter
