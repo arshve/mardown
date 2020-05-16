@@ -1,6 +1,9 @@
-##  Submit Button
+Menu +[TASK](https://github.com/arshve/mardown/blob/master/Task.md)+ +[Repo Input](https://github.com/arshve/mardown/blob/master/Repo%20Input.md#Insert-Multiple-input-To-Right-Box)+ +[Repo Button](https://github.com/arshve/mardown/blob/master/Repo%20Button.md)+ +[Repo Documentation](https://github.com/arshve/mardown/blob/master/Repo%20Documentation.md)+ +[Repo Select By](https://github.com/arshve/mardown/blob/master/Repo%20Select%20By.md)+ +[Repo Select](https://github.com/arshve/mardown/blob/master/Repo%20Select.md)+ +[ModulSF List](https://github.com/arshve/mardown/blob/master/ModulSF6.md)+
+
+## Submit Button
 
 ## With Alert Check
+
 ```JAVA
 Thread.sleep(500); // TimeOut
 takeScreenShot(TC_ID, SC_TYPE, TC_ID);
@@ -35,9 +38,11 @@ if (wait_alert.until(ExpectedConditions.alertIsPresent()) == null) {
     Thread.sleep(4000); // TimeOut
 }
 ```
+
 ---
 
 ## Without Alert Check
+
 ```JAVA
 WebElement submit = fluentWait(By.id("btn_a_2"));
 submit.click();
@@ -46,12 +51,14 @@ Thread.sleep(4000); // TimeOut
 //handle alert
 takeScreenShot(TC_ID, SC_TYPE, TC_ID + "_1"); // Report
 test.get().pass("Submited", MediaEntityBuilder.createScreenCaptureFromPath(filePathSc + TC_ID + "_1.png").build());
-resolveAllAlerts(driver, 16, true);	
+resolveAllAlerts(driver, 16, true);
 Thread.sleep(4000); // TimeOut
 ```
+
 ---
 
-##  Delete Button
+## Delete Button
+
 ```JAVA
 driver.switchTo().parentFrame();
 WebElement submit = fluentWait(By.id("btn_a_1"));
@@ -63,8 +70,8 @@ resolveAllAlerts(driver, 16, true);
 Thread.sleep(4000); // TimeOut
 ```
 
+# ScreenShoot & Close Second Window
 
-#   ScreenShoot & Close Second Window
 > [Source](https://stackoverflow.com/questions/9588827/how-to-switch-to-the-new-browser-window-which-opens-after-click-on-the-button)
 
 ```JAVA

@@ -1,5 +1,7 @@
+Menu +[TASK](https://github.com/arshve/mardown/blob/master/Task.md)+ +[Repo Input](https://github.com/arshve/mardown/blob/master/Repo%20Input.md#Insert-Multiple-input-To-Right-Box)+ +[Repo Button](https://github.com/arshve/mardown/blob/master/Repo%20Button.md)+ +[Repo Documentation](https://github.com/arshve/mardown/blob/master/Repo%20Documentation.md)+ +[Repo Select By](https://github.com/arshve/mardown/blob/master/Repo%20Select%20By.md)+ +[Repo Select](https://github.com/arshve/mardown/blob/master/Repo%20Select.md)+ +[ModulSF List](https://github.com/arshve/mardown/blob/master/ModulSF6.md)+
 
-#   Hover Menu [Setting]
+# Hover Menu [Setting]
+
 ```JAVA
 String homewindow = driver.getWindowHandle();
 WebDriverWait wait = new WebDriverWait(driver, 120);
@@ -10,7 +12,8 @@ actions.moveToElement(menu).perform();
 Thread.sleep(500);
 ```
 
-#   Hover Child [Company]
+# Hover Child [Company]
+
 ```JAVA
 WebElement submenu1 = fluentWait(By.linkText("Organization Setting")); // Organization Setting
 Actions subactions1 = new Actions(driver);
@@ -18,7 +21,8 @@ subactions1.moveToElement(submenu1).perform();
 Thread.sleep(500);
 ```
 
-#   Click Menu
+# Click Menu
+
 ```JAVA
 JavascriptExecutor executor = (JavascriptExecutor) driver;
 executor.executeScript("arguments[0].click();", submenu2);
@@ -26,7 +30,8 @@ checkPageIsReady();
 Thread.sleep(5000);
 ```
 
-#   Click Add Button [Company]
+# Click Add Button [Company]
+
 ```JAVA
 wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.id("frmSFBody")));
 Thread.sleep(5000);
@@ -38,7 +43,9 @@ Thread.sleep(5000);
 takeScreenShot(TC_ID, SC_TYPE, TC_ID + "_1");
 test.get().pass("Tampil Form Add Employee", MediaEntityBuilder.createScreenCaptureFromPath(filePathSc + TC_ID + "_1.png").build());
 ```
-##  Click Add Button 2 [Organization]
+
+## Click Add Button 2 [Organization]
+
 ```JAVA
 wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.id("frmSFBody")));
 Thread.sleep(5000);
@@ -51,7 +58,8 @@ driver.switchTo().parentFrame();
 Thread.sleep(3000);
 ```
 
-#   Delete Handle [Company]
+# Delete Handle [Company]
+
 ```JAVA
 driver.switchTo().parentFrame();
 WebElement submit = fluentWait(By.id("btn_a_1"));
@@ -63,14 +71,15 @@ resolveAllAlerts(driver, 16, true);
 Thread.sleep(4000);
 ```
 
-#   Select Link With Attribute [Departement]
+# Select Link With Attribute [Departement]
+
 ```JAVA
 fluentWait(By.linkText(UNIT_CODE + ". " + UNIT_NAME)).click();
 Thread.sleep(5000);
 ```
 
+# SEARCH TARGET NAME
 
-#   SEARCH TARGET NAME
 ```JAVA
 //	 Search Target Name
 driver.switchTo().parentFrame();
