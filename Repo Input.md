@@ -1,5 +1,5 @@
-
 # SP6 ERP Selenium **Input** Repo
+
 1. [Input Drop Down](#Input-Drop-Down)
 2. [Input Text](#Input-Text)
 3. [Input Kota Ajax](#Input-Kota-Ajax)
@@ -11,6 +11,7 @@
 ---
 
 ## Input Drop Down
+
 <details>
 <summary> Code! </summary>
 
@@ -29,6 +30,7 @@ if (!CP_TYPE.equalsIgnoreCase("")) {
     Thread.sleep(500);
 }
 ```
+
 <details>
 <summary> What is Look Like! </summary>
 
@@ -38,8 +40,8 @@ if (!CP_TYPE.equalsIgnoreCase("")) {
 
 </details>
 
-
 ## Input Text
+
 <details>
 <summary> Code! </summary>
 
@@ -53,6 +55,7 @@ if(!CP_NAME.equalsIgnoreCase("")) {
     Thread.sleep(500);
 }
 ```
+
 <details>
 <summary> What is Look Like! </summary>
 
@@ -63,6 +66,7 @@ if(!CP_NAME.equalsIgnoreCase("")) {
 </details>
 
 ## Input Kota Ajax
+
 <details>
 <summary> Code! </summary>
 
@@ -88,6 +92,7 @@ if(!CITY.equalsIgnoreCase("")) {
     Thread.sleep(500);
 }
 ```
+
 <details>
 <summary> What is Look Like! </summary>
 
@@ -98,6 +103,7 @@ if(!CITY.equalsIgnoreCase("")) {
 </details>
 
 ## Input Multiple Language
+
 <details>
 <summary> Code! </summary>
 
@@ -117,6 +123,7 @@ if (!NAME.equalsIgnoreCase("")) {
     Thread.sleep(1000);
 }
 ```
+
 ### Multiple Language Field With FCK Text Editor
 
 ```JAVA
@@ -154,9 +161,11 @@ if (!VISION.equalsIgnoreCase("")) {
 <summary> What is Look Like! </summary>
 
 #### Standard
+
 ![Example](https://i.ibb.co/qNVJ5XK/Standard-Language-Input.png)
 
 #### FCKEditor
+
 ![Example](https://i.ibb.co/HGmSDQ6/FCKEditor-Input.png)
 
 </details>
@@ -164,6 +173,7 @@ if (!VISION.equalsIgnoreCase("")) {
 </details>
 
 ## Input Attachment
+
 <details>
 <summary> Code! </summary>
 
@@ -190,7 +200,8 @@ if(!ATTACHMENT.equalsIgnoreCase("")) {
 
 </details>
 
-##  Select Radio Button
+## Select Radio Button
+
 <details>
 <summary> Code! </summary>
 
@@ -264,11 +275,13 @@ if (OPT_TO_REJECT.equalsIgnoreCase("Yes")) {
 
 </details>
 
-##   Check Box
+## Check Box
+
 <details>
 <summary> Code! </summary>
 
 ### Double Click Check
+
 ```JAVA
 WebElement check = driver.findElement(By.id("inp_pos_active"));
 for(int i=0; i<2; i++) {
@@ -278,6 +291,7 @@ for(int i=0; i<2; i++) {
 ```
 
 ### Single Click Check
+
 ```JAVA
 if (!STATUS.equalsIgnoreCase("Active")) {
     WebElement inp_pos_active = fluentWait(By.id("inp_pos_active"));
@@ -291,6 +305,7 @@ if (!STATUS.equalsIgnoreCase("Active")) {
     }
 }
 ```
+
 <details>
 <summary> What is Look Like! </summary>
 
@@ -300,12 +315,13 @@ if (!STATUS.equalsIgnoreCase("Active")) {
 
 </details>
 
-
 ## Insert Multiple input To Right Box
+
 <details>
 <summary> Code! </summary>
 
 ### With Search
+
 ```JAVA
 if (!GRADE.equalsIgnoreCase("")) {
     String[] typeofL = GRADE.split(", ");
@@ -330,7 +346,9 @@ if (!GRADE.equalsIgnoreCase("")) {
     }
 }
 ```
+
 ### Without Search
+
 ```JAVA
 if (!ORG_UNIT.equalsIgnoreCase("")) {
         String[] split = ORG_UNIT.split(", ");
@@ -345,17 +363,54 @@ if (!ORG_UNIT.equalsIgnoreCase("")) {
 Thread.sleep(1000);
 ```
 
+#### Referse Without Search
+
+```JAVA
+boolean jobFam = isElementPresent(By.cssSelector("#selinp_acsmember > option:nth-child(1)"));
+System.out.println(jobFam);
+
+if(jobFam) {
+    Select select = new Select(driver.findElement(By.id("selinp_acsmember")));
+    List <WebElement> elementCount = select.getOptions();
+    int iSize = elementCount.size();
+    for(int i =0; i<iSize ; i++){
+        String sValue = elementCount.get(i).getText();
+        System.out.println(sValue);
+        select.selectByVisibleText(sValue);
+        Thread.sleep(300);
+    }
+    WebElement found = fluentWait(By.cssSelector("#tr_inp_acsmember > td:nth-child(2) > table:nth-child(4) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > input:nth-child(4)"));
+    found.click();
+    System.out.println(jobFam);
+}
+test.get().pass("Undo the Title Grade");
+Thread.sleep(500);
+```
+
+Initiate Condition
+
+```JAVA
+public boolean isElementPresent(By by) {
+    try {
+        driver.findElement(by);
+        return true;
+    } catch (NoSuchElementException e) {
+        return false;
+    }
+}
+```
+
 <details>
 <summary> What is Look Like! </summary>
 
 #### With Search Box
+
 ![Example](https://i.ibb.co/554tVtV/Multiple-Select-with-search.png)
 
 #### Without Search Box
+
 ![Example](https://i.ibb.co/NL9PBqS/Multiple-Select-Without-search.png)
 
 </details>
 
 </details>
-
-

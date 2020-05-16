@@ -199,12 +199,15 @@ TCK2002-0548708
 
 <class name="source.dataon.employee.employee_information.TAddEmployee"/>
 <class name="source.dataon.employee.employee_information.TDeleteEmployee"/>
+
 <class name="source.dataon.setting.employee_setting.document_management.TAddDocument"/>
 <class name="source.dataon.setting.employee_setting.document_management.TUpdateDocument"/>
 <class name="source.dataon.setting.employee_setting.document_management.TDeleteDocument"/>
+
 <class name="source.dataon.setting.employee_setting.survey.survey_library.TAddSurveyLibrary"/>
 <class name="source.dataon.setting.employee_setting.survey.survey_library.TUpdateSurveyLibrary"/>
 <class name="source.dataon.setting.employee_setting.survey.survey_library.TDeleteSurveyLibrary"/>
+
 <class name="source.dataon.setting.employee_setting.survey.survey_setting.TAddSurveySetting"/>
 <class name="source.dataon.setting.employee_setting.survey.survey_setting.TUpdateSurveySetting"/>
 <class name="source.dataon.setting.employee_setting.survey.survey_setting.TDeleteSurveySetting"/>
