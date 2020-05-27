@@ -365,6 +365,48 @@ if (!ORG_UNIT.equalsIgnoreCase("")) {
 Thread.sleep(1000);
 ```
 
+### Without Search + Validation Data
+
+<details>
+<summary> Initiate! </summary>
+
+```JAVA
+public boolean isElementPresent(By by) {
+    try {
+    driver.findElement(by);
+    return true;
+    } catch (NoSuchElementException e) {
+    return false;
+    }
+}
+```
+
+</details>
+
+```JAVA
+if (!GRADE_LIST.equalsIgnoreCase("")) {
+    String[] split = GRADE_LIST.split(", ");
+    for(int i = 0;i < split.length;i++){
+        boolean exists = driver.findElements(By.xpath("//option[@title='" + split[i] + "']")).size() != 0;
+        if (exists) {
+            Select item = new Select(driver.findElement(By.id("unselinp_acsmember")));
+            item.selectByVisibleText(split[i]);
+            test.get().pass("<small>[Grade List]</small> "+ split[i] +" Added");
+            Thread.sleep(300);
+        } else {
+            System.out.println(split[i] +" Doesnt Found");
+            test.get().pass("<small>[Grade List]</small> "+ split[i] +" Not Found");
+
+        }
+    }
+    WebElement found = fluentWait(By.cssSelector("html body#pageBodyHRM.fullsize div#divBlock.divBlock div#divPopup.divPopup table#formtable tbody tr td"
+            + "#pop_data.box div#formspace div form#frmGradeCategory div#divForm fieldset table tbody tr#tr_inp_acsmember.clTR1 td#tdb_1 table tbody tr td input"));
+    found.click();
+
+}
+
+```
+
 #### Referse Without Search
 
 ```JAVA

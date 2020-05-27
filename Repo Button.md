@@ -97,3 +97,17 @@ Thread.sleep(3000); // TimeOut
 // Switch back to original browser (first window)
 driver.switchTo().window(winHandleBefore);
 ```
+
+# Click Code with LineText
+
+```JAVA
+try {
+    WebElement code = driver.findElement(By.linkText("TestGradeCat"));
+    code.click();
+}
+catch(org.openqa.selenium.StaleElementReferenceException ex)
+{
+    WebElement code = driver.findElement(By.linkText("TestGradeCat"));
+    code.click();
+}
+```

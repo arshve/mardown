@@ -33,15 +33,15 @@ TCK2001-0543231
 
 > Employee Info
 
-- [ ] Edit Employee Custom Field
-- [ ] Edit Employee Check List
-- [ ] Edit Employee Skills
-- [ ] Edit Employee Interest
-- [ ] Edit Employee Document Controlt
+- [x] Edit Employee Custom Field
+- [x] Edit Employee Check List
+- [x] Edit Employee Skills
+- [x] Edit Employee Interest
+- [x] Edit Employee Document Controlt
   > Employee > Employee Letter
-- [ ] Add Employee Letter
-- [ ] Edit Employee Letter
-- [ ] Delete Employee Letter
+- [x] Add Employee Letter
+- [x] Edit Employee Letter
+- [x] Delete Employee Letter
   > Employee > Employee Report
 - [ ] View Report Based on Criteria
 - [ ] View Employee Survey Report
@@ -214,5 +214,14 @@ TCK2002-0548708
 <class name="source.dataon.setting.employee_setting.survey.survey_setting.TUpdateSurveySetting"/>
 <class name="source.dataon.setting.employee_setting.survey.survey_setting.TDeleteSurveySetting"/>
 
+<class name="source.dataon.employee.employee_information.employment_data.TUpdateEmployeeCostumeField"/>
+<class name="source.dataon.employee.employee_information.employment_data.TUpdateEmployeeCheckList"/>
+<class name="source.dataon.employee.employee_information.additional_info.TUpdateEmployeeSkill"/>
+<class name="source.dataon.employee.employee_information.additional_info.TUpdateEmployeeInterest"/>
+<class name="source.dataon.employee.employee_information.additional_info.TUpdateEmployeeDocumentControl"/>
+
+<class name="source.dataon.employee.employee_letter.TAddEmployeeLetter"/>
+<class name="source.dataon.employee.employee_letter.TUpdateEmployeeLetter"/>
+<class name="source.dataon.employee.employee_letter.TDeleteEmployeeLetter"/>
 
 ```
