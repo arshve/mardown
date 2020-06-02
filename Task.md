@@ -33,15 +33,15 @@ TCK2005-0567944
 
 > Setting > Training Setting
 
-- [x] Add Training Category
-- [x] Edit Training Category
-- [x] Delete Training Category
-- [x] Add Training Provider
-- [x] Edit Training Provider
-- [x] Delete Training Provider
-- [x] Add Training Instructor
-- [x] Edit Training Instructor
-- [x] Delete Training Instructor
+- [ ] Add Training Category
+- [ ] Edit Training Category
+- [ ] Delete Training Category
+- [ ] Add Training Provider
+- [ ] Edit Training Provider
+- [ ] Delete Training Provider
+- [ ] Add Training Instructor
+- [ ] Edit Training Instructor
+- [ ] Delete Training Instructor
 
 ---
 
