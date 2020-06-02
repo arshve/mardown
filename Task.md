@@ -27,6 +27,24 @@ gordon/password123
 
 ---
 
+### Subject : _Selenium 2 June - 5 June_
+
+TCK2005-0567944
+
+> Setting > Training Setting
+
+- [x] Add Training Category
+- [x] Edit Training Category
+- [x] Delete Training Category
+- [x] Add Training Provider
+- [x] Edit Training Provider
+- [x] Delete Training Provider
+- [x] Add Training Instructor
+- [x] Edit Training Instructor
+- [x] Delete Training Instructor
+
+---
+
 ### Subject : _Selenium 14 May - 18 May_
 
 TCK2001-0543231
