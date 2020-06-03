@@ -69,6 +69,41 @@ t0^1#APA\*g4V
 
 ---
 
+### Subject : _Selenium 8 June - 12 June_
+
+TCK2005-0567946
+
+> Setting > Training Setting
+
+- [ ] Add Training Venue
+- [ ] Edit Training Venue
+- [ ] Delete Training Venue
+- [x] Add Training Feedback
+- [x] Edit Training Feedback
+- [x] Delete Training Feedback
+- [x] Add Training Evaluation
+- [x] Edit Training Evaluation
+- [x] Delete Training Evaluation
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+<class name="source.dataon.setting.training_setting.training_evaluation_library.TAddTrainingEvaluation"/>
+<class name="source.dataon.setting.training_setting.training_evaluation_library.TUpdateTrainingEvaluation"/>
+<class name="source.dataon.setting.training_setting.training_evaluation_library.TDeleteTrainingEvaluation"/>
+
+<class name="source.dataon.setting.training_setting.training_evaluation_library.TAddTrainingFeedback"/>
+<class name="source.dataon.setting.training_setting.training_evaluation_library.TUpdateTrainingFeedback"/>
+<class name="source.dataon.setting.training_setting.training_evaluation_library.TDeleteTrainingFeedback"/>
+```
+
+</details>
+
+---
+
 ### Subject : _Selenium 2 June - 5 June_
 
 TCK2005-0567944
