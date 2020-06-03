@@ -12,13 +12,55 @@ Menu +[TASK](https://github.com/arshve/mardown/blob/master/Task.md)+ +[Repo Inpu
 \\192.168.100.129\SharedFolder\QA\1.Quality Assurance\1.QA SunFish HR\3.SAT Form\SAT-2020
 \\192.168.100.129\SharedFolder\QA\2.Documentation\3. Misc\Selenium Tutorial\1. SF6 HR Automation Test Data
 
+<details>
+<summary> Account </summary>
+Sukses Group
 URL: 192.168.101.155/sf6
-
 - Account: suksesgroup_mysql --> my sql (HR&ERP-Single Base)
 - superadmin: suksesgroup_mysql / suksesgroup_mysql/ password123
 - User Admin: suksesgroup_mysql / USR_001 /Pass1234!"
 
-gordon/password123
+Test Mode <br />
+
+account name :
+username : gordon
+password : password123 |
+username : abdul
+password : password123 |
+username : superadmin
+password : Pass1234!
+<br />
+
+Release Mode <br />
+
+username : superadmin
+password : password123
+<br />
+
+Online <br />
+
+BizNet =
+sfid.dataon.com
+account name : dataon1
+username : gordon
+password : d4t40n123 |
+SuperAdmin
+dataon1/dataon1/d4t40n1234\$ <br />
+
+NBC =
+sf.dataon.com / sfdemo.dataon.com
+account name : dataon
+username : gordon
+password : password123
+<br />
+Shared Folder
+user : dataon\farid.ramadhan
+pass : Y6b3x9+\*#
+<br />
+BugTest PAss
+t0^1#APA\*g4V
+
+</details>
 
 - [Sf1](http://192.168.0.112)
 - [Sf2](http://192.168.0.170)
@@ -33,15 +75,36 @@ TCK2005-0567944
 
 > Setting > Training Setting
 
-- [ ] Add Training Category
-- [ ] Edit Training Category
-- [ ] Delete Training Category
-- [ ] Add Training Provider
-- [ ] Edit Training Provider
-- [ ] Delete Training Provider
-- [ ] Add Training Instructor
-- [ ] Edit Training Instructor
-- [ ] Delete Training Instructor
+- [x] Add Training Category
+- [x] Edit Training Category
+- [x] Delete Training Category
+- [x] Add Training Provider
+- [x] Edit Training Provider
+- [x] Delete Training Provider
+- [x] Add Training Instructor
+- [x] Edit Training Instructor
+- [x] Delete Training Instructor
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+<class name="source.dataon.setting.training_setting.training_category.TAddTrainingCategory"/>
+<class name="source.dataon.setting.training_setting.training_category.TUpdateTrainingCategory"/>
+<class name="source.dataon.setting.training_setting.training_category.TDeleteTrainingCategory"/>
+
+<class name="source.dataon.setting.training_setting.training_provider.TAddTrainingProvider"/>
+<class name="source.dataon.setting.training_setting.training_provider.TUpdateTrainingProvider"/>
+<class name="source.dataon.setting.training_setting.training_provider.TDeleteTrainingProvider"/>
+
+<class name="source.dataon.setting.training_setting.training_instructor.TAddTrainingInstructor"/>
+<class name="source.dataon.setting.training_setting.training_instructor.TUpdateTrainingInstructor"/>
+<class name="source.dataon.setting.training_setting.training_instructor.TDeleteTrainingInstructor"/>
+```
+
+</details>
 
 ---
 
@@ -65,6 +128,25 @@ TCK2001-0543231
 - [ ] View Employee Survey Report
 - [ ] View Data Auhorization Log
 
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+<class name="source.dataon.employee.employee_information.employment_data.TUpdateEmployeeCostumeField"/>
+<class name="source.dataon.employee.employee_information.employment_data.TUpdateEmployeeCheckList"/>
+<class name="source.dataon.employee.employee_information.additional_info.TUpdateEmployeeSkill"/>
+<class name="source.dataon.employee.employee_information.additional_info.TUpdateEmployeeInterest"/>
+<class name="source.dataon.employee.employee_information.additional_info.TUpdateEmployeeDocumentControl"/>
+
+<class name="source.dataon.employee.employee_letter.TAddEmployeeLetter"/>
+<class name="source.dataon.employee.employee_letter.TUpdateEmployeeLetter"/>
+<class name="source.dataon.employee.employee_letter.TDeleteEmployeeLetter"/>
+```
+
+</details>
+
 ---
 
 ### Subject : _Selenium 05 May - 15 May_
@@ -87,6 +169,30 @@ TCK2001-0543228
 - [x] Edit Survey Library
 - [x] Delete Survey Library
 
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+<class name="source.dataon.employee.employee_information.TAddEmployee"/>
+<class name="source.dataon.employee.employee_information.TDeleteEmployee"/>
+
+<class name="source.dataon.setting.employee_setting.document_management.TAddDocument"/>
+<class name="source.dataon.setting.employee_setting.document_management.TUpdateDocument"/>
+<class name="source.dataon.setting.employee_setting.document_management.TDeleteDocument"/>
+
+<class name="source.dataon.setting.employee_setting.survey.survey_setting.TAddSurveySetting"/>
+<class name="source.dataon.setting.employee_setting.survey.survey_setting.TUpdateSurveySetting"/>
+<class name="source.dataon.setting.employee_setting.survey.survey_setting.TDeleteSurveySetting"/>
+
+<class name="source.dataon.setting.employee_setting.survey.survey_library.TAddSurveyLibrary"/>
+<class name="source.dataon.setting.employee_setting.survey.survey_library.TUpdateSurveyLibrary"/>
+<class name="source.dataon.setting.employee_setting.survey.survey_library.TDeleteSurveyLibrary"/>
+```
+
+</details>
+
 ---
 
 ### Subject : _Selenium 13 Apr - 17 Apr_
@@ -99,6 +205,20 @@ TCK2002-0548712
 - [x] View Job Grade Report
 - [x] View Cost Center Position Report **[Save Filter]** **[Email This Report]**
 - [x] View Position List Report
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+<class name="source.dataon.organization.organization_report.TViewVacantPositionReport"/>
+<class name="source.dataon.organization.organization_report.TViewJobGradeReport"/>
+<class name="source.dataon.organization.organization_report.TViewCostCenterReport"/>
+<class name="source.dataon.organization.organization_report.TPositionListReport"/>
+```
+
+</details>
 
 ---
 
@@ -117,6 +237,26 @@ TCK2002-0548711
   > Organization > Company Policy
 - [x] Add Company Policy
 - [x] Edit Company Policy
+- [x] Delete Company Policy
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+<class name="source.dataon.setting.organization_setting.organization_structure.job_family_grade.TUpdateJobFamilyGrade"/>
+<class name="source.dataon.setting.organization_setting.job_family_level.TUpdateJobFamilyLevel"/>
+
+<class name="source.dataon.setting.organization_setting.job_family.TAddJobFamily"/>
+<class name="source.dataon.setting.organization_setting.job_family.TUpdateJobFamily"/>
+
+<class name="source.dataon.organization.company_policy.TAddCompanyPolicy"/>
+<class name="source.dataon.organization.company_policy.TUpdateCompanyPolicy"/>
+<class name="source.dataon.organization.company_policy.TDeleteCompanyPolicy"/>
+```
+
+</details>
 
 ---
 
@@ -136,6 +276,23 @@ TCK2002-0548710
 - [x] Edit Job Status
 - [x] Delete Job Status
 
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+<class name="source.dataon.setting.organization_setting.cost_center.TAddCostCenter"/>
+<class name="source.dataon.setting.organization_setting.cost_center.TUpdateCostCenter"/>
+<class name="source.dataon.setting.organization_setting.cost_center.TDeleteCostCenter"/>
+
+<class name="source.dataon.setting.organization_setting.organization_structure.job_status.TAddJobStatus"/>
+<class name="source.dataon.setting.organization_setting.organization_structure.job_status.TUpdateJobStatus"/>
+<class name="source.dataon.setting.organization_setting.organization_structure.job_status.TDeleteJobStatus"/>
+```
+
+</details>
+
 ---
 
 ### Subject : _Selenium 23 Mar - 27 Mar_
@@ -151,6 +308,23 @@ TCK2002-0548709
 - [x] Add Job Grade Category
 - [x] Edit Job Grade Category
 - [x] Delete Job Grade Category
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+<class name="source.dataon.setting.organization_setting.job_grade.TAddJobGrade"/>
+<class name="source.dataon.setting.organization_setting.job_grade.TUpdateJobGrade"/>
+<class name="source.dataon.setting.organization_setting.job_grade.TDeleteJobGrade"/>
+
+<class name="source.dataon.setting.organization_setting.job_grade_category.TAddJobGradeCategory"/>
+<class name="source.dataon.setting.organization_setting.job_grade_category.TUpdateJobGradeCategory"/>
+<class name="source.dataon.setting.organization_setting.job_grade_category.TDeleteJobGradeCategory"/>
+```
+
+</details>
 
 ---
 
@@ -169,11 +343,7 @@ TCK2002-0548708
   > Setting > Organization Setting > Job Title
 - [x] Edit Job Title
 
----
-
-### Learn Selenium : _21 Feb - 6 Mar_
-
-> Done Script
+##### Script
 
 <details>
 <summary> Script Class </summary>
@@ -186,60 +356,10 @@ TCK2002-0548708
 <class name="source.dataon.setting.organization_setting.organization_structure.TUpdateDepartement"/>
 <class name="source.dataon.setting.organization_setting.organization_structure.TUpdatePosition"/>
 <class name="source.dataon.setting.organization_setting.job_title.TUpdateJobTitle"/>
-
-<class name="source.dataon.setting.organization_setting.job_grade.TAddJobGrade"/>
-<class name="source.dataon.setting.organization_setting.job_grade.TUpdateJobGrade"/>
-<class name="source.dataon.setting.organization_setting.job_grade.TDeleteJobGrade"/>
-
-<class name="source.dataon.setting.organization_setting.job_grade_category.TAddJobGradeCategory"/>
-<class name="source.dataon.setting.organization_setting.job_grade_category.TUpdateJobGradeCategory"/>
-<class name="source.dataon.setting.organization_setting.job_grade_category.TDeleteJobGradeCategory"/>
-
-<class name="source.dataon.setting.organization_setting.cost_center.TAddCostCenter"/>
-<class name="source.dataon.setting.organization_setting.cost_center.TUpdateCostCenter"/>
-<class name="source.dataon.setting.organization_setting.cost_center.TDeleteCostCenter"/>
-
-<class name="source.dataon.setting.organization_setting.organization_structure.job_status.TAddJobStatus"/>
-<class name="source.dataon.setting.organization_setting.organization_structure.job_status.TUpdateJobStatus"/>
-<class name="source.dataon.setting.organization_setting.organization_structure.job_status.TDeleteJobStatus"/>
-
-<class name="source.dataon.setting.organization_setting.organization_structure.job_family_grade.TUpdateJobFamilyGrade"/>
-<class name="source.dataon.setting.organization_setting.job_family_level.TUpdateJobFamilyLevel"/>
-
-<class name="source.dataon.setting.organization_setting.job_family.TAddJobFamily"/>
-<class name="source.dataon.setting.organization_setting.job_family.TUpdateJobFamily"/>
-
-<class name="source.dataon.organization.company_policy.TAddCompanyPolicy"/>
-<class name="source.dataon.organization.company_policy.TUpdateCompanyPolicy"/>
-
-<class name="source.dataon.organization.organization_report.TViewVacantPositionReport"/>
-<class name="source.dataon.organization.organization_report.TViewJobGradeReport"/>
-<class name="source.dataon.organization.organization_report.TViewCostCenterReport"/>
-<class name="source.dataon.organization.organization_report.TPositionListReport"/>
-
-<class name="source.dataon.employee.employee_information.TAddEmployee"/>
-<class name="source.dataon.employee.employee_information.TDeleteEmployee"/>
-
-<class name="source.dataon.setting.employee_setting.document_management.TAddDocument"/>
-<class name="source.dataon.setting.employee_setting.document_management.TUpdateDocument"/>
-<class name="source.dataon.setting.employee_setting.document_management.TDeleteDocument"/>
-
-<class name="source.dataon.setting.employee_setting.survey.survey_library.TAddSurveyLibrary"/>
-<class name="source.dataon.setting.employee_setting.survey.survey_library.TUpdateSurveyLibrary"/>
-<class name="source.dataon.setting.employee_setting.survey.survey_library.TDeleteSurveyLibrary"/>
-
-<class name="source.dataon.setting.employee_setting.survey.survey_setting.TAddSurveySetting"/>
-<class name="source.dataon.setting.employee_setting.survey.survey_setting.TUpdateSurveySetting"/>
-<class name="source.dataon.setting.employee_setting.survey.survey_setting.TDeleteSurveySetting"/>
-
-<class name="source.dataon.employee.employee_information.employment_data.TUpdateEmployeeCostumeField"/>
-<class name="source.dataon.employee.employee_information.employment_data.TUpdateEmployeeCheckList"/>
-<class name="source.dataon.employee.employee_information.additional_info.TUpdateEmployeeSkill"/>
-<class name="source.dataon.employee.employee_information.additional_info.TUpdateEmployeeInterest"/>
-<class name="source.dataon.employee.employee_information.additional_info.TUpdateEmployeeDocumentControl"/>
-
-<class name="source.dataon.employee.employee_letter.TAddEmployeeLetter"/>
-<class name="source.dataon.employee.employee_letter.TUpdateEmployeeLetter"/>
-<class name="source.dataon.employee.employee_letter.TDeleteEmployeeLetter"/>
-
 ```
+
+</details>
+
+---
+
+### Learn Selenium : _21 Feb - 6 Mar_

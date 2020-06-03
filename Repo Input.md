@@ -58,6 +58,21 @@ if(!CP_NAME.equalsIgnoreCase("")) {
 }
 ```
 
+#### With Ajax
+
+```JAVA
+if (!PARENT.equalsIgnoreCase("")) {
+    WebElement x = fluentWait(By.id("inp_parent_code"));
+    Thread.sleep(500);
+    x.sendKeys(PARENT);
+    Thread.sleep(2000);
+    fluentWait(By.xpath("//td[contains(., '" + PARENT + "')]")).click();
+    Thread.sleep(500);
+    test.get().pass("Parent Code : " + PARENT);
+    Thread.sleep(1500);
+}
+```
+
 <details>
 <summary> What is Look Like! </summary>
 
@@ -358,6 +373,7 @@ if (!ORG_UNIT.equalsIgnoreCase("")) {
             Select item = new Select(driver.findElement(By.xpath("//*[@id=\"unselinp_division\"]")));
             item.selectByVisibleText(split[i]);
             Thread.sleep(300);
+            test.get().pass("Provider " +split[i]+" Added");
         }
         WebElement found = fluentWait(By.cssSelector("#tr_inp_grade > td:nth-child(2) > table:nth-child(4) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > input:nth-child(1)"));
         found.click();
