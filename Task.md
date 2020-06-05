@@ -69,15 +69,66 @@ t0^1#APA\*g4V
 
 ---
 
+### Subject : _Selenium 15 June - 19 June_
+
+TCK2005-0567946
+
+> Setting > Training Setting > Training Cost
+
+- [x] Add Training Item Cost
+- [x] Edit Training Item Cost
+- [x] Delete Training Item Cost
+
+> Setting > Training Setting > Training Evaluation Stage
+
+- [ ] Add Training Evaluation Stage
+- [ ] Edit Training Evaluation Stage
+- [ ] Delete Training Evaluation Stage
+
+> Training > Training Course
+
+- [ ] Add Training Course List
+- [ ] Edit Training Course List
+- [ ] Delete Training Course List
+
+- [ ] Set Mandatory Training
+
+  > Training > Training Course Detailed
+
+- [ ] Add Competency (Training)
+- [ ] Edit Competency (Training)
+- [ ] Add Content (Training)
+- [ ] Edit Content (Training)
+- [ ] Delete Content (Training)
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+<class name="source.dataon.setting.training_setting.training_item_cost.TAddTrainingItemCost"/>
+<class name="source.dataon.setting.training_setting.training_item_cost.TUpdateTrainingItemCost"/>
+<class name="source.dataon.setting.training_setting.training_item_cost.TDeleteTrainingItemCost"/>
+
+```
+
+</details>
+
+---
+
 ### Subject : _Selenium 8 June - 12 June_
 
 TCK2005-0567946
 
-> Setting > Training Setting
+> Setting > Training Setting > Training Venue
 
-- [ ] Add Training Venue
-- [ ] Edit Training Venue
-- [ ] Delete Training Venue
+- [x] Add Training Venue
+- [x] Edit Training Venue
+- [x] Delete Training Venue
+
+> Setting > Training Setting > Training Evaluation
+
 - [x] Add Training Feedback
 - [x] Edit Training Feedback
 - [x] Delete Training Feedback
@@ -91,13 +142,18 @@ TCK2005-0567946
 <summary> Script Class </summary>
 
 ```JAVA
-<class name="source.dataon.setting.training_setting.training_evaluation_library.TAddTrainingEvaluation"/>
-<class name="source.dataon.setting.training_setting.training_evaluation_library.TUpdateTrainingEvaluation"/>
-<class name="source.dataon.setting.training_setting.training_evaluation_library.TDeleteTrainingEvaluation"/>
+<class name="source.dataon.setting.training_setting.training_venue.TAddTrainingVenue"/>
+<class name="source.dataon.setting.training_setting.training_venue.TUpdateTrainingVenue"/>
+<class name="source.dataon.setting.training_setting.training_venue.TDeleteTrainingVenue"/>
 
 <class name="source.dataon.setting.training_setting.training_evaluation_library.TAddTrainingFeedback"/>
 <class name="source.dataon.setting.training_setting.training_evaluation_library.TUpdateTrainingFeedback"/>
 <class name="source.dataon.setting.training_setting.training_evaluation_library.TDeleteTrainingFeedback"/>
+
+<class name="source.dataon.setting.training_setting.training_evaluation_library.TAddTrainingEvaluation"/>
+<class name="source.dataon.setting.training_setting.training_evaluation_library.TUpdateTrainingEvaluation"/>
+<class name="source.dataon.setting.training_setting.training_evaluation_library.TDeleteTrainingEvaluation"/>
+
 ```
 
 </details>
@@ -108,14 +164,20 @@ TCK2005-0567946
 
 TCK2005-0567944
 
-> Setting > Training Setting
+> Setting > Training Setting > Training Category
 
 - [x] Add Training Category
 - [x] Edit Training Category
 - [x] Delete Training Category
+
+> Setting > Training Setting > Training Provider
+
 - [x] Add Training Provider
 - [x] Edit Training Provider
 - [x] Delete Training Provider
+
+> Setting > Training Setting > Training Instructor
+
 - [x] Add Training Instructor
 - [x] Edit Training Instructor
 - [x] Delete Training Instructor
