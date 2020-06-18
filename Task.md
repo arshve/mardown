@@ -85,6 +85,8 @@ TCK2005-0567946
 - [x] Edit Training Evaluation Stage
 - [x] Delete Training Evaluation Stage
 
+TCK2005-0567949
+
 > Training > Training Course
 
 - [x] Add Training Course List
