@@ -69,27 +69,27 @@ t0^1#APA\*g4V
 
 ---
 
-### Subject : _Selenium 22 June - 26 June_
+### Subject : _Selenium 29 June - 03 July_
 
 TCK2005-0567954
 
 > Training > Training Course Detailed
 
-- [x] Add E-Learning Class (Training)
-- [x] Edit E-Learning Class (Training)
-- [x] Delete E-Learning Class (Training)
+- [ ] Add E-Learning Class (Training)
+- [ ] Edit E-Learning Class (Training)
+- [ ] Delete E-Learning Class (Training)
 
 > Training > Training Evaluation
 
-- [x] Update Training Attendance
-- [x] Update Training Feedback
-- [x] Update Training Evaluation
+- [ ] Update Training Attendance
+- [ ] Update Training Feedback
+- [ ] Update Training Evaluation
 
 > Training > Training Request (Draft)
 
-- [x] Add Training Request
-- [x] Edit Training Request (Draft)
-- [x] Delete Training Request (Draft)
+- [ ] Add Training Request
+- [ ] Edit Training Request (Draft)
+- [ ] Delete Training Request (Draft)
 
 ##### Script
 
@@ -111,17 +111,17 @@ TCK2005-0567951
 
 > Training > Training Course Detailed
 
-- [x] Add Feedback (Training)
-- [x] Edit Feedback (Training)
-- [x] Delete Feedback (Training)
-
-- [x] Add Evaluation (Training)
-- [x] Edit Evaluation (Training)
-- [x] Delete Evaluation (Training)
-
-- [x] Add Event (Training)
-- [x] Edit Event (Training)
-- [x] Delete Event (Training)
+- [ ] Add Feedback (Training)
+- [ ] Edit Feedback (Training)
+- [ ] Delete Feedback (Training)
+  >
+- [ ] Add Evaluation (Training)
+- [ ] Edit Evaluation (Training)
+- [ ] Delete Evaluation (Training)
+  >
+- [ ] Add Event (Training)
+- [ ] Edit Event (Training)
+- [ ] Delete Event (Training)
 
 ##### Script
 
