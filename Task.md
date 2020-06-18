@@ -69,6 +69,74 @@ t0^1#APA\*g4V
 
 ---
 
+### Subject : _Selenium 22 June - 26 June_
+
+TCK2005-0567954
+
+> Training > Training Course Detailed
+
+- [x] Add E-Learning Class (Training)
+- [x] Edit E-Learning Class (Training)
+- [x] Delete E-Learning Class (Training)
+
+> Training > Training Evaluation
+
+- [x] Update Training Attendance
+- [x] Update Training Feedback
+- [x] Update Training Evaluation
+
+> Training > Training Request (Draft)
+
+- [x] Add Training Request
+- [x] Edit Training Request (Draft)
+- [x] Delete Training Request (Draft)
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+
+```
+
+</details>
+
+---
+
+### Subject : _Selenium 22 June - 26 June_
+
+TCK2005-0567951
+
+> Training > Training Course Detailed
+
+- [x] Add Feedback (Training)
+- [x] Edit Feedback (Training)
+- [x] Delete Feedback (Training)
+
+- [x] Add Evaluation (Training)
+- [x] Edit Evaluation (Training)
+- [x] Delete Evaluation (Training)
+
+- [x] Add Event (Training)
+- [x] Edit Event (Training)
+- [x] Delete Event (Training)
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+
+```
+
+</details>
+
+---
+
 ### Subject : _Selenium 15 June - 19 June_
 
 TCK2005-0567946
