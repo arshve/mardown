@@ -81,17 +81,16 @@ TCK2005-0567946
 
 > Setting > Training Setting > Training Evaluation Stage
 
-- [ ] Add Training Evaluation Stage
-- [ ] Edit Training Evaluation Stage
-- [ ] Delete Training Evaluation Stage
+- [x] Add Training Evaluation Stage
+- [x] Edit Training Evaluation Stage
+- [x] Delete Training Evaluation Stage
 
 > Training > Training Course
 
-- [ ] Add Training Course List
-- [ ] Edit Training Course List
-- [ ] Delete Training Course List
-
-- [ ] Set Mandatory Training
+- [x] Add Training Course List
+- [x] Edit Training Course List
+- [x] Delete Training Course List
+- [x] Set Mandatory Training
 
   > Training > Training Course Detailed
 
@@ -110,6 +109,15 @@ TCK2005-0567946
 <class name="source.dataon.setting.training_setting.training_item_cost.TAddTrainingItemCost"/>
 <class name="source.dataon.setting.training_setting.training_item_cost.TUpdateTrainingItemCost"/>
 <class name="source.dataon.setting.training_setting.training_item_cost.TDeleteTrainingItemCost"/>
+
+<class name="source.dataon.setting.training_setting.training_evaluation_stage.TAddTrainingEvaluationStage"/>
+<class name="source.dataon.setting.training_setting.training_evaluation_stage.TUpdateTrainingEvaluationStage"/>
+<class name="source.dataon.setting.training_setting.training_evaluation_stage.TDeleteTrainingEvaluationStage"/>
+
+<class name="source.dataon.training.training_course.TAddTrainingCourseList"/>
+<class name="source.dataon.training.training_course.TUpdateTrainingCourseList"/>
+<class name="source.dataon.training.training_course.TDeleteTrainingCourseList"/>
+<class name="source.dataon.training.training_course.TSetMandatoryTraining"/>
 
 ```
 

@@ -50,6 +50,7 @@ if (!CP_TYPE.equalsIgnoreCase("")) {
 ```JAVA
 if(!CP_NAME.equalsIgnoreCase("")) {
     WebElement x = fluentWait(By.id("inp_company_name"));
+    x.clear();
     x.sendKeys(Keys.HOME, Keys.chord(Keys.SHIFT, Keys.END), CP_NAME);
     String val = x.getAttribute("value");
     Assert.assertEquals(val, CP_NAME);
@@ -63,6 +64,7 @@ if(!CP_NAME.equalsIgnoreCase("")) {
 ```JAVA
 if (!PARENT.equalsIgnoreCase("")) {
     WebElement x = fluentWait(By.id("inp_parent_code"));
+    x.clear();
     Thread.sleep(500);
     x.sendKeys(PARENT);
     Thread.sleep(2000);
@@ -131,6 +133,7 @@ if (!NAME.equalsIgnoreCase("")) {
     for(int i = 0;i < st_desc.length;i++)
     {
         WebElement x = fluentWait(By.id("inp_pos_name_" + lang[i]));
+        x.clear();
         x.sendKeys(Keys.HOME, Keys.chord(Keys.SHIFT, Keys.END), st_desc[i]);
         Thread.sleep(500);
         String val = x.getAttribute("value");
@@ -310,13 +313,13 @@ for(int i=0; i<2; i++) {
 ### Single Click Check
 
 ```JAVA
-if (!STATUS.equalsIgnoreCase("Active")) {
-    WebElement inp_pos_active = fluentWait(By.id("inp_pos_active"));
+if (REQ.equalsIgnoreCase("Active")) {
+    WebElement inp_pos_active = fluentWait(By.id("inp_is_newhire"));
     inp_pos_active.click();
     Thread.sleep(500);
     if (!inp_pos_active.isSelected()) {
-        test.get()
-                .pass(MarkupHelper.createCodeBlock("[Checkbox] Active : Unchecked"));
+        test.get().pass(MarkupHelper.createCodeBlock("[Checkbox] Active : Unchecked"));
+        inp_pos_active.click();
     } else {
         test.get().fail(MarkupHelper.createCodeBlock("Failed Unchecked [Checkbox] Active"));
     }

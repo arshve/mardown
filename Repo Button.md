@@ -111,3 +111,45 @@ catch(org.openqa.selenium.StaleElementReferenceException ex)
     code.click();
 }
 ```
+
+# ROBOT Press Enter
+
+> [Source](https://stackoverflow.com/questions/23734691/how-to-press-enter-without-targeting-a-webelement)
+
+```JAVA
+try {
+    Robot robot = new Robot();
+    robot.keyPress(KeyEvent.VK_ENTER);
+    robot.keyRelease(KeyEvent.VK_ENTER);
+    robot.delay(200);
+}
+
+// Or
+
+Actions builder = new Actions(driver);
+builder.keyDown(Keys.RETURN).keyUp(Keys.RETURN).build().perform();
+
+```
+
+# Alert Handling
+
+```JAVA
+
+//			Handling Alert
+try {
+    wait.until(ExpectedConditions.alertIsPresent());
+    Alert alert = driver.switchTo().alert();
+    // get the message which is present on pop-up
+    String message = alert.getText();
+    // print the pop-up message
+    test.get().pass(MarkupHelper.createCodeBlock("[Alert] "+message));
+    System.out.println(message);
+    // Accept Alert
+    alert.accept();
+} catch (Exception e) {
+    //exception handling
+    test.get().fail(MarkupHelper.createCodeBlock("Alert Not Showing Up :" +e));
+}
+Thread.sleep(4000);
+
+```

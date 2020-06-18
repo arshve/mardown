@@ -81,35 +81,41 @@ Thread.sleep(5000);
 # SEARCH TARGET NAME
 
 ```JAVA
-//	 Search Target Name
-driver.switchTo().parentFrame();
-wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.id("frmSFBody"))); //Tampilan isi
-fluentWait(By.id("header_ardata_1_2")).click(); //Klik Subject
+//			Search Course
+WebElement search = fluentWait(By.id("header_ardata_1_3")); //Klik Subject
+search.click();
 Thread.sleep(1500);
 
-WebElement searchname = fluentWait(By.id("txtSearch_2")); //Search Subject
+WebElement searchname = fluentWait(By.id("txtSearch_3")); //Search Subject
 searchname.sendKeys("");
-searchname.sendKeys(Keys.HOME, Keys.chord(Keys.SHIFT, Keys.END), JOB_NAME); //Mencari Subject sesuai xls
+searchname.sendKeys(Keys.HOME, Keys.chord(Keys.SHIFT, Keys.END), TARGET); //Mencari Subject sesuai xls
 Thread.sleep(500);
-
 searchname.sendKeys(Keys.ENTER); // Klik Enter
 Thread.sleep(5000);
 
+search.click();
+Thread.sleep(1500);
+
 test.get().pass("Mengisi data pencarian"); // Report
 String searchnameval = searchname.getAttribute("value");
-Assert.assertEquals(searchnameval, JOB_NAME);
+Assert.assertEquals(searchnameval, TARGET);
 test.get().pass("<small>[Input Textfield]</small> Data Pencarian : " + searchnameval); // Report
-WebElement linkno = fluentWait(By.cssSelector("#td_cdata_ardata_1_1_0 > a")); //Klik Company Code
+
+WebElement linkno = fluentWait(By.linkText(TARGET)); //Klik Company Code
 linkno.click();
-Thread.sleep(5000);
+Thread.sleep(3000);
 
-test.get().pass("Mengklik Company Code :" + linkno.getText());// Report
-Thread.sleep(5000);
+takeScreenShot(TC_ID, SC_TYPE, TC_ID + "_1"); // Report
+test.get().pass("Menampilkan Form Update Training Course Form", MediaEntityBuilder.createScreenCaptureFromPath(filePathSc + TC_ID + "_1.png").build());
+Thread.sleep(2000); // TimeOut
 
-driver.switchTo().parentFrame();
-Thread.sleep(5000);
+```
 
-takeScreenShot(TC_ID, SC_TYPE, TC_ID + "_2"); // Report
-test.get().pass("Menampilkan Form Update Company", MediaEntityBuilder.createScreenCaptureFromPath(filePathSc + TC_ID + "_2.png").build());
+# Count Child Size
+
+```JAVA
+int xpathCount = driver.findElements(By.xpath("(//img[@title='Add'])")).size();
+System.out.println(xpathCount);
+
 
 ```
