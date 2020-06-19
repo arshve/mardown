@@ -164,11 +164,11 @@ TCK2005-0567949
 
   > Training > Training Course Detailed
 
-- [ ] Add Competency (Training)
-- [ ] Edit Competency (Training)
-- [ ] Add Content (Training)
-- [ ] Edit Content (Training)
-- [ ] Delete Content (Training)
+- [x] Add Competency (Training)
+- [x] Edit Competency (Training)
+- [x] Add Content (Training)
+- [x] Edit Content (Training)
+- [x] Delete Content (Training)
 
 ##### Script
 
@@ -189,6 +189,12 @@ TCK2005-0567949
 <class name="source.dataon.training.training_course.TDeleteTrainingCourseList"/>
 <class name="source.dataon.training.training_course.TSetMandatoryTraining"/>
 
+<class name="source.dataon.training.training_course.TAddTrainingCourseCompetency"/>
+<class name="source.dataon.training.training_course.TUpdateTrainingCourseCompetency"/>
+
+<class name="source.dataon.training.training_course.TAddTrainingCourseContent"/>
+<class name="source.dataon.training.training_course.TUpdateTrainingCourseContent"/>
+<class name="source.dataon.training.training_course.TDeleteTrainingCourseContent"/>
 ```
 
 </details>
