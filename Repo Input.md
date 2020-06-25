@@ -19,6 +19,7 @@ Menu +[TASK](https://github.com/arshve/mardown/blob/master/Task.md)+ +[Repo Inpu
 
 ```JAVA
 if (!CP_TYPE.equalsIgnoreCase("")) {
+    WebElement element = (new WebDriverWait(driver, 10))
     Select inp_company_type = new Select(fluentWait(By.id("inp_company_type")));
     inp_company_type.selectByVisibleText(CP_TYPE);
     String value = inp_company_type.getFirstSelectedOption().getText();
@@ -49,10 +50,12 @@ if (!CP_TYPE.equalsIgnoreCase("")) {
 
 ```JAVA
 if(!CP_NAME.equalsIgnoreCase("")) {
-    WebElement x = fluentWait(By.id("inp_company_name"));
-    x.clear();
-    x.sendKeys(Keys.HOME, Keys.chord(Keys.SHIFT, Keys.END), CP_NAME);
-    String val = x.getAttribute("value");
+   WebElement element = (new WebDriverWait(driver, 10))
+    .until(ExpectedConditions.elementToBeClickable(By.id("inp_cat_code")));
+    element.clear();
+    Thread.sleep(500);
+    element.sendKeys(Keys.HOME, Keys.chord(Keys.SHIFT, Keys.END), CP_NAME);
+    String val = element.getAttribute("value");
     Assert.assertEquals(val, CP_NAME);
     test.get().pass("<small>[Textfield]</small> Company Name : " + val);
     Thread.sleep(500);
@@ -63,13 +66,14 @@ if(!CP_NAME.equalsIgnoreCase("")) {
 
 ```JAVA
 if (!PARENT.equalsIgnoreCase("")) {
-    WebElement x = fluentWait(By.id("inp_parent_code"));
-    x.clear();
+   WebElement element = (new WebDriverWait(driver, 10))
+    .until(ExpectedConditions.elementToBeClickable(By.id("inp_cat_code")));
+    element.clear();
     Thread.sleep(500);
-    x.sendKeys(PARENT);
+    element.sendKeys(PARENT);
     Thread.sleep(2000);
     fluentWait(By.xpath("//td[contains(., '" + PARENT + "')]")).click();
-    Thread.sleep(500);
+    Thread.sleep(1500);
     test.get().pass("Parent Code : " + PARENT);
     Thread.sleep(1500);
 }
@@ -91,10 +95,12 @@ if (!PARENT.equalsIgnoreCase("")) {
 
 ```JAVA
 if(!CITY.equalsIgnoreCase("")) {
-    WebElement inp_city_id = fluentWait(By.id("inp_city_id"));
-    inp_city_id.clear();
-    inp_city_id.sendKeys(CITY);
-    String inp_city_idval = inp_city_id.getAttribute("value");
+    WebElement element = (new WebDriverWait(driver, 10))
+    .until(ExpectedConditions.elementToBeClickable(By.id("inp_cat_code")));
+    element.clear();
+    Thread.sleep(500);
+    element.sendKeys(CITY);
+    String inp_city_idval = element.getAttribute("value");
     try
     {
         Assert.assertEquals(inp_city_idval, CITY);
@@ -107,8 +113,8 @@ if(!CITY.equalsIgnoreCase("")) {
     }
     wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td[contains(., '" + CITY + "')]")));
     WebElement city = fluentWait(By.xpath("//td[contains(., '" + CITY + "')]"));
+    Thread.sleep(1500);
     city.click();
-    Thread.sleep(500);
 }
 ```
 
@@ -132,11 +138,13 @@ if (!NAME.equalsIgnoreCase("")) {
     String[] lang = LANG.split(", ");
     for(int i = 0;i < st_desc.length;i++)
     {
-        WebElement x = fluentWait(By.id("inp_pos_name_" + lang[i]));
-        x.clear();
-        x.sendKeys(Keys.HOME, Keys.chord(Keys.SHIFT, Keys.END), st_desc[i]);
+        WebElement element = (new WebDriverWait(driver, 10))
+        .until(ExpectedConditions.elementToBeClickable(By.id("inp_pos_name_" + lang[i])));
+        element.clear();
         Thread.sleep(500);
-        String val = x.getAttribute("value");
+        element.sendKeys(Keys.HOME, Keys.chord(Keys.SHIFT, Keys.END), st_desc[i]);
+        Thread.sleep(500);
+        String val = element.getAttribute("value");
         Assert.assertEquals(val, st_desc[i]);
         test.get().pass("<small>[Input Textfield]</small> Unit Name : " + st_desc[i]);
     }
