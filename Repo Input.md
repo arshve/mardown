@@ -19,7 +19,6 @@ Menu +[TASK](https://github.com/arshve/mardown/blob/master/Task.md)+ +[Repo Inpu
 
 ```JAVA
 if (!CP_TYPE.equalsIgnoreCase("")) {
-    WebElement element = (new WebDriverWait(driver, 10))
     Select inp_company_type = new Select(fluentWait(By.id("inp_company_type")));
     inp_company_type.selectByVisibleText(CP_TYPE);
     String value = inp_company_type.getFirstSelectedOption().getText();
@@ -133,20 +132,20 @@ if(!CITY.equalsIgnoreCase("")) {
 <summary> Code! </summary>
 
 ```JAVA
-if (!NAME.equalsIgnoreCase("")) {
+if (!NAME.equalsIgnoreCase("") && jr2 == true) {
     String[] st_desc = NAME.split(", ");
     String[] lang = LANG.split(", ");
     for(int i = 0;i < st_desc.length;i++)
     {
         WebElement element = (new WebDriverWait(driver, 10))
-        .until(ExpectedConditions.elementToBeClickable(By.id("inp_pos_name_" + lang[i])));
+        .until(ExpectedConditions.elementToBeClickable(By.id("feedback_name_"+ lang[i] +"_"+ xpathCount)));
         element.clear();
         Thread.sleep(500);
         element.sendKeys(Keys.HOME, Keys.chord(Keys.SHIFT, Keys.END), st_desc[i]);
         Thread.sleep(500);
         String val = element.getAttribute("value");
         Assert.assertEquals(val, st_desc[i]);
-        test.get().pass("<small>[Input Textfield]</small> Unit Name : " + st_desc[i]);
+        test.get().pass("<small>[Input Textfield]</small> Feedback Name ["+lang[i]+"]: " + st_desc[i]);
     }
     Thread.sleep(1000);
 }

@@ -111,9 +111,9 @@ TCK2005-0567951
 
 > Training > Training Course Detailed
 
-- [ ] Add Feedback (Training)
-- [ ] Edit Feedback (Training)
-- [ ] Delete Feedback (Training)
+- [x] Add Feedback (Training)
+- [x] Edit Feedback (Training)
+- [x] Delete Feedback (Training)
   >
 - [ ] Add Evaluation (Training)
 - [ ] Edit Evaluation (Training)
@@ -129,7 +129,9 @@ TCK2005-0567951
 <summary> Script Class </summary>
 
 ```JAVA
-
+<class name="source.dataon.training.training_course.TAddTrainingCourseFeedback"/>
+<class name="source.dataon.training.training_course.TUpdateTrainingCourseFeedback"/>
+<class name="source.dataon.training.training_course.TDeleteTrainingCourseFeedback"/>
 
 ```
 
