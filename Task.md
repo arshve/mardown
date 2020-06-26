@@ -115,9 +115,9 @@ TCK2005-0567951
 - [x] Edit Feedback (Training)
 - [x] Delete Feedback (Training)
   >
-- [ ] Add Evaluation (Training)
-- [ ] Edit Evaluation (Training)
-- [ ] Delete Evaluation (Training)
+- [x] Add Evaluation (Training)
+- [x] Edit Evaluation (Training)
+- [x] Delete Evaluation (Training)
   >
 - [ ] Add Event (Training)
 - [ ] Edit Event (Training)
@@ -132,6 +132,10 @@ TCK2005-0567951
 <class name="source.dataon.training.training_course.TAddTrainingCourseFeedback"/>
 <class name="source.dataon.training.training_course.TUpdateTrainingCourseFeedback"/>
 <class name="source.dataon.training.training_course.TDeleteTrainingCourseFeedback"/>
+
+<class name="source.dataon.training.training_course.TAddTrainingCourseEvaluation"/>
+<class name="source.dataon.training.training_course.TUpdateTrainingCourseEvaluation"/>
+<class name="source.dataon.training.training_course.TDeleteTrainingCourseEvaluation"/>
 
 ```
 
