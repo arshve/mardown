@@ -232,6 +232,21 @@ if(!ATTACHMENT.equalsIgnoreCase("")) {
 <details>
 <summary> Code! </summary>
 
+### Simple Radio Button
+
+```JAVA
+WebElement inp_pos_flag = fluentWait(By.xpath("//input[@name='inp_nametype' and @title='"+TYPE+"']"));
+inp_pos_flag.click();
+
+String inp_pos_flagval = inp_pos_flag.getAttribute("title");
+test.get().pass(inp_pos_flagval+" Selected");
+
+
+### Select Radio Button
+```
+
+### Yes or No Radio Button
+
 ```JAVA
 WebElement inp_pos_flag = fluentWait(By.xpath("//input[@name='inp_pos_flag' and @title='Job Position']"));
 inp_pos_flag.click();
