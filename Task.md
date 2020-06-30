@@ -119,9 +119,9 @@ TCK2005-0567951
 - [x] Edit Evaluation (Training)
 - [x] Delete Evaluation (Training)
   >
-- [ ] Add Event (Training)
-- [ ] Edit Event (Training)
-- [ ] Delete Event (Training)
+- [x] Add Event (Training)
+- [x] Edit Event (Training)
+- [x] Delete Event (Training)
 
 ##### Script
 
@@ -137,6 +137,10 @@ TCK2005-0567951
 <class name="source.dataon.training.training_course.TUpdateTrainingCourseEvaluation"/>
 <class name="source.dataon.training.training_course.TDeleteTrainingCourseEvaluation"/>
 
+<class name="source.dataon.training.training_course.TAddTrainingCourseEvent"/>
+<class name="source.dataon.training.training_course.TUpdateTrainingCourseEvent"/>
+<class name="source.dataon.training.training_course.TDeleteTrainingCourseEvent"/>
+				
 ```
 
 </details>
