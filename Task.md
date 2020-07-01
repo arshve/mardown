@@ -69,6 +69,91 @@ t0^1#APA\*g4V
 
 ---
 
+### Subject : _Selenium 20 Jul - 24 Jul 2020_
+
+TCK2005-0567957
+
+> Training > Training Report
+
+- [ ] View Training Feedback Report
+- [ ] View Training Evaluation Report
+- [ ] View Training Record Report
+- [ ] View Mandatory Training Report
+- [ ] View Training Waiting List Report
+- [ ] View Training Budget Report
+- [ ] View Training Request Report
+- [ ] View Quiz Report
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+
+```
+
+</details>
+
+---
+
+### Subject : _Selenium 13 Jul - 17 Jul 2020_
+
+TCK2005-0567956
+
+> Training > Training Report
+
+- [ ] View Training Cost Report
+- [ ] View Training Event Report
+- [ ] View Training Course Report
+- [ ] View Training Attendance Report
+- [ ] View Training Hours Report
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+
+```
+
+</details>
+
+---
+
+### Subject : _Selenium 6 Jul - 10 Jul 2020_
+
+TCK2005-0567955
+
+> Training > Training Evaluation
+
+- [ ] Update Training Feedback
+- [ ] Update Training Evaluation
+- [ ] Update Catalogue Update
+
+> Training > My E-Learning
+
+- [ ] Add E-Learning Request
+- [ ] Edit E-Learning Request
+- [ ] Delete E-Learning Request (Draft)
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+
+```
+
+</details>
+
+---
+
 ### Subject : _Selenium 29 June - 03 July_
 
 TCK2005-0567954
