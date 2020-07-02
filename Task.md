@@ -276,7 +276,7 @@ TCK2005-0567949
 - [x] Delete Training Course List
 - [x] Set Mandatory Training
 
-  > Training > Training Course Detailed
+> Training > Training Course Detailed
 
 - [x] Add Competency (Training)
 - [x] Edit Competency (Training)
