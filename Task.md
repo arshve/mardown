@@ -12,6 +12,7 @@ Menu +[TASK](https://github.com/arshve/mardown/blob/master/Task.md)+ +[Repo Inpu
 \\192.168.100.129\SharedFolder\QA\1.Quality Assurance\1.QA SunFish HR\3.SAT Form\SAT-2020
 \\192.168.100.129\SharedFolder\QA\2.Documentation\3. Misc\Selenium Tutorial\1. SF6 HR Automation Test Data
 
+Reset Tag: ?resetapp=1&recache=1&resetctag=1&forcegen=1
 <details>
 <summary> Account </summary>
 
@@ -38,7 +39,12 @@ URL: 192.168.101.155/sf6
 
 |     UserName    |   Password  | Etc.    |
 |:---------------:|:-----------:|---------|
+| gordon          | password123 |         |
 | superadmin      | password123 |         |
+| ryan1990        | password123 |Ryan     |
+| rifqi1992       | password123 |Rifqi    |
+| raihan1990      | password123 |Raihan   |
+| jane            | Password123!|Jane[TH] |
 
 #### Online
 
@@ -170,9 +176,9 @@ TCK2005-0567954
 
 > Training > Training Course Detailed
 
-- [ ] Add E-Learning Class (Training)
-- [ ] Edit E-Learning Class (Training)
-- [ ] Delete E-Learning Class (Training)
+- [x] Add E-Learning Class (Training)
+- [x] Edit E-Learning Class (Training)
+- [x] Delete E-Learning Class (Training)
 
 > Training > Training Evaluation
 
@@ -192,7 +198,10 @@ TCK2005-0567954
 <summary> Script Class </summary>
 
 ```JAVA
-
+<class name="source.dataon.training.training_course.TAddTrainingCourseElearning"/>
+<class name="source.dataon.training.training_course.TUpdateTrainingCourseElearning"/>
+<class name="source.dataon.training.training_course.TDeleteTrainingCourseElearning"/>
+				
 
 ```
 
