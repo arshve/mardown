@@ -22,22 +22,23 @@ URL: 192.168.101.155/sf6
 - User Admin: suksesgroup_mysql / USR_001 /Pass1234!"
 
 #### Test Mode
-|     UserName    |   Password  | Etc.    |
-|:---------------:|:-----------:|---------|
-| gordon          | password123 |         |
-| superadmin      | Pass1234!   |         |
-|                 | password123 |         |
-| USR_003         | password123 | Lindsay |
-| shallistera1990 | password123 | Shallis |
-| ryan            | password123 | Ryan    |
-
+|     UserName    |   Password  | Etc.     |
+|:---------------:|:-----------:|----------|
+| gordon          | password123 |          |
+| superadmin      | Pass1234!   |          |
+| shallistera1990 | password123 | Shallis  |
+| USR_003         | password123 | Lindsay  |
+| evan            | password123 | Evan     |
+| ryan            | password123 | Ryan     |
+| rifqi           | password123 | Rifqi    |
+| ryan123         | password123 | Ryan[TH] |
+| THPRM200004     | Farvan123!  | Jane[TH] |
 
 #### Release Mode
 
 |     UserName    |   Password  | Etc.    |
 |:---------------:|:-----------:|---------|
 | superadmin      | password123 |         |
-|                 |             |         |
 
 #### Online
 
