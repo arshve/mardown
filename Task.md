@@ -14,44 +14,53 @@ Menu +[TASK](https://github.com/arshve/mardown/blob/master/Task.md)+ +[Repo Inpu
 
 <details>
 <summary> Account </summary>
-Sukses Group
+
+#### Sukses Group
 URL: 192.168.101.155/sf6
 - Account: suksesgroup_mysql --> my sql (HR&ERP-Single Base)
 - superadmin: suksesgroup_mysql / suksesgroup_mysql/ password123
 - User Admin: suksesgroup_mysql / USR_001 /Pass1234!"
 
-Test Mode <br />
+#### Test Mode
+|     UserName    |   Password  | Etc.    |
+|:---------------:|:-----------:|---------|
+| gordon          | password123 |         |
+| superadmin      | Pass1234!   |         |
+|                 | password123 |         |
+| USR_003         | password123 | Lindsay |
+| shallistera1990 | password123 | Shallis |
+| ryan            | password123 | Ryan    |
 
-account name :
-username : gordon
-password : password123 |
-username : abdul
-password : password123 |
-username : superadmin
-password : Pass1234!
-<br />
 
-Release Mode <br />
+#### Release Mode
 
-username : superadmin
-password : password123
-<br />
+|     UserName    |   Password  | Etc.    |
+|:---------------:|:-----------:|---------|
+| superadmin      | password123 |         |
+|                 |             |         |
 
-Online <br />
+#### Online
 
-BizNet =
-sfid.dataon.com
-account name : dataon1
-username : gordon
-password : d4t40n123 |
-SuperAdmin
-dataon1/dataon1/d4t40n1234\$ <br />
+##### BizNet
 
-NBC =
-sf.dataon.com / sfdemo.dataon.com
-account name : dataon
-username : gordon
-password : password123
+> sfid.dataon.com
+
+dataon1
+|     UserName    |   Password  | Etc.     |
+|:---------------:|:-----------:|----------|
+| gordon          |d4t40n123    |          |
+| dataon1         |d4t40n1234$  |SuperAdmin|
+
+##### NBC
+
+> sf.dataon.com / sfdemo.dataon.com
+
+dataon1
+|     UserName    |   Password  | Etc.     |
+|:---------------:|:-----------:|----------|
+| gordon          |password123  |          |
+| dataon1         |d4t40n1234$  |SuperAdmin|
+
 <br />
 Shared Folder
 user : dataon\farid.ramadhan
