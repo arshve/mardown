@@ -456,11 +456,15 @@ TCK2001-0543228
 
 - [x] Add Employee
 - [x] Delete Employee
-  > Setting > Employee Setting
+
+> Setting > Employee Setting
+
 - [x] Add Document Management
 - [x] Edit Document Management
 - [x] Delete Document Management
-  > Setting > Employee Setting > Survey
+
+> Setting > Employee Setting > Survey
+
 - [x] Add Survey Setting
 - [x] Edit Survey Setting
 - [x] Delete Survey Setting
@@ -528,12 +532,18 @@ TCK2002-0548711
 > Setting > Organization Setting > Job Family Level
 
 - [x] Edit Job Family Level - [A123 edited]
-  > Setting > Organization Setting > Job Family
+
+> Setting > Organization Setting > Job Family
+
 - [x] Add Job Family
 - [x] Edit Job Family
-  > Organization > Organization Structure
+
+> Organization > Organization Structure
+
 - [x] View Organization Structure **Option Check**
-  > Organization > Company Policy
+
+> Organization > Company Policy
+
 - [x] Add Company Policy
 - [x] Edit Company Policy
 - [x] Delete Company Policy
@@ -568,9 +578,13 @@ TCK2002-0548710
 - [x] Add Cost Center
 - [x] Edit Cost Center
 - [x] Delete Cost Center
-  > Setting > Organization Setting > Job Family Grade
+
+> Setting > Organization Setting > Job Family Grade
+
 - [x] Edit Job Family Grade
-  > Setting > Organization Setting > Job Status
+
+> Setting > Organization Setting > Job Status
+
 - [x] Add Job Status
 - [x] Edit Job Status
 - [x] Delete Job Status
@@ -603,7 +617,9 @@ TCK2002-0548709
 - [x] Add Job Grade
 - [x] Edit Job Grade
 - [x] Delete Job Grade
-  > Setting > Organization Setting > Job Grade Category
+
+> Setting > Organization Setting > Job Grade Category
+
 - [x] Add Job Grade Category
 - [x] Edit Job Grade Category
 - [x] Delete Job Grade Category
@@ -636,10 +652,14 @@ TCK2002-0548708
 - [x] Add Company
 - [x] Edit Company
 - [x] Delete Company
-  > Setting > Organization Setting > Organization Structure
+
+> Setting > Organization Setting > Organization Structure
+
 - [x] Edit Department
 - [x] Edit Position _[Kurang Targeting Position di Dalam Organization]_
-  > Setting > Organization Setting > Job Title
+
+> Setting > Organization Setting > Job Title
+
 - [x] Edit Job Title
 
 ##### Script
