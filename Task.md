@@ -23,17 +23,19 @@ URL: 192.168.101.155/sf6
 - User Admin: suksesgroup_mysql / USR_001 /Pass1234!"
 
 #### Test Mode
-|     UserName    |   Password  | Etc.     |
-|:---------------:|:-----------:|----------|
-| gordon          | password123 |          |
-| superadmin      | Pass1234!   |          |
-| shallistera1990 | password123 | Shallis  |
-| USR_003         | password123 | Lindsay  |
-| evan            | password123 | Evan     |
-| ryan            | password123 | Ryan     |
-| rifqi           | password123 | Rifqi    |
-| ryan123         | password123 | Ryan[TH] |
-| THPRM200004     | Farvan123!  | Jane[TH] |
+|     UserName    |   Password  | Etc.        |
+|:---------------:|:-----------:|-------------|
+| gordon          | password123 |             |
+| superadmin      | Pass1234!   |             |
+| shallistera1990 | password123 | Shallis     |
+| USR_003         | password123 | Lindsay     |
+| farvan          | password123 | Evan        |
+| ryan            | password123 | Ryan        |
+| rifqi           | password123 | Rifqi       |
+| abdul98         | password123 | Abdul Soleh |
+| ryan123         | password123 | Ryan[TH]    |
+| THPRM200004     | Farvan123!  | Jane[TH]    |
+
 
 #### Release Mode
 
@@ -182,15 +184,15 @@ TCK2005-0567954
 
 > Training > Training Evaluation
 
-- [ ] Update Training Attendance
+- [x] Update Training Attendance
 - [ ] Update Training Feedback
 - [ ] Update Training Evaluation
 
 > Training > Training Request (Draft)
 
-- [ ] Add Training Request
-- [ ] Edit Training Request (Draft)
-- [ ] Delete Training Request (Draft)
+- [x] Add Training Request
+- [x] Edit Training Request (Draft)
+- [x] Delete Training Request (Draft)
 
 ##### Script
 
@@ -202,6 +204,11 @@ TCK2005-0567954
 <class name="source.dataon.training.training_course.TUpdateTrainingCourseElearning"/>
 <class name="source.dataon.training.training_course.TDeleteTrainingCourseElearning"/>
 				
+<class name="source.dataon.training.training_evaluation.TUpdateTrainingAttendance"/>
+
+<class name="source.dataon.training.training_request.TAddTrainingRequest"/>
+<class name="source.dataon.training.training_request.TUpdateTrainingRequest"/>
+<class name="source.dataon.training.training_request.TDeleteTrainingRequest"/>
 
 ```
 
