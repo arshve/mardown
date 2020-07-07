@@ -12,46 +12,64 @@ Menu +[TASK](https://github.com/arshve/mardown/blob/master/Task.md)+ +[Repo Inpu
 \\192.168.100.129\SharedFolder\QA\1.Quality Assurance\1.QA SunFish HR\3.SAT Form\SAT-2020
 \\192.168.100.129\SharedFolder\QA\2.Documentation\3. Misc\Selenium Tutorial\1. SF6 HR Automation Test Data
 
+Reset Tag: ?resetapp=1&recache=1&resetctag=1&forcegen=1
 <details>
 <summary> Account </summary>
-Sukses Group
+
+#### Sukses Group
 URL: 192.168.101.155/sf6
 - Account: suksesgroup_mysql --> my sql (HR&ERP-Single Base)
 - superadmin: suksesgroup_mysql / suksesgroup_mysql/ password123
 - User Admin: suksesgroup_mysql / USR_001 /Pass1234!"
 
-Test Mode <br />
+#### Test Mode
+|     UserName    |   Password  | Etc.        |
+|:---------------:|:-----------:|-------------|
+| gordon          | password123 |             |
+| superadmin      | Pass1234!   |             |
+| shallistera1990 | password123 | Shallis     |
+| USR_003         | password123 | Lindsay     |
+| farvan          | password123 | Evan        |
+| ryan            | password123 | Ryan        |
+| rifqi           | password123 | Rifqi       |
+| abdul98         | password123 | Abdul Soleh |
+| ryan123         | password123 | Ryan[TH]    |
+| THPRM200004     | Farvan123!  | Jane[TH]    |
 
-account name :
-username : gordon
-password : password123 |
-username : abdul
-password : password123 |
-username : superadmin
-password : Pass1234!
-<br />
 
-Release Mode <br />
+#### Release Mode
 
-username : superadmin
-password : password123
-<br />
+|     UserName    |   Password  | Etc.    |
+|:---------------:|:-----------:|---------|
+| gordon          | password123 |         |
+| superadmin      | password123 |         |
+| ryan1990        | password123 |Ryan     |
+| rifqi1992       | password123 |Rifqi    |
+| raihan1990      | password123 |Raihan   |
+| jane            | Password123!|Jane[TH] |
 
-Online <br />
+#### Online
 
-BizNet =
-sfid.dataon.com
-account name : dataon1
-username : gordon
-password : d4t40n123 |
-SuperAdmin
-dataon1/dataon1/d4t40n1234\$ <br />
+##### BizNet
 
-NBC =
-sf.dataon.com / sfdemo.dataon.com
-account name : dataon
-username : gordon
-password : password123
+> sfid.dataon.com
+
+dataon1
+|     UserName    |   Password  | Etc.     |
+|:---------------:|:-----------:|----------|
+| gordon          |d4t40n123    |          |
+| dataon1         |d4t40n1234$  |SuperAdmin|
+
+##### NBC
+
+> sf.dataon.com / sfdemo.dataon.com
+
+dataon1
+|     UserName    |   Password  | Etc.     |
+|:---------------:|:-----------:|----------|
+| gordon          |password123  |          |
+| dataon1         |d4t40n1234$  |SuperAdmin|
+
 <br />
 Shared Folder
 user : dataon\farid.ramadhan
@@ -69,27 +87,20 @@ t0^1#APA\*g4V
 
 ---
 
-### Subject : _Selenium 29 June - 03 July_
+### Subject : _Selenium 20 Jul - 24 Jul 2020_
 
-TCK2005-0567954
+TCK2005-0567957
 
-> Training > Training Course Detailed
+> Training > Training Report
 
-- [ ] Add E-Learning Class (Training)
-- [ ] Edit E-Learning Class (Training)
-- [ ] Delete E-Learning Class (Training)
-
-> Training > Training Evaluation
-
-- [ ] Update Training Attendance
-- [ ] Update Training Feedback
-- [ ] Update Training Evaluation
-
-> Training > Training Request (Draft)
-
-- [ ] Add Training Request
-- [ ] Edit Training Request (Draft)
-- [ ] Delete Training Request (Draft)
+- [ ] View Training Feedback Report
+- [ ] View Training Evaluation Report
+- [ ] View Training Record Report
+- [ ] View Mandatory Training Report
+- [ ] View Training Waiting List Report
+- [ ] View Training Budget Report
+- [ ] View Training Request Report
+- [ ] View Quiz Report
 
 ##### Script
 
@@ -98,6 +109,106 @@ TCK2005-0567954
 
 ```JAVA
 
+
+```
+
+</details>
+
+---
+
+### Subject : _Selenium 13 Jul - 17 Jul 2020_
+
+TCK2005-0567956
+
+> Training > Training Report
+
+- [ ] View Training Cost Report
+- [ ] View Training Event Report
+- [ ] View Training Course Report
+- [ ] View Training Attendance Report
+- [ ] View Training Hours Report
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+
+```
+
+</details>
+
+---
+
+### Subject : _Selenium 6 Jul - 10 Jul 2020_
+
+TCK2005-0567955
+
+> Training > Training Evaluation
+
+- [ ] Update Training Feedback
+- [ ] Update Training Evaluation
+- [ ] Update Catalogue Update
+
+> Training > My E-Learning
+
+- [ ] Add E-Learning Request
+- [ ] Edit E-Learning Request
+- [ ] Delete E-Learning Request (Draft)
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+
+```
+
+</details>
+
+---
+
+### Subject : _Selenium 29 June - 03 July_
+
+TCK2005-0567954
+
+> Training > Training Course Detailed
+
+- [x] Add E-Learning Class (Training)
+- [x] Edit E-Learning Class (Training)
+- [x] Delete E-Learning Class (Training)
+
+> Training > Training Evaluation
+
+- [x] Update Training Attendance
+- [ ] Update Training Feedback
+- [ ] Update Training Evaluation
+
+> Training > Training Request (Draft)
+
+- [x] Add Training Request
+- [x] Edit Training Request (Draft)
+- [x] Delete Training Request (Draft)
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+<class name="source.dataon.training.training_course.TAddTrainingCourseElearning"/>
+<class name="source.dataon.training.training_course.TUpdateTrainingCourseElearning"/>
+<class name="source.dataon.training.training_course.TDeleteTrainingCourseElearning"/>
+				
+<class name="source.dataon.training.training_evaluation.TUpdateTrainingAttendance"/>
+
+<class name="source.dataon.training.training_request.TAddTrainingRequest"/>
+<class name="source.dataon.training.training_request.TUpdateTrainingRequest"/>
+<class name="source.dataon.training.training_request.TDeleteTrainingRequest"/>
 
 ```
 
@@ -119,9 +230,9 @@ TCK2005-0567951
 - [x] Edit Evaluation (Training)
 - [x] Delete Evaluation (Training)
   >
-- [ ] Add Event (Training)
-- [ ] Edit Event (Training)
-- [ ] Delete Event (Training)
+- [x] Add Event (Training)
+- [x] Edit Event (Training)
+- [x] Delete Event (Training)
 
 ##### Script
 
@@ -137,6 +248,10 @@ TCK2005-0567951
 <class name="source.dataon.training.training_course.TUpdateTrainingCourseEvaluation"/>
 <class name="source.dataon.training.training_course.TDeleteTrainingCourseEvaluation"/>
 
+<class name="source.dataon.training.training_course.TAddTrainingCourseEvent"/>
+<class name="source.dataon.training.training_course.TUpdateTrainingCourseEvent"/>
+<class name="source.dataon.training.training_course.TDeleteTrainingCourseEvent"/>
+				
 ```
 
 </details>
@@ -168,7 +283,7 @@ TCK2005-0567949
 - [x] Delete Training Course List
 - [x] Set Mandatory Training
 
-  > Training > Training Course Detailed
+> Training > Training Course Detailed
 
 - [x] Add Competency (Training)
 - [x] Edit Competency (Training)
@@ -306,11 +421,15 @@ TCK2001-0543231
 - [x] Edit Employee Skills
 - [x] Edit Employee Interest
 - [x] Edit Employee Document Controlt
-  > Employee > Employee Letter
+
+> Employee > Employee Letter
+
 - [x] Add Employee Letter
 - [x] Edit Employee Letter
 - [x] Delete Employee Letter
-  > Employee > Employee Report
+
+> Employee > Employee Report
+
 - [ ] View Report Based on Criteria
 - [ ] View Employee Survey Report
 - [ ] View Data Auhorization Log
@@ -344,11 +463,15 @@ TCK2001-0543228
 
 - [x] Add Employee
 - [x] Delete Employee
-  > Setting > Employee Setting
+
+> Setting > Employee Setting
+
 - [x] Add Document Management
 - [x] Edit Document Management
 - [x] Delete Document Management
-  > Setting > Employee Setting > Survey
+
+> Setting > Employee Setting > Survey
+
 - [x] Add Survey Setting
 - [x] Edit Survey Setting
 - [x] Delete Survey Setting
@@ -416,12 +539,18 @@ TCK2002-0548711
 > Setting > Organization Setting > Job Family Level
 
 - [x] Edit Job Family Level - [A123 edited]
-  > Setting > Organization Setting > Job Family
+
+> Setting > Organization Setting > Job Family
+
 - [x] Add Job Family
 - [x] Edit Job Family
-  > Organization > Organization Structure
+
+> Organization > Organization Structure
+
 - [x] View Organization Structure **Option Check**
-  > Organization > Company Policy
+
+> Organization > Company Policy
+
 - [x] Add Company Policy
 - [x] Edit Company Policy
 - [x] Delete Company Policy
@@ -456,9 +585,13 @@ TCK2002-0548710
 - [x] Add Cost Center
 - [x] Edit Cost Center
 - [x] Delete Cost Center
-  > Setting > Organization Setting > Job Family Grade
+
+> Setting > Organization Setting > Job Family Grade
+
 - [x] Edit Job Family Grade
-  > Setting > Organization Setting > Job Status
+
+> Setting > Organization Setting > Job Status
+
 - [x] Add Job Status
 - [x] Edit Job Status
 - [x] Delete Job Status
@@ -491,7 +624,9 @@ TCK2002-0548709
 - [x] Add Job Grade
 - [x] Edit Job Grade
 - [x] Delete Job Grade
-  > Setting > Organization Setting > Job Grade Category
+
+> Setting > Organization Setting > Job Grade Category
+
 - [x] Add Job Grade Category
 - [x] Edit Job Grade Category
 - [x] Delete Job Grade Category
@@ -524,10 +659,14 @@ TCK2002-0548708
 - [x] Add Company
 - [x] Edit Company
 - [x] Delete Company
-  > Setting > Organization Setting > Organization Structure
+
+> Setting > Organization Setting > Organization Structure
+
 - [x] Edit Department
 - [x] Edit Position _[Kurang Targeting Position di Dalam Organization]_
-  > Setting > Organization Setting > Job Title
+
+> Setting > Organization Setting > Job Title
+
 - [x] Edit Job Title
 
 ##### Script

@@ -256,8 +256,6 @@ inp_pos_flag.click();
 String inp_pos_flagval = inp_pos_flag.getAttribute("title");
 test.get().pass(inp_pos_flagval+" Selected");
 
-
-### Select Radio Button
 ```
 
 ### Yes or No Radio Button
