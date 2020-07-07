@@ -61,7 +61,7 @@ if(!CP_NAME.equalsIgnoreCase("")) {
 }
 ```
 
-#### With Ajax
+#### With Ajax Type + Select
 
 ```JAVA
 if (!PARENT.equalsIgnoreCase("")) {
@@ -70,7 +70,22 @@ if (!PARENT.equalsIgnoreCase("")) {
     element.clear();
     Thread.sleep(500);
     element.sendKeys(PARENT);
-    Thread.sleep(2000);
+    Thread.sleep(4000);
+    fluentWait(By.xpath("//td[contains(., '" + PARENT + "')]")).click();
+    Thread.sleep(1500);
+    test.get().pass("Parent Code : " + PARENT);
+    Thread.sleep(1500);
+}
+```
+
+#### With Ajax Click + Select
+
+```JAVA
+if (!PARENT.equalsIgnoreCase("")) {
+   WebElement element = (new WebDriverWait(driver, 10))
+    .until(ExpectedConditions.elementToBeClickable(By.id("hdn_trncourse_code")));
+    element.click();
+    Thread.sleep(4000);
     fluentWait(By.xpath("//td[contains(., '" + PARENT + "')]")).click();
     Thread.sleep(1500);
     test.get().pass("Parent Code : " + PARENT);
