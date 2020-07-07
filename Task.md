@@ -13,40 +13,43 @@ Menu +[TASK](https://github.com/arshve/mardown/blob/master/Task.md)+ +[Repo Inpu
 \\192.168.100.129\SharedFolder\QA\2.Documentation\3. Misc\Selenium Tutorial\1. SF6 HR Automation Test Data
 
 Reset Tag: ?resetapp=1&recache=1&resetctag=1&forcegen=1
+
 <details>
 <summary> Account </summary>
 
 #### Sukses Group
+
 URL: 192.168.101.155/sf6
+
 - Account: suksesgroup_mysql --> my sql (HR&ERP-Single Base)
 - superadmin: suksesgroup_mysql / suksesgroup_mysql/ password123
 - User Admin: suksesgroup_mysql / USR_001 /Pass1234!"
 
 #### Test Mode
-|     UserName    |   Password  | Etc.        |
-|:---------------:|:-----------:|-------------|
-| gordon          | password123 |             |
-| superadmin      | Pass1234!   |             |
-| shallistera1990 | password123 | Shallis     |
-| USR_003         | password123 | Lindsay     |
-| farvan          | password123 | Evan        |
-| ryan            | password123 | Ryan        |
-| rifqi           | password123 | Rifqi       |
-| abdul98         | password123 | Abdul Soleh |
-| ryan123         | password123 | Ryan[TH]    |
-| THPRM200004     | Farvan123!  | Jane[TH]    |
 
+|    UserName     |  Password   | Etc.        |
+| :-------------: | :---------: | ----------- |
+|     gordon      | password123 |             |
+|   superadmin    |  Pass1234!  |             |
+| shallistera1990 | password123 | Shallis     |
+|     USR_003     | password123 | Lindsay     |
+|     farvan      | password123 | Evan        |
+|      ryan       | password123 | Ryan        |
+|      rifqi      | password123 | Rifqi       |
+|     abdul98     | password123 | Abdul Soleh |
+|     ryan123     | password123 | Ryan[TH]    |
+|   THPRM200004   | Farvan123!  | Jane[TH]    |
 
 #### Release Mode
 
-|     UserName    |   Password  | Etc.    |
-|:---------------:|:-----------:|---------|
-| gordon          | password123 |         |
-| superadmin      | password123 |         |
-| ryan1990        | password123 |Ryan     |
-| rifqi1992       | password123 |Rifqi    |
-| raihan1990      | password123 |Raihan   |
-| jane            | Password123!|Jane[TH] |
+|  UserName  |   Password   | Etc.     |
+| :--------: | :----------: | -------- |
+|   gordon   | password123  |          |
+| superadmin | password123  |          |
+|  ryan1990  | password123  | Ryan     |
+| rifqi1992  | password123  | Rifqi    |
+| raihan1990 | password123  | Raihan   |
+|    jane    | Password123! | Jane[TH] |
 
 #### Online
 
@@ -55,20 +58,20 @@ URL: 192.168.101.155/sf6
 > sfid.dataon.com
 
 dataon1
-|     UserName    |   Password  | Etc.     |
+| UserName | Password | Etc. |
 |:---------------:|:-----------:|----------|
-| gordon          |d4t40n123    |          |
-| dataon1         |d4t40n1234$  |SuperAdmin|
+| gordon |d4t40n123 | |
+| dataon1 |d4t40n1234\$ |SuperAdmin|
 
 ##### NBC
 
 > sf.dataon.com / sfdemo.dataon.com
 
 dataon1
-|     UserName    |   Password  | Etc.     |
+| UserName | Password | Etc. |
 |:---------------:|:-----------:|----------|
-| gordon          |password123  |          |
-| dataon1         |d4t40n1234$  |SuperAdmin|
+| gordon |password123 | |
+| dataon1 |d4t40n1234\$ |SuperAdmin|
 
 <br />
 Shared Folder
@@ -185,8 +188,8 @@ TCK2005-0567954
 > Training > Training Evaluation
 
 - [x] Update Training Attendance
-- [ ] Update Training Feedback
-- [ ] Update Training Evaluation
+- [x] Update Training Feedback
+- [x] Update Training Evaluation
 
 > Training > Training Request (Draft)
 
@@ -203,8 +206,10 @@ TCK2005-0567954
 <class name="source.dataon.training.training_course.TAddTrainingCourseElearning"/>
 <class name="source.dataon.training.training_course.TUpdateTrainingCourseElearning"/>
 <class name="source.dataon.training.training_course.TDeleteTrainingCourseElearning"/>
-				
+
 <class name="source.dataon.training.training_evaluation.TUpdateTrainingAttendance"/>
+<class name="source.dataon.training.training_evaluation.TUpdateTrainingFeedback"/>
+<class name="source.dataon.training.training_evaluation.TUpdateTrainingEvaluation"/>
 
 <class name="source.dataon.training.training_request.TAddTrainingRequest"/>
 <class name="source.dataon.training.training_request.TUpdateTrainingRequest"/>
@@ -251,7 +256,7 @@ TCK2005-0567951
 <class name="source.dataon.training.training_course.TAddTrainingCourseEvent"/>
 <class name="source.dataon.training.training_course.TUpdateTrainingCourseEvent"/>
 <class name="source.dataon.training.training_course.TDeleteTrainingCourseEvent"/>
-				
+
 ```
 
 </details>
