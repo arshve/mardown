@@ -151,15 +151,15 @@ TCK2005-0567955
 
 > Training > Training Evaluation
 
-- [ ] Update Training Feedback
-- [ ] Update Training Evaluation
+- [x] Update Training Feedback
+- [x] Update Training Evaluation
 - [ ] Update Catalogue Update
 
 > Training > My E-Learning
 
-- [ ] Add E-Learning Request
-- [ ] Edit E-Learning Request
-- [ ] Delete E-Learning Request (Draft)
+- [x] Add E-Learning Request
+- [x] Edit E-Learning Request
+- [x] Delete E-Learning Request (Draft)
 
 ##### Script
 
@@ -167,6 +167,9 @@ TCK2005-0567955
 <summary> Script Class </summary>
 
 ```JAVA
+<class name="source.dataon.training.my_elearning.TAddElearningRequest"/>
+<class name="source.dataon.training.my_elearning.TUpdateElearningRequest"/>
+<class name="source.dataon.training.my_elearning.TDeleteElearningRequest"/>
 
 
 ```
