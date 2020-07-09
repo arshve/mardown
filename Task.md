@@ -125,11 +125,11 @@ TCK2005-0567956
 
 > Training > Training Report
 
-- [ ] View Training Cost Report
-- [ ] View Training Event Report
-- [ ] View Training Course Report
-- [ ] View Training Attendance Report
-- [ ] View Training Hours Report
+- [x] View Training Cost Report
+- [x] View Training Event Report
+- [x] View Training Course Report
+- [x] View Training Attendance Report
+- [x] View Training Hours Report
 
 ##### Script
 
@@ -138,6 +138,11 @@ TCK2005-0567956
 
 ```JAVA
 
+<class name="source.dataon.training.training_report.TTrainingEventReport"/>
+<class name="source.dataon.training.training_report.TTrainingCourseReport"/>
+<class name="source.dataon.training.training_report.TTrainingCostReport"/>
+<class name="source.dataon.training.training_report.TTrainingAttendanceReport"/>
+<class name="source.dataon.training.training_report.TTrainingHoursReport"/>
 
 ```
 
