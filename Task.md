@@ -71,7 +71,6 @@ dataon1
 | UserName | Password | Etc. |
 |:---------------:|:-----------:|----------|
 | gordon |password123 | |
-| dataon1 |d4t40n1234\$ |SuperAdmin|
 
 <br />
 Shared Folder
