@@ -73,6 +73,15 @@ dataon
 | gordon |password123 | |
 | adrian |password123 |Admin|
 
+##### Great Day
+
+> [Great Day](https://app.greatdayhr.com/app-dev/login#/home2) / [sfdemo.dataon.com](http://192.168.102.170/sf6/)
+
+| Account | UserName | Password | Etc. |
+|:---------------:|:-----------:|:-----------:|----------|
+| suksesgroup-dev | USR_001 | Pass1234! | GreatDay |
+| suksesgroup | USR_001 | Pass1234! | SF6 |
+
 <br />
 Shared Folder
 user : dataon\farid.ramadhan
