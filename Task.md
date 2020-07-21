@@ -67,10 +67,11 @@ dataon1
 
 > sf.dataon.com / sfdemo.dataon.com
 
-dataon1
+dataon
 | UserName | Password | Etc. |
 |:---------------:|:-----------:|----------|
 | gordon |password123 | |
+| adrian |password123 |Admin|
 
 <br />
 Shared Folder
@@ -171,10 +172,10 @@ TCK2005-0567955
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.training.my_elearning.TAddElearningRequest"/>
 <class name="source.dataon.training.my_elearning.TUpdateElearningRequest"/>
 <class name="source.dataon.training.my_elearning.TDeleteElearningRequest"/>
-
 
 ```
 
@@ -210,6 +211,7 @@ TCK2005-0567954
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.training.training_course.TAddTrainingCourseElearning"/>
 <class name="source.dataon.training.training_course.TUpdateTrainingCourseElearning"/>
 <class name="source.dataon.training.training_course.TDeleteTrainingCourseElearning"/>
@@ -252,6 +254,7 @@ TCK2005-0567951
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.training.training_course.TAddTrainingCourseFeedback"/>
 <class name="source.dataon.training.training_course.TUpdateTrainingCourseFeedback"/>
 <class name="source.dataon.training.training_course.TDeleteTrainingCourseFeedback"/>
@@ -265,7 +268,6 @@ TCK2005-0567951
 <class name="source.dataon.training.training_course.TDeleteTrainingCourseEvent"/>
 
 ```
-
 </details>
 
 ---
@@ -309,6 +311,7 @@ TCK2005-0567949
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.setting.training_setting.training_item_cost.TAddTrainingItemCost"/>
 <class name="source.dataon.setting.training_setting.training_item_cost.TUpdateTrainingItemCost"/>
 <class name="source.dataon.setting.training_setting.training_item_cost.TDeleteTrainingItemCost"/>
@@ -328,6 +331,7 @@ TCK2005-0567949
 <class name="source.dataon.training.training_course.TAddTrainingCourseContent"/>
 <class name="source.dataon.training.training_course.TUpdateTrainingCourseContent"/>
 <class name="source.dataon.training.training_course.TDeleteTrainingCourseContent"/>
+
 ```
 
 </details>
@@ -359,6 +363,7 @@ TCK2005-0567946
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.setting.training_setting.training_venue.TAddTrainingVenue"/>
 <class name="source.dataon.setting.training_setting.training_venue.TUpdateTrainingVenue"/>
 <class name="source.dataon.setting.training_setting.training_venue.TDeleteTrainingVenue"/>
@@ -405,6 +410,7 @@ TCK2005-0567944
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.setting.training_setting.training_category.TAddTrainingCategory"/>
 <class name="source.dataon.setting.training_setting.training_category.TUpdateTrainingCategory"/>
 <class name="source.dataon.setting.training_setting.training_category.TDeleteTrainingCategory"/>
@@ -416,6 +422,7 @@ TCK2005-0567944
 <class name="source.dataon.setting.training_setting.training_instructor.TAddTrainingInstructor"/>
 <class name="source.dataon.setting.training_setting.training_instructor.TUpdateTrainingInstructor"/>
 <class name="source.dataon.setting.training_setting.training_instructor.TDeleteTrainingInstructor"/>
+
 ```
 
 </details>
@@ -452,6 +459,7 @@ TCK2001-0543231
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.employee.employee_information.employment_data.TUpdateEmployeeCostumeField"/>
 <class name="source.dataon.employee.employee_information.employment_data.TUpdateEmployeeCheckList"/>
 <class name="source.dataon.employee.employee_information.additional_info.TUpdateEmployeeSkill"/>
@@ -461,6 +469,7 @@ TCK2001-0543231
 <class name="source.dataon.employee.employee_letter.TAddEmployeeLetter"/>
 <class name="source.dataon.employee.employee_letter.TUpdateEmployeeLetter"/>
 <class name="source.dataon.employee.employee_letter.TDeleteEmployeeLetter"/>
+
 ```
 
 </details>
@@ -497,6 +506,7 @@ TCK2001-0543228
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.employee.employee_information.TAddEmployee"/>
 <class name="source.dataon.employee.employee_information.TDeleteEmployee"/>
 
@@ -511,6 +521,7 @@ TCK2001-0543228
 <class name="source.dataon.setting.employee_setting.survey.survey_library.TAddSurveyLibrary"/>
 <class name="source.dataon.setting.employee_setting.survey.survey_library.TUpdateSurveyLibrary"/>
 <class name="source.dataon.setting.employee_setting.survey.survey_library.TDeleteSurveyLibrary"/>
+
 ```
 
 </details>
@@ -534,10 +545,12 @@ TCK2002-0548712
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.organization.organization_report.TViewVacantPositionReport"/>
 <class name="source.dataon.organization.organization_report.TViewJobGradeReport"/>
 <class name="source.dataon.organization.organization_report.TViewCostCenterReport"/>
 <class name="source.dataon.organization.organization_report.TPositionListReport"/>
+
 ```
 
 </details>
@@ -573,6 +586,7 @@ TCK2002-0548711
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.setting.organization_setting.organization_structure.job_family_grade.TUpdateJobFamilyGrade"/>
 <class name="source.dataon.setting.organization_setting.job_family_level.TUpdateJobFamilyLevel"/>
 
@@ -582,6 +596,7 @@ TCK2002-0548711
 <class name="source.dataon.organization.company_policy.TAddCompanyPolicy"/>
 <class name="source.dataon.organization.company_policy.TUpdateCompanyPolicy"/>
 <class name="source.dataon.organization.company_policy.TDeleteCompanyPolicy"/>
+
 ```
 
 </details>
@@ -614,6 +629,7 @@ TCK2002-0548710
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.setting.organization_setting.cost_center.TAddCostCenter"/>
 <class name="source.dataon.setting.organization_setting.cost_center.TUpdateCostCenter"/>
 <class name="source.dataon.setting.organization_setting.cost_center.TDeleteCostCenter"/>
@@ -621,6 +637,7 @@ TCK2002-0548710
 <class name="source.dataon.setting.organization_setting.organization_structure.job_status.TAddJobStatus"/>
 <class name="source.dataon.setting.organization_setting.organization_structure.job_status.TUpdateJobStatus"/>
 <class name="source.dataon.setting.organization_setting.organization_structure.job_status.TDeleteJobStatus"/>
+
 ```
 
 </details>
@@ -649,6 +666,7 @@ TCK2002-0548709
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.setting.organization_setting.job_grade.TAddJobGrade"/>
 <class name="source.dataon.setting.organization_setting.job_grade.TUpdateJobGrade"/>
 <class name="source.dataon.setting.organization_setting.job_grade.TDeleteJobGrade"/>
@@ -656,6 +674,7 @@ TCK2002-0548709
 <class name="source.dataon.setting.organization_setting.job_grade_category.TAddJobGradeCategory"/>
 <class name="source.dataon.setting.organization_setting.job_grade_category.TUpdateJobGradeCategory"/>
 <class name="source.dataon.setting.organization_setting.job_grade_category.TDeleteJobGradeCategory"/>
+
 ```
 
 </details>
@@ -687,6 +706,7 @@ TCK2002-0548708
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.setting.organization_setting.company.TAddCompany"/>
 <class name="source.dataon.setting.organization_setting.company.TUpdateCompany"/>
 <class name="source.dataon.setting.organization_setting.company.TDeleteCompany"/>
@@ -694,6 +714,7 @@ TCK2002-0548708
 <class name="source.dataon.setting.organization_setting.organization_structure.TUpdateDepartement"/>
 <class name="source.dataon.setting.organization_setting.organization_structure.TUpdatePosition"/>
 <class name="source.dataon.setting.organization_setting.job_title.TUpdateJobTitle"/>
+
 ```
 
 </details>
