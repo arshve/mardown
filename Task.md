@@ -71,7 +71,7 @@ dataon
 | UserName | Password | Etc. |
 |:---------------:|:-----------:|----------|
 | gordon |password123 | |
-| adrian |password123 |Admin|
+| adrian |password123 |Admin[Th]|
 
 ##### Great Day
 
@@ -81,6 +81,9 @@ dataon
 |:---------------:|:-----------:|:-----------:|----------|
 | suksesgroup-dev | USR_001 | Pass1234! | GreatDay |
 | suksesgroup | USR_001 | Pass1234! | SF6 |
+
+#### GreatDay Push Notif link
+[Push Notif](http://192.168.102.170/sf6/index.cfm?sfid=sys.sec.cron.resourcebooking_schedule&dsn=dbSF_SUKSESGROUP&company_id=16487&instance=suksesgroup&cocode=suksesgroup&category_code=001&dev)
 
 <br />
 Shared Folder
@@ -105,14 +108,14 @@ TCK2005-0567957
 
 > Training > Training Report
 
-- [ ] View Training Feedback Report
-- [ ] View Training Evaluation Report
-- [ ] View Training Record Report
-- [ ] View Mandatory Training Report
-- [ ] View Training Waiting List Report
-- [ ] View Training Budget Report
-- [ ] View Training Request Report
-- [ ] View Quiz Report
+- [x] View Training Feedback Report
+- [x] View Training Evaluation Report
+- [x] View Training Record Report
+- [x] View Mandatory Training Report
+- [x] View Training Waiting List Report
+- [x] View Training Budget Report
+- [x] View Training Request Report
+- [x] View Quiz Report
 
 ##### Script
 
@@ -121,6 +124,15 @@ TCK2005-0567957
 
 ```JAVA
 
+<class name="source.dataon.training.training_report.TTrainingFeedbackReport"/>
+<class name="source.dataon.training.training_report.TTrainingEvaluationReport"/>
+<class name="source.dataon.training.training_report.TTrainingRecordReport"/>
+<class name="source.dataon.training.training_report.TMandatoryTrainingReport"/>
+<class name="source.dataon.training.training_report.TTrainingWaitingListReport"/>
+<class name="source.dataon.training.training_report.TTrainingBudgetReport"/>
+<class name="source.dataon.training.training_report.TTrainingRequestReport"/>
+<class name="source.dataon.training.training_report.TELearningQuizReport"/>
+				
 
 ```
 
