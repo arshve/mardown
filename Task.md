@@ -75,7 +75,7 @@ dataon
 
 ##### Great Day
 
-> [Great Day](https://app.greatdayhr.com/app-dev/login#/home2) / [sfdemo.dataon.com](http://192.168.102.170/sf6/)
+> [Great Day](https://app.greatdayhr.com/app-dev/login#/home2) / [sfdemo.dataon.com](http://192.168.102.170/sf6/) /
 > [Great Day Stagging](https://app.greatdayhr.com/artifacts/staging/feature-feat-training-noncalendar/#/login2)
 
 | Account | UserName | Password | Etc. |
@@ -88,8 +88,10 @@ dataon
 Stagging Acc
 | Account | UserName | Password | Etc. |
 |:---------------:|:-----------:|:-----------:|----------|
-| suksesgroup-dev-gd|https://api.greatdayhr.com/staging5 | USR_001 | Pass1234! | GreatDay Stagging|
-| dataon1-dev-gd|https://api.greatdayhr.com/staging5 | gordon | Password123! | GreatDay Stagging|
+| suksesgroup-dev-gd https://api.greatdayhr.com/staging5 | USR_001 | Pass1234! | GreatDay Stagging|
+| dataon1-dev-gd https://api.greatdayhr.com/staging5 | gordon | Password123! | GreatDay Stagging|
+
+"dataon1-dev-gd|https://api.greatdayhr.com/staging5"
 
 #### GreatDay Push Notif link
 [Push Notif](http://192.168.102.170/sf6/index.cfm?sfid=sys.sec.cron.resourcebooking_schedule&dsn=dbSF_SUKSESGROUP&company_id=16487&instance=suksesgroup&cocode=suksesgroup&category_code=001&dev)
