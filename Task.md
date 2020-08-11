@@ -91,7 +91,10 @@ Stagging Acc
 | suksesgroup-dev-gd https://api.greatdayhr.com/staging5 | USR_001 | Pass1234! | GreatDay Stagging|
 | dataon1-dev-gd https://api.greatdayhr.com/staging5 | gordon | Password123! | GreatDay Stagging|
 
-"dataon1-dev-gd|https://api.greatdayhr.com/staging5"
+suksesgroup-dev-gd|https://api.greatdayhr.com/staging5
+dataon1-dev-gd|https://api.greatdayhr.com/staging5
+
+[GreatDay APK](https://app.greatdayhr.com/artifacts/dist/develop/android/apk/)
 
 #### GreatDay Push Notif link
 [Push Notif](http://192.168.102.170/sf6/index.cfm?sfid=sys.sec.cron.resourcebooking_schedule&dsn=dbSF_SUKSESGROUP&company_id=16487&instance=suksesgroup&cocode=suksesgroup&category_code=001&dev)
