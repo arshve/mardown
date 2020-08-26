@@ -15,7 +15,7 @@ Project X
 \\192.168.100.129\SharedFolder\QA\1.Quality Assurance\1.QA SunFish HR\3.SAT Form\SAT-2020
 \\192.168.100.129\SharedFolder\QA\2.Documentation\3. Misc\Selenium Tutorial\1. SF6 HR Automation Test Data
 
-Reset Tag: ?resetapp=1&recache=1&resetctag=1&forcegen=1
+Reset Tag: ?resetapp=1&recache=1&resetctag=1&forcegen=1  
 Cek Error Sys: https://sfid.dataon.com/sf6/index.cfm?sfid=sys.sec.viewlog&logpath="sferr.dataon1.20200826.expression_sfid_nas_dpx_20200826154458_616.htm"
 
 
