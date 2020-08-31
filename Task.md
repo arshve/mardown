@@ -18,7 +18,6 @@ Project X
 Reset Tag: ?resetapp=1&recache=1&resetctag=1&forcegen=1  
 Cek Error Sys: https://sfid.dataon.com/sf6/index.cfm?sfid=sys.sec.viewlog&logpath="sferr.dataon1.20200826.expression_sfid_nas_dpx_20200826154458_616.htm"
 
-
 <details>
 <summary> Account </summary>
 
@@ -83,12 +82,12 @@ dataon
 > [Great Day](https://app.greatdayhr.com/app-dev/login#/home2) / [sfdemo.dataon.com](http://192.168.102.170/sf6/) /
 > [Great Day Stagging](https://app.greatdayhr.com/artifacts/staging/feature-feat-training-noncalendar/#/login2)
 
-| Account | UserName | Password | Etc. |
-|:---------------:|:-----------:|:-----------:|----------|
-| suksesgroup-dev | USR_001 | Pass1234! | GreatDay |
-| suksesgroup | USR_001 | Pass1234! | SF6 |
-| dataon1-dev | gordon | Password123! | GreatDay |
-| dataon1 | gordon | Password123! | SF6 |
+|     Account     | UserName |   Password   | Etc.     |
+| :-------------: | :------: | :----------: | -------- |
+| suksesgroup-dev | USR_001  |  Pass1234!   | GreatDay |
+|   suksesgroup   | USR_001  |  Pass1234!   | SF6      |
+|   dataon1-dev   |  gordon  | Password123! | GreatDay |
+|     dataon1     |  gordon  | Password123! | SF6      |
 
 Stagging Acc
 | Account | UserName | Password | Etc. |
@@ -102,12 +101,14 @@ dataon1-dev-gd|https://api.greatdayhr.com/staging5
 [GreatDay APK](https://app.greatdayhr.com/artifacts/dist/develop/android/apk/)
 
 #### GreatDay Push Notif link
+
 [Push Notif](http://192.168.102.170/sf6/index.cfm?sfid=sys.sec.cron.resourcebooking_schedule&dsn=dbSF_SUKSESGROUP&company_id=16487&instance=suksesgroup&cocode=suksesgroup&category_code=001&dev)
 
 <br />
 Shared Folder
 user : dataon\farid.ramadhan
 pass : S7j6h65g4*&^^%$
+
 <br />
 BugTest PAss
 t0^1#APA\*g4V
@@ -151,7 +152,7 @@ TCK2005-0567957
 <class name="source.dataon.training.training_report.TTrainingBudgetReport"/>
 <class name="source.dataon.training.training_report.TTrainingRequestReport"/>
 <class name="source.dataon.training.training_report.TELearningQuizReport"/>
-				
+
 
 ```
 
@@ -308,6 +309,7 @@ TCK2005-0567951
 <class name="source.dataon.training.training_course.TDeleteTrainingCourseEvent"/>
 
 ```
+
 </details>
 
 ---
