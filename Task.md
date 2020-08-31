@@ -2,6 +2,9 @@ Menu +[TASK](https://github.com/arshve/mardown/blob/master/Task.md)+ +[Repo Inpu
 
 ### Eg.
 
+Mind Hunter
+Project X
+
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
@@ -12,7 +15,9 @@ Menu +[TASK](https://github.com/arshve/mardown/blob/master/Task.md)+ +[Repo Inpu
 \\192.168.100.129\SharedFolder\QA\1.Quality Assurance\1.QA SunFish HR\3.SAT Form\SAT-2020
 \\192.168.100.129\SharedFolder\QA\2.Documentation\3. Misc\Selenium Tutorial\1. SF6 HR Automation Test Data
 
-Reset Tag: ?resetapp=1&recache=1&resetctag=1&forcegen=1
+Reset Tag: ?resetapp=1&recache=1&resetctag=1&forcegen=1  
+Cek Error Sys: https://sfid.dataon.com/sf6/index.cfm?sfid=sys.sec.viewlog&logpath="sferr.dataon1.20200826.expression_sfid_nas_dpx_20200826154458_616.htm"
+
 
 <details>
 <summary> Account </summary>
@@ -67,10 +72,37 @@ dataon1
 
 > sf.dataon.com / sfdemo.dataon.com
 
-dataon1
+dataon
 | UserName | Password | Etc. |
 |:---------------:|:-----------:|----------|
 | gordon |password123 | |
+| adrian |password123 |Admin[Th]|
+
+##### Great Day
+
+> [Great Day](https://app.greatdayhr.com/app-dev/login#/home2) / [sfdemo.dataon.com](http://192.168.102.170/sf6/) /
+> [Great Day Stagging](https://app.greatdayhr.com/artifacts/staging/feature-feat-training-noncalendar/#/login2)
+
+| Account | UserName | Password | Etc. |
+|:---------------:|:-----------:|:-----------:|----------|
+| suksesgroup-dev | USR_001 | Pass1234! | GreatDay |
+| suksesgroup | USR_001 | Pass1234! | SF6 |
+| dataon1-dev | gordon | Password123! | GreatDay |
+| dataon1 | gordon | Password123! | SF6 |
+
+Stagging Acc
+| Account | UserName | Password | Etc. |
+|:---------------:|:-----------:|:-----------:|----------|
+| suksesgroup-dev-gd https://api.greatdayhr.com/staging5 | USR_001 | Pass1234! | GreatDay Stagging|
+| dataon1-dev-gd https://api.greatdayhr.com/staging5 | gordon | Password123! | GreatDay Stagging|
+
+suksesgroup-dev-gd|https://api.greatdayhr.com/staging5
+dataon1-dev-gd|https://api.greatdayhr.com/staging5
+
+[GreatDay APK](https://app.greatdayhr.com/artifacts/dist/develop/android/apk/)
+
+#### GreatDay Push Notif link
+[Push Notif](http://192.168.102.170/sf6/index.cfm?sfid=sys.sec.cron.resourcebooking_schedule&dsn=dbSF_SUKSESGROUP&company_id=16487&instance=suksesgroup&cocode=suksesgroup&category_code=001&dev)
 
 <br />
 Shared Folder
@@ -95,14 +127,14 @@ TCK2005-0567957
 
 > Training > Training Report
 
-- [ ] View Training Feedback Report
-- [ ] View Training Evaluation Report
-- [ ] View Training Record Report
-- [ ] View Mandatory Training Report
-- [ ] View Training Waiting List Report
-- [ ] View Training Budget Report
-- [ ] View Training Request Report
-- [ ] View Quiz Report
+- [x] View Training Feedback Report
+- [x] View Training Evaluation Report
+- [x] View Training Record Report
+- [x] View Mandatory Training Report
+- [x] View Training Waiting List Report
+- [x] View Training Budget Report
+- [x] View Training Request Report
+- [x] View Quiz Report
 
 ##### Script
 
@@ -111,6 +143,15 @@ TCK2005-0567957
 
 ```JAVA
 
+<class name="source.dataon.training.training_report.TTrainingFeedbackReport"/>
+<class name="source.dataon.training.training_report.TTrainingEvaluationReport"/>
+<class name="source.dataon.training.training_report.TTrainingRecordReport"/>
+<class name="source.dataon.training.training_report.TMandatoryTrainingReport"/>
+<class name="source.dataon.training.training_report.TTrainingWaitingListReport"/>
+<class name="source.dataon.training.training_report.TTrainingBudgetReport"/>
+<class name="source.dataon.training.training_report.TTrainingRequestReport"/>
+<class name="source.dataon.training.training_report.TELearningQuizReport"/>
+				
 
 ```
 
@@ -171,10 +212,10 @@ TCK2005-0567955
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.training.my_elearning.TAddElearningRequest"/>
 <class name="source.dataon.training.my_elearning.TUpdateElearningRequest"/>
 <class name="source.dataon.training.my_elearning.TDeleteElearningRequest"/>
-
 
 ```
 
@@ -210,6 +251,7 @@ TCK2005-0567954
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.training.training_course.TAddTrainingCourseElearning"/>
 <class name="source.dataon.training.training_course.TUpdateTrainingCourseElearning"/>
 <class name="source.dataon.training.training_course.TDeleteTrainingCourseElearning"/>
@@ -252,6 +294,7 @@ TCK2005-0567951
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.training.training_course.TAddTrainingCourseFeedback"/>
 <class name="source.dataon.training.training_course.TUpdateTrainingCourseFeedback"/>
 <class name="source.dataon.training.training_course.TDeleteTrainingCourseFeedback"/>
@@ -265,7 +308,6 @@ TCK2005-0567951
 <class name="source.dataon.training.training_course.TDeleteTrainingCourseEvent"/>
 
 ```
-
 </details>
 
 ---
@@ -309,6 +351,7 @@ TCK2005-0567949
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.setting.training_setting.training_item_cost.TAddTrainingItemCost"/>
 <class name="source.dataon.setting.training_setting.training_item_cost.TUpdateTrainingItemCost"/>
 <class name="source.dataon.setting.training_setting.training_item_cost.TDeleteTrainingItemCost"/>
@@ -328,6 +371,7 @@ TCK2005-0567949
 <class name="source.dataon.training.training_course.TAddTrainingCourseContent"/>
 <class name="source.dataon.training.training_course.TUpdateTrainingCourseContent"/>
 <class name="source.dataon.training.training_course.TDeleteTrainingCourseContent"/>
+
 ```
 
 </details>
@@ -359,6 +403,7 @@ TCK2005-0567946
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.setting.training_setting.training_venue.TAddTrainingVenue"/>
 <class name="source.dataon.setting.training_setting.training_venue.TUpdateTrainingVenue"/>
 <class name="source.dataon.setting.training_setting.training_venue.TDeleteTrainingVenue"/>
@@ -405,6 +450,7 @@ TCK2005-0567944
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.setting.training_setting.training_category.TAddTrainingCategory"/>
 <class name="source.dataon.setting.training_setting.training_category.TUpdateTrainingCategory"/>
 <class name="source.dataon.setting.training_setting.training_category.TDeleteTrainingCategory"/>
@@ -416,6 +462,7 @@ TCK2005-0567944
 <class name="source.dataon.setting.training_setting.training_instructor.TAddTrainingInstructor"/>
 <class name="source.dataon.setting.training_setting.training_instructor.TUpdateTrainingInstructor"/>
 <class name="source.dataon.setting.training_setting.training_instructor.TDeleteTrainingInstructor"/>
+
 ```
 
 </details>
@@ -452,6 +499,7 @@ TCK2001-0543231
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.employee.employee_information.employment_data.TUpdateEmployeeCostumeField"/>
 <class name="source.dataon.employee.employee_information.employment_data.TUpdateEmployeeCheckList"/>
 <class name="source.dataon.employee.employee_information.additional_info.TUpdateEmployeeSkill"/>
@@ -461,6 +509,7 @@ TCK2001-0543231
 <class name="source.dataon.employee.employee_letter.TAddEmployeeLetter"/>
 <class name="source.dataon.employee.employee_letter.TUpdateEmployeeLetter"/>
 <class name="source.dataon.employee.employee_letter.TDeleteEmployeeLetter"/>
+
 ```
 
 </details>
@@ -497,6 +546,7 @@ TCK2001-0543228
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.employee.employee_information.TAddEmployee"/>
 <class name="source.dataon.employee.employee_information.TDeleteEmployee"/>
 
@@ -511,6 +561,7 @@ TCK2001-0543228
 <class name="source.dataon.setting.employee_setting.survey.survey_library.TAddSurveyLibrary"/>
 <class name="source.dataon.setting.employee_setting.survey.survey_library.TUpdateSurveyLibrary"/>
 <class name="source.dataon.setting.employee_setting.survey.survey_library.TDeleteSurveyLibrary"/>
+
 ```
 
 </details>
@@ -534,10 +585,12 @@ TCK2002-0548712
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.organization.organization_report.TViewVacantPositionReport"/>
 <class name="source.dataon.organization.organization_report.TViewJobGradeReport"/>
 <class name="source.dataon.organization.organization_report.TViewCostCenterReport"/>
 <class name="source.dataon.organization.organization_report.TPositionListReport"/>
+
 ```
 
 </details>
@@ -573,6 +626,7 @@ TCK2002-0548711
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.setting.organization_setting.organization_structure.job_family_grade.TUpdateJobFamilyGrade"/>
 <class name="source.dataon.setting.organization_setting.job_family_level.TUpdateJobFamilyLevel"/>
 
@@ -582,6 +636,7 @@ TCK2002-0548711
 <class name="source.dataon.organization.company_policy.TAddCompanyPolicy"/>
 <class name="source.dataon.organization.company_policy.TUpdateCompanyPolicy"/>
 <class name="source.dataon.organization.company_policy.TDeleteCompanyPolicy"/>
+
 ```
 
 </details>
@@ -614,6 +669,7 @@ TCK2002-0548710
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.setting.organization_setting.cost_center.TAddCostCenter"/>
 <class name="source.dataon.setting.organization_setting.cost_center.TUpdateCostCenter"/>
 <class name="source.dataon.setting.organization_setting.cost_center.TDeleteCostCenter"/>
@@ -621,6 +677,7 @@ TCK2002-0548710
 <class name="source.dataon.setting.organization_setting.organization_structure.job_status.TAddJobStatus"/>
 <class name="source.dataon.setting.organization_setting.organization_structure.job_status.TUpdateJobStatus"/>
 <class name="source.dataon.setting.organization_setting.organization_structure.job_status.TDeleteJobStatus"/>
+
 ```
 
 </details>
@@ -649,6 +706,7 @@ TCK2002-0548709
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.setting.organization_setting.job_grade.TAddJobGrade"/>
 <class name="source.dataon.setting.organization_setting.job_grade.TUpdateJobGrade"/>
 <class name="source.dataon.setting.organization_setting.job_grade.TDeleteJobGrade"/>
@@ -656,6 +714,7 @@ TCK2002-0548709
 <class name="source.dataon.setting.organization_setting.job_grade_category.TAddJobGradeCategory"/>
 <class name="source.dataon.setting.organization_setting.job_grade_category.TUpdateJobGradeCategory"/>
 <class name="source.dataon.setting.organization_setting.job_grade_category.TDeleteJobGradeCategory"/>
+
 ```
 
 </details>
@@ -687,6 +746,7 @@ TCK2002-0548708
 <summary> Script Class </summary>
 
 ```JAVA
+
 <class name="source.dataon.setting.organization_setting.company.TAddCompany"/>
 <class name="source.dataon.setting.organization_setting.company.TUpdateCompany"/>
 <class name="source.dataon.setting.organization_setting.company.TDeleteCompany"/>
@@ -694,6 +754,7 @@ TCK2002-0548708
 <class name="source.dataon.setting.organization_setting.organization_structure.TUpdateDepartement"/>
 <class name="source.dataon.setting.organization_setting.organization_structure.TUpdatePosition"/>
 <class name="source.dataon.setting.organization_setting.job_title.TUpdateJobTitle"/>
+
 ```
 
 </details>
