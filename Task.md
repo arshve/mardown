@@ -75,7 +75,7 @@ dataon1
 <br />
 Shared Folder
 user : dataon\farid.ramadhan
-pass : Y6b3x9+\*#
+pass : S7j6h65g4*&^^%$
 <br />
 BugTest PAss
 t0^1#APA\*g4V
