@@ -119,6 +119,139 @@ t0^1#APA\*g4V
 - [Sf3](http://192.168.0.185)
 - [Sf4](http://192.168.101.155)
 
+
+
+---
+
+### Subject : _Selenium 28 Sep - 02 oct 2020_
+
+TCK2009-0587797
+
+>  Setting > Reimbursement Setting > Reimbursement Type
+
+- [ ] Add Reimbursement Type
+- [ ] Edit Reimbursement Type
+- [ ] Delete Reimbursement Type
+  
+>   Setting > Reimbursement Setting > Type Of Claim
+
+- [ ] Edit Type of Claim
+- [ ] Delete Claim Rule Setting
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+				
+
+```
+
+</details>
+
+
+---
+
+### Subject : _Selenium 14 Sep - 18 Sep 2020_
+
+TCK2001-0543251
+
+> Reimbursement > Reimbursement Report
+
+- [ ] View Reimbursement Interface Result
+- [ ] View Reimbursement Payment Lag Time
+- [ ] View Employee Reimbursement Request
+- [ ] View Reimbursement Balance Report
+- [ ] View Reimbursement Balance and Usage Report
+- [ ] View Reimbursement Cancellation Request Report
+
+> Reimbursement > Reimbursement Upload
+
+- [ ] Reimbursement Upload
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+				
+
+```
+
+</details>
+
+  
+---
+
+### Subject : _Selenium 08 Sep - 11 Sep 2020_
+
+TCK2001-0543249
+
+> ReimbursementMy > Reimbursement Balance
+
+- [ ] My Reimbursement Balance
+
+> Reimbursement > Reimbursement Request
+
+- [ ] Add Reimbursement Request
+- [ ] Edit Reimbursement Request
+- [ ] Delete Reimbursement Request (Draft)
+
+> Reimbursement > Reimbursement Cancellation Request
+
+- [ ] Add Reimbursement Cancellation Request
+- [ ] Edit Reimbursement Cancellation Request
+- [ ] Delete Reimbursement Cancellation Request (Draft)
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+				
+
+```
+
+</details>
+
+
+---
+
+### Subject : _Selenium 31 Aug - 03 Sep 2020_
+
+TCK2001-0543244
+
+> Setting >Reimbursement Setting > Type Of Claim
+
+- [ ] Add Type of Claim
+- [ ] Edit Type of Claim
+- [ ] Delete Type of Claim
+
+> Setting > Reimbursement Setting > Claim Rule Setting
+
+- [ ] Add Claim Rule Setting
+- [ ] Edit Claim Rule Setting
+- [ ] Delete Claim Rule Setting
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+				
+
+```
+
+</details>
+
 ---
 
 ### Subject : _Selenium 20 Jul - 24 Jul 2020_
