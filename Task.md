@@ -120,8 +120,6 @@ t0^1#APA\*g4V
 - [Sf3](http://192.168.0.185)
 - [Sf4](http://192.168.101.155)
 
-
-
 ---
 
 ### Subject : _Selenium 28 Sep - 02 oct 2020_
@@ -194,18 +192,18 @@ TCK2001-0543249
 
 > ReimbursementMy > Reimbursement Balance
 
-- [ ] My Reimbursement Balance
+- [x] My Reimbursement Balance
 
 > Reimbursement > Reimbursement Request
 
-- [ ] Add Reimbursement Request
-- [ ] Edit Reimbursement Request
-- [ ] Delete Reimbursement Request (Draft)
+- [x] Add Reimbursement Request
+- [x] Edit Reimbursement Request (Draft)
+- [x] Delete Reimbursement Request (Draft)
 
 > Reimbursement > Reimbursement Cancellation Request
 
 - [ ] Add Reimbursement Cancellation Request
-- [ ] Edit Reimbursement Cancellation Request
+- [ ] Edit Reimbursement Cancellation Request (Draft)
 - [ ] Delete Reimbursement Cancellation Request (Draft)
 
 ##### Script
@@ -215,7 +213,13 @@ TCK2001-0543249
 
 ```JAVA
 
-				
+<class name="source.dataon.setting.reimbursement.TMyReimbursementBalance"/>
+
+<class name="source.dataon.setting.reimbursement_request.TAddReimbursementRequest"/>
+<class name="source.dataon.setting.reimbursement_request.TUpdateReimbursementRequest"/>
+<class name="source.dataon.setting.reimbursement_request.TDeleteReimbursementRequest"/>
+
+
 
 ```
 
