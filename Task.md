@@ -230,15 +230,15 @@ TCK2001-0543244
 
 > Setting >Reimbursement Setting > Type Of Claim
 
-- [ ] Add Type of Claim
-- [ ] Edit Type of Claim
-- [ ] Delete Type of Claim
+- [x] Add Type of Claim
+- [x] Edit Type of Claim
+- [x] Delete Type of Claim
 
 > Setting > Reimbursement Setting > Claim Rule Setting
 
-- [ ] Add Claim Rule Setting
-- [ ] Edit Claim Rule Setting
-- [ ] Delete Claim Rule Setting
+- [x] Add Claim Rule Setting
+- [x] Edit Claim Rule Setting
+- [x] Delete Claim Rule Setting
 
 ##### Script
 
@@ -247,7 +247,13 @@ TCK2001-0543244
 
 ```JAVA
 
+<class name="source.dataon.setting.reimbursement_setting.type_of_claim.TAddTypeofClaim"/>
+<class name="source.dataon.setting.reimbursement_setting.type_of_claim.TUpdateTypeofClaim"/>
+<class name="source.dataon.setting.reimbursement_setting.type_of_claim.TDeleteTypeofClaim"/>
 				
+<class name="source.dataon.setting.reimbursement_setting.claim_rule_setting.TAddClaimRuleSetting"/>
+<class name="source.dataon.setting.reimbursement_setting.claim_rule_setting.TUpdateClaimRuleSetting"/>
+<class name="source.dataon.setting.reimbursement_setting.claim_rule_setting.TDeleteClaimRuleSetting"/>		
 
 ```
 
