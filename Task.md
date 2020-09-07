@@ -202,9 +202,9 @@ TCK2001-0543249
 
 > Reimbursement > Reimbursement Cancellation Request
 
-- [ ] Add Reimbursement Cancellation Request
-- [ ] Edit Reimbursement Cancellation Request (Draft)
-- [ ] Delete Reimbursement Cancellation Request (Draft)
+- [x] Add Reimbursement Cancellation Request
+- [x] Edit Reimbursement Cancellation Request (Draft)
+- [x] Delete Reimbursement Cancellation Request (Draft)
 
 ##### Script
 
@@ -219,8 +219,10 @@ TCK2001-0543249
 <class name="source.dataon.setting.reimbursement_request.TUpdateReimbursementRequest"/>
 <class name="source.dataon.setting.reimbursement_request.TDeleteReimbursementRequest"/>
 
-
-
+<class name="source.dataon.setting.reimbursement_cancel_request.TAddReimbursementCancelRequest"/>
+<class name="source.dataon.setting.reimbursement_cancel_request.TUpdateReimbursementCancelRequest"/>
+<class name="source.dataon.setting.reimbursement_cancel_request.TDeleteReimbursementCancelRequest"/>
+				
 ```
 
 </details>
