@@ -159,12 +159,12 @@ TCK2001-0543251
 
 > Reimbursement > Reimbursement Report
 
-- [ ] View Reimbursement Interface Result
-- [ ] View Reimbursement Payment Lag Time
-- [ ] View Employee Reimbursement Request
-- [ ] View Reimbursement Balance Report
-- [ ] View Reimbursement Balance and Usage Report
-- [ ] View Reimbursement Cancellation Request Report
+- [x] View Reimbursement Interface Result
+- [x] View Reimbursement Payment Lag Time
+- [x] View Employee Reimbursement Request
+- [x] View Reimbursement Balance Report
+- [x] View Reimbursement Balance and Usage Report
+- [x] View Reimbursement Cancellation Request Report
 
 > Reimbursement > Reimbursement Upload
 
@@ -177,7 +177,12 @@ TCK2001-0543251
 
 ```JAVA
 
-				
+<class name="source.dataon.setting.reimbursement_report.TViewReimbursementInterfaceResult"/>
+<class name="source.dataon.setting.reimbursement_report.TViewReimbursementPaymentLagTime"/>
+<class name="source.dataon.setting.reimbursement_report.TViewReimbursementBalanceReport"/>
+<class name="source.dataon.setting.reimbursement_report.TViewReimbursementRequest"/>
+<class name="source.dataon.setting.reimbursement_report.TViewReimbursementBalanceUsageReport"/>
+<class name="source.dataon.setting.reimbursement_report.TViewReimbursementCancellReqReport"/>	
 
 ```
 
@@ -224,7 +229,6 @@ TCK2001-0543249
 <class name="source.dataon.setting.reimbursement_cancel_request.TDeleteReimbursementCancelRequest"/>
 				
 ```
-
 </details>
 
 
@@ -262,7 +266,6 @@ TCK2001-0543244
 <class name="source.dataon.setting.reimbursement_setting.claim_rule_setting.TDeleteClaimRuleSetting"/>		
 
 ```
-
 </details>
 
 ---
@@ -298,9 +301,7 @@ TCK2005-0567957
 <class name="source.dataon.training.training_report.TTrainingRequestReport"/>
 <class name="source.dataon.training.training_report.TELearningQuizReport"/>
 
-
 ```
-
 </details>
 
 ---
@@ -331,7 +332,6 @@ TCK2005-0567956
 <class name="source.dataon.training.training_report.TTrainingHoursReport"/>
 
 ```
-
 </details>
 
 ---
@@ -364,7 +364,6 @@ TCK2005-0567955
 <class name="source.dataon.training.my_elearning.TDeleteElearningRequest"/>
 
 ```
-
 </details>
 
 ---
