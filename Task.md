@@ -128,14 +128,14 @@ TCK2009-0587797
 
 >  Setting > Reimbursement Setting > Reimbursement Type
 
-- [ ] Add Reimbursement Type
-- [ ] Edit Reimbursement Type
-- [ ] Delete Reimbursement Type
+- [x] Add Reimbursement Type
+- [x] Edit Reimbursement Type
+- [x] Delete Reimbursement Type
   
 >   Setting > Reimbursement Setting > Type Of Claim
 
-- [ ] Edit Type of Claim
-- [ ] Delete Claim Rule Setting
+- [x] Edit Type of Claim
+- [x] Delete Claim Rule Setting
 
 ##### Script
 
@@ -144,10 +144,11 @@ TCK2009-0587797
 
 ```JAVA
 
-				
+<class name="source.dataon.setting.reimbursement_setting.reimbursement_type.TAddReimbursementType"/>
+<class name="source.dataon.setting.reimbursement_setting.reimbursement_type.TUpdateReimbursementType"/>
+<class name="source.dataon.setting.reimbursement_setting.reimbursement_type.TDeleteReimbursementType"/>	
 
 ```
-
 </details>
 
 
@@ -185,10 +186,8 @@ TCK2001-0543251
 <class name="source.dataon.setting.reimbursement_report.TViewReimbursementCancellReqReport"/>	
 
 ```
-
 </details>
 
-  
 ---
 
 ### Subject : _Selenium 08 Sep - 11 Sep 2020_
@@ -230,7 +229,6 @@ TCK2001-0543249
 				
 ```
 </details>
-
 
 ---
 
