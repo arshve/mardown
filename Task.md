@@ -65,6 +65,7 @@ dataon1
 | UserName | Password | Etc. |
 |:---------------:|:-----------:|----------|
 | gordon |d4t40n123 | |
+| abdul1990 |password123 | Abudul Mina |
 | dataon1 |d4t40n1234\$ |SuperAdmin|
 
 ##### NBC
@@ -75,6 +76,7 @@ dataon
 | UserName | Password | Etc. |
 |:---------------:|:-----------:|----------|
 | gordon |password123 | |
+| a.1990 |password123 | A.Enrica |
 | adrian |password123 |Admin[Th]|
 
 ##### Great Day
