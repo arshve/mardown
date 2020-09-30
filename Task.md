@@ -38,7 +38,7 @@ URL: 192.168.101.155/sf6
 | shallistera1990 | password123 | Shallis     |
 |     USR_003     | password123 | Lindsay     |
 |     farvan      | password123 | Evan        |
-|      ryan       | password123 | Ryan        |
+|      ryan       | password1234 | Ryan        |
 |      rifqi      | password123 | Rifqi       |
 |     abdul98     | password123 | Abdul Soleh |
 |     ryan123     | password123 | Ryan[TH]    |
