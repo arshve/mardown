@@ -128,6 +128,34 @@ t0^1#APA\*g4V
 
 TCK2009-0587797
 
+>  Reimbursement 
+      
+- [ ] Generate Reimbursement Balance
+- [ ] Edit Reimbursement Balance Maintenance
+- [ ] Delete Reimbursement Balance Maintenance
+- [ ] Interface Process View
+- [ ] Reimbursement Interface Result
+- [ ] Update Payment Process
+- [ ] View Doctor and Hospital List
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+
+
+```
+</details>
+
+---
+
+### Subject : _Selenium 28 Sep - 02 oct 2020_
+
+TCK2009-0587797
+
 >  Setting > Reimbursement Setting > Reimbursement Type
 
 - [x] Add Reimbursement Type
