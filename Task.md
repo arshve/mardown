@@ -131,8 +131,14 @@ TCK2009-0587797
 >  Reimbursement 
       
 - [ ] Generate Reimbursement Balance
+
+>  Reimbursement > Generate Reimbursement Balance
+
 - [ ] Edit Reimbursement Balance Maintenance
 - [ ] Delete Reimbursement Balance Maintenance
+
+>  Reimbursement > Reimbursement Interface
+
 - [ ] Interface Process View
 - [ ] Reimbursement Interface Result
 - [ ] Update Payment Process
