@@ -18,11 +18,18 @@ Project X
 <details>
 <summary> Script </summary>
 
-Reset Tag   : ?resetapp=1&recache=1&resetctag=1&forcegen=1\
-Comp Id     : ?sfid=sys.sec.sfinfo&sfchid=sys.sec.func._xdump&param=REQUEST.scookie\ 
-Scheduler 1 : ?sfid=sys.sec.cron.careerschedule&dsn=dbSF6_SaaS_TESTING&coid=83&currentdt=yyyy-mm-dd\
-Scheduler 2 : ?sfid=sys.sec.cron.careerschedule&dsn=dbSF6_SaaS_TESTING&compid=83&currentdt=yyyy-mm-dd\
-Cek Error Sys: https://sfid.dataon.com/sf6/index.cfm?sfid=sys.sec.viewlog&logpath="sferr.dataon1.20200826.expression_sfid_nas_dpx_20200826154458_616.htm"\
+Reset Tag   : ?resetapp=1&recache=1&resetctag=1&forcegen=1 <br>
+Comp Id     : ?sfid=sys.sec.sfinfo&sfchid=sys.sec.func._xdump&param=REQUEST.scookie <br>
+
+#### Scheduler <br>
+> DSN schedule task <br>
+dev mode = dbSF6_SaaS_DEVELOPMENT <br>
+test mode = dbSF6_SaaS_TESTING <br>
+release mode = dbsf6_saas
+
+Scheduler 1 : ?sfid=sys.sec.cron.careerschedule&dsn=dbSF6_SaaS_TESTING&coid=83&currentdt=yyyy-mm-dd <br>
+Scheduler 2 : ?sfid=sys.sec.cron.careerschedule&dsn=dbSF6_SaaS_TESTING&compid=83&currentdt=yyyy-mm-dd <br>
+Cek Error Sys: https://sfid.dataon.com/sf6/index.cfm?sfid=sys.sec.viewlog&logpath="sferr.dataon1.20200826.expression_sfid_nas_dpx_20200826154458_616.htm"
 
 </details>
 
