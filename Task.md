@@ -140,6 +140,42 @@ t0^1#APA\*g4V
 
 ---
 
+### Subject : _Selenium 01 Des - 04 Des 2020_
+
+TCK2001-0543247
+
+>  Setting > Reimbursement Setting > Destination
+      
+- [ ] Add Destination
+- [ ] Edit Destination
+- [ ] Delete Destination
+
+>  Setting > Reimbursement Setting > Exchange Rate Loss Compensation
+
+- [ ] Add Exchange Rate Loss Compensation
+- [ ] Edit Exchange Rate Loss Compensation
+- [ ] Delete Exchange Rate Loss Compensation
+
+>  Setting > Reimbursement Setting > GST Setting
+
+- [ ] Add GST Setting
+- [ ] Edit GST Setting
+- [ ] Delete GST Setting
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+
+
+```
+</details>
+
+---
+
 ### Subject : _Selenium 10 Nov - 11 Nov 2020_
 
 TCK2001-0543250
