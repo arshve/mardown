@@ -146,21 +146,21 @@ TCK2001-0543247
 
 >  Setting > Reimbursement Setting > Destination
       
-- [ ] Add Destination
-- [ ] Edit Destination
-- [ ] Delete Destination
+- [x] Add Destination
+- [x] Edit Destination
+- [x] Delete Destination
 
 >  Setting > Reimbursement Setting > Exchange Rate Loss Compensation
 
-- [ ] Add Exchange Rate Loss Compensation
-- [ ] Edit Exchange Rate Loss Compensation
-- [ ] Delete Exchange Rate Loss Compensation
+- [x] Add Exchange Rate Loss Compensation
+- [x] Edit Exchange Rate Loss Compensation
+- [x] Delete Exchange Rate Loss Compensation
 
 >  Setting > Reimbursement Setting > GST Setting
 
-- [ ] Add GST Setting
-- [ ] Edit GST Setting
-- [ ] Delete GST Setting
+- [x] Add GST Setting
+- [x] Edit GST Setting
+- [x] Delete GST Setting
 
 ##### Script
 
@@ -169,7 +169,17 @@ TCK2001-0543247
 
 ```JAVA
 
+<class name="source.dataon.setting.reimbursement_setting.TAddDestination"/>
+<class name="source.dataon.setting.reimbursement_setting.TUpdateDestination"/>
+<class name="source.dataon.setting.reimbursement_setting.TDeleteDestination"/>
 
+<class name="source.dataon.setting.reimbursement_setting.erl_compensation.TAddERLComp"/>
+<class name="source.dataon.setting.reimbursement_setting.erl_compensation.TUpdateERLComp"/>
+<class name="source.dataon.setting.reimbursement_setting.erl_compensation.TDeleteERLComp"/>
+
+<class name="source.dataon.setting.reimbursement_setting.GST.TAddGST"/>
+<class name="source.dataon.setting.reimbursement_setting.GST.TUpdateGST"/>
+<class name="source.dataon.setting.reimbursement_setting.GST.TDeleteGST"/>
 
 ```
 </details>
