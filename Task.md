@@ -15,8 +15,23 @@ Project X
 \\192.168.100.129\SharedFolder\QA\1.Quality Assurance\1.QA SunFish HR\3.SAT Form\SAT-2020
 \\192.168.100.129\SharedFolder\QA\2.Documentation\3. Misc\Selenium Tutorial\1. SF6 HR Automation Test Data
 
-Reset Tag: ?resetapp=1&recache=1&resetctag=1&forcegen=1  
+<details>
+<summary> Script </summary>
+
+Reset Tag   : ?resetapp=1&recache=1&resetctag=1&forcegen=1 <br>
+Comp Id     : ?sfid=sys.sec.sfinfo&sfchid=sys.sec.func._xdump&param=REQUEST.scookie <br>
+
+#### Scheduler <br>
+> DSN schedule task <br>
+dev mode = dbSF6_SaaS_DEVELOPMENT <br>
+test mode = dbSF6_SaaS_TESTING <br>
+release mode = dbsf6_saas
+
+Scheduler 1 : ?sfid=sys.sec.cron.careerschedule&dsn=dbSF6_SaaS_TESTING&coid=83&currentdt=yyyy-mm-dd <br>
+Scheduler 2 : ?sfid=sys.sec.cron.careerschedule&dsn=dbSF6_SaaS_TESTING&compid=83&currentdt=yyyy-mm-dd <br>
 Cek Error Sys: https://sfid.dataon.com/sf6/index.cfm?sfid=sys.sec.viewlog&logpath="sferr.dataon1.20200826.expression_sfid_nas_dpx_20200826154458_616.htm"
+
+</details>
 
 <details>
 <summary> Account </summary>
@@ -38,8 +53,9 @@ URL: 192.168.101.155/sf6
 | shallistera1990 | password123 | Shallis     |
 |     USR_003     | password123 | Lindsay     |
 |     farvan      | password123 | Evan        |
-|      ryan       | password1234 | Ryan        |
+|      ryan       | password1234| Ryan        |
 |      rifqi      | password123 | Rifqi       |
+|     arsenal     | password123 | Invoker     |
 |     abdul98     | password123 | Abdul Soleh |
 |     ryan123     | password123 | Ryan[TH]    |
 |   THPRM200004   | Farvan123!  | Jane[TH]    |
@@ -124,13 +140,17 @@ t0^1#APA\*g4V
 
 ---
 
-### Subject : _Selenium 28 Sep - 02 oct 2020_
+### Subject : _Selenium 10 Nov - 11 Nov 2020_
 
-TCK2009-0587797
+TCK2001-0543250
 
 >  Reimbursement 
       
 - [x] Generate Reimbursement Balance
+<<<<<<< HEAD
+=======
+- [x] Update Payment Process
+>>>>>>> f76b77e6ff5518337c19fbf003faba972fe9f196
 
 >  Reimbursement > Generate Reimbursement Balance
 
@@ -141,7 +161,13 @@ TCK2009-0587797
 
 - [x] Interface Process View
 - [x] Reimbursement Interface Result
+<<<<<<< HEAD
 - [x] Update Payment Process
+=======
+
+>  Reimbursement > Doctor and Hospital List
+
+>>>>>>> f76b77e6ff5518337c19fbf003faba972fe9f196
 - [x] View Doctor and Hospital List
 
 ##### Script
@@ -150,6 +176,7 @@ TCK2009-0587797
 <summary> Script Class </summary>
 
 ```JAVA
+<<<<<<< HEAD
 
 <class name="source.dataon.reimbursement_interface.TInterfaceProcess"/>
 <class name="source.dataon.reimbursement_interface.TReimbursementInterfaceResult"/>
@@ -160,6 +187,15 @@ TCK2009-0587797
 <class name="source.dataon.reimbursement_balance_maintenance.TEditReimbursementBalanceMaintenance"/>
 <class name="source.dataon.reimbursement_balance_maintenance.TDeleteReimbursementBalanceMaintenance"/>
 
+=======
+<class name="source.dataon.reimbursement.TGenerateReimbursementBalance"/>
+<class name="source.dataon.reimbursement_balance_maintenance.TEditReimbursementBalanceMaintenance"/>
+<class name="source.dataon.reimbursement_balance_maintenance.TDeleteReimbursementBalanceMaintenance"/>
+<class name="source.dataon.reimbursement_interface.TInterfaceProcess"/>
+<class name="source.dataon.reimbursement_interface.TReimbursementInterfaceResult"/>
+<class name="source.dataon.reimbursement.TUpdatePaymentProcess"/>
+<class name="source.dataon.reimbursement.TViewDoctorHospitalList"/>
+>>>>>>> f76b77e6ff5518337c19fbf003faba972fe9f196
 ```
 </details>
 
@@ -186,11 +222,9 @@ TCK2009-0587797
 <summary> Script Class </summary>
 
 ```JAVA
-
 <class name="source.dataon.setting.reimbursement_setting.reimbursement_type.TAddReimbursementType"/>
 <class name="source.dataon.setting.reimbursement_setting.reimbursement_type.TUpdateReimbursementType"/>
 <class name="source.dataon.setting.reimbursement_setting.reimbursement_type.TDeleteReimbursementType"/>	
-
 ```
 </details>
 
@@ -220,14 +254,12 @@ TCK2001-0543251
 <summary> Script Class </summary>
 
 ```JAVA
-
 <class name="source.dataon.setting.reimbursement_report.TViewReimbursementInterfaceResult"/>
 <class name="source.dataon.setting.reimbursement_report.TViewReimbursementPaymentLagTime"/>
 <class name="source.dataon.setting.reimbursement_report.TViewReimbursementBalanceReport"/>
 <class name="source.dataon.setting.reimbursement_report.TViewReimbursementRequest"/>
 <class name="source.dataon.setting.reimbursement_report.TViewReimbursementBalanceUsageReport"/>
 <class name="source.dataon.setting.reimbursement_report.TViewReimbursementCancellReqReport"/>	
-
 ```
 </details>
 
