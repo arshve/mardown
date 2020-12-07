@@ -147,10 +147,7 @@ TCK2001-0543250
 >  Reimbursement 
       
 - [x] Generate Reimbursement Balance
-<<<<<<< HEAD
-=======
 - [x] Update Payment Process
->>>>>>> f76b77e6ff5518337c19fbf003faba972fe9f196
 
 >  Reimbursement > Generate Reimbursement Balance
 
@@ -161,13 +158,7 @@ TCK2001-0543250
 
 - [x] Interface Process View
 - [x] Reimbursement Interface Result
-<<<<<<< HEAD
 - [x] Update Payment Process
-=======
-
->  Reimbursement > Doctor and Hospital List
-
->>>>>>> f76b77e6ff5518337c19fbf003faba972fe9f196
 - [x] View Doctor and Hospital List
 
 ##### Script
@@ -176,7 +167,6 @@ TCK2001-0543250
 <summary> Script Class </summary>
 
 ```JAVA
-<<<<<<< HEAD
 
 <class name="source.dataon.reimbursement_interface.TInterfaceProcess"/>
 <class name="source.dataon.reimbursement_interface.TReimbursementInterfaceResult"/>
@@ -187,15 +177,6 @@ TCK2001-0543250
 <class name="source.dataon.reimbursement_balance_maintenance.TEditReimbursementBalanceMaintenance"/>
 <class name="source.dataon.reimbursement_balance_maintenance.TDeleteReimbursementBalanceMaintenance"/>
 
-=======
-<class name="source.dataon.reimbursement.TGenerateReimbursementBalance"/>
-<class name="source.dataon.reimbursement_balance_maintenance.TEditReimbursementBalanceMaintenance"/>
-<class name="source.dataon.reimbursement_balance_maintenance.TDeleteReimbursementBalanceMaintenance"/>
-<class name="source.dataon.reimbursement_interface.TInterfaceProcess"/>
-<class name="source.dataon.reimbursement_interface.TReimbursementInterfaceResult"/>
-<class name="source.dataon.reimbursement.TUpdatePaymentProcess"/>
-<class name="source.dataon.reimbursement.TViewDoctorHospitalList"/>
->>>>>>> f76b77e6ff5518337c19fbf003faba972fe9f196
 ```
 </details>
 
