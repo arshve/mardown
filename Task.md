@@ -57,6 +57,8 @@ URL: 192.168.101.155/sf6
 |      rifqi      | password123 | Rifqi       |
 |     arsenal     | password123 | Invoker     |
 |     abdul98     | password123 | Abdul Soleh |
+|     kiryu       | password123 | Kiryu Coco  |
+|     coco        | password123 | Coco Kiryu  |
 |     ryan123     | password123 | Ryan[TH]    |
 |   THPRM200004   | Farvan123!  | Jane[TH]    |
 
@@ -146,13 +148,13 @@ TCK2001-0543252
 
 >  Reimbursement > Claim Form
       
-- [ ] Add Claim Item
-- [ ] Edit Claim Item
-- [ ] Delete Claim Item
+- [x] Add Claim Item
+- [x] Edit Claim Item
+- [x] Delete Claim Item
 
-- [ ] Add Claim Form
-- [ ] Edit Claim Form
-- [ ] Delete Claim Form
+- [x] Add Claim Form
+- [x] Edit Claim Form
+- [x] Delete Claim Form
 
 ##### Script
 
