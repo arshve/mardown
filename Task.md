@@ -163,7 +163,13 @@ TCK2001-0543252
 
 ```JAVA
 
+<class name="source.dataon.reimbursement.claim_form.TAddClaimItem"/>
+<class name="source.dataon.reimbursement.claim_form.TAddClaimItem"/>
+<class name="source.dataon.reimbursement.claim_form.TAddClaimItem"/>
 
+<class name="source.dataon.reimbursement.claim_form.TAddClaimItem"/>
+<class name="source.dataon.reimbursement.claim_form.TDeleteClaimItem"/>
+<class name="source.dataon.reimbursement.claim_form.TUpdateClaimItem"/>
 
 ```
 </details>
