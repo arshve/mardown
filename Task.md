@@ -141,7 +141,32 @@ t0^1#APA\*g4V
 - [Sf4](http://192.168.101.155)
 
 ---
+### Subject : _Selenium Maret
 
+TCK2001-0543247
+
+>  Setting > Reimbursement Setting > Type of Claim
+      
+- [x] Add Type of Claim (Claim Category Allowance and select Claim Rule
+- [x] Edit Type of Claim (Claim Category Allowance and select Claim Rule
+- [x] Delete Type of Claim(Claim Category Allowance
+
+- [x] Add Type of Claim (Claim Category Expense)
+- [x] Edit Type of Claim (Claim Category Expense)
+- [x] Delete Type of Claim (Claim Category Expense)
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+
+```
+</details>
+
+---
 ### Subject : Selenium 01 Mar -31 Mar 2021
 
 TCK2001-0543252
