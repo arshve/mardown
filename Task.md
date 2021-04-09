@@ -156,13 +156,13 @@ TCK2104-0637795
 
 >  Reimbursement > Claim Form
       
-- [x] Add Claim Form dengan menggunakan Type Of Claim used GST Setting
-- [x] Edit Claim Form dengan menggunakan Type Of Claim used GST Setting
-- [x] Delete Claim Form dengan menggunakan Type Of Claim used GST Setting
+- [ ] Add Claim Form dengan menggunakan Type Of Claim used GST Setting
+- [ ] Edit Claim Form dengan menggunakan Type Of Claim used GST Setting
+- [ ] Delete Claim Form dengan menggunakan Type Of Claim used GST Setting
 >  
-- [x] Add Claim Form dengan menggunakan Exchange Rate Loss Compensation
-- [x] Edit Claim Form dengan menggunakan Exchange Rate Loss Compensation
-- [x] Delete Claim Form dengan menggunakan Exchange Rate Loss Compensation
+- [ ] Add Claim Form dengan menggunakan Exchange Rate Loss Compensation
+- [ ] Edit Claim Form dengan menggunakan Exchange Rate Loss Compensation
+- [ ] Delete Claim Form dengan menggunakan Exchange Rate Loss Compensation
 
 ##### Script
 
@@ -171,6 +171,10 @@ TCK2104-0637795
 
 ```JAVA
 
+<class name="source.dataon.reimbursement.reimbursement_upload.TReimbursementUpload"/>
+<class name="source.dataon.reimbursement.reimbursement_cancel_request.TAddReimbursementCancelRequest"/>
+<class name="source.dataon.reimbursement.reimbursement_cancel_request.TUpdateReimbursementCancelRequest"/>
+<class name="source.dataon.reimbursement.reimbursement_cancel_request.TDeleteReimbursementCancelRequest"/>
 
 ```
 </details>
@@ -197,6 +201,9 @@ TCK2001-0543247
 
 ```JAVA
 
+<class name="source.dataon.setting.reimbursement_setting.type_of_claim.TAddTypeofClaim"/>
+<class name="source.dataon.setting.reimbursement_setting.type_of_claim.TUpdateTypeofClaim"/>
+<class name="source.dataon.setting.reimbursement_setting.type_of_claim.TDeleteTypeofClaim"/>
 
 ```
 </details>
