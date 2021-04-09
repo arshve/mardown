@@ -140,6 +140,41 @@ t0^1#APA\*g4V
 - [Sf3](http://192.168.0.185)
 - [Sf4](http://192.168.101.155)
 
+
+---
+### Subject : _Selenium Maret
+
+TCK2104-0637770
+TCK2104-0637795
+
+>  Reimbursement > Claim Cancellation Request
+      
+- [x] Reimbursement Upload
+- [x] Add Claim Cancellation Request
+- [x] Edit Claim Cancellation Request
+- [x] Delete Claim Cancellation Request
+
+>  Reimbursement > Claim Form
+      
+- [x] Add Claim Form dengan menggunakan Type Of Claim used GST Setting
+- [x] Edit Claim Form dengan menggunakan Type Of Claim used GST Setting
+- [x] Delete Claim Form dengan menggunakan Type Of Claim used GST Setting
+---
+- [x] Add Claim Form dengan menggunakan Exchange Rate Loss Compensation
+- [x] Edit Claim Form dengan menggunakan Exchange Rate Loss Compensation
+- [x] Delete Claim Form dengan menggunakan Exchange Rate Loss Compensation
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+
+```
+</details>
+
 ---
 ### Subject : _Selenium Maret
 
@@ -150,7 +185,7 @@ TCK2001-0543247
 - [x] Add Type of Claim (Claim Category Allowance and select Claim Rule
 - [x] Edit Type of Claim (Claim Category Allowance and select Claim Rule
 - [x] Delete Type of Claim(Claim Category Allowance
-
+---
 - [x] Add Type of Claim (Claim Category Expense)
 - [x] Edit Type of Claim (Claim Category Expense)
 - [x] Delete Type of Claim (Claim Category Expense)
@@ -176,7 +211,7 @@ TCK2001-0543252
 - [x] Add Claim Item
 - [x] Edit Claim Item
 - [x] Delete Claim Item
-
+---
 - [x] Add Claim Form
 - [x] Edit Claim Form
 - [x] Delete Claim Form
