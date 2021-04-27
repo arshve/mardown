@@ -156,13 +156,13 @@ TCK2104-0637795
 
 >  Reimbursement > Claim Form
       
-- [ ] Add Claim Form dengan menggunakan Type Of Claim used GST Setting
-- [ ] Edit Claim Form dengan menggunakan Type Of Claim used GST Setting
-- [ ] Delete Claim Form dengan menggunakan Type Of Claim used GST Setting
+- [x] Add Claim Form dengan menggunakan Type Of Claim used GST Setting
+- [x] Edit Claim Form dengan menggunakan Type Of Claim used GST Setting
+- [x] Delete Claim Form dengan menggunakan Type Of Claim used GST Setting
 >  
-- [ ] Add Claim Form dengan menggunakan Exchange Rate Loss Compensation
-- [ ] Edit Claim Form dengan menggunakan Exchange Rate Loss Compensation
-- [ ] Delete Claim Form dengan menggunakan Exchange Rate Loss Compensation
+- [x] Add Claim Form dengan menggunakan Exchange Rate Loss Compensation
+- [x] Edit Claim Form dengan menggunakan Exchange Rate Loss Compensation
+- [x] Delete Claim Form dengan menggunakan Exchange Rate Loss Compensation
 
 ##### Script
 
@@ -172,9 +172,17 @@ TCK2104-0637795
 ```JAVA
 
 <class name="source.dataon.reimbursement.reimbursement_upload.TReimbursementUpload"/>
-<class name="source.dataon.reimbursement.reimbursement_cancel_request.TAddReimbursementCancelRequest"/>
-<class name="source.dataon.reimbursement.reimbursement_cancel_request.TUpdateReimbursementCancelRequest"/>
-<class name="source.dataon.reimbursement.reimbursement_cancel_request.TDeleteReimbursementCancelRequest"/>
+<class name="source.dataon.reimbursement.cancel_claim_form.TAddCancelClaimRequest"/>
+<class name="source.dataon.reimbursement.cancel_claim_form.TUpdateCancelClaimRequest"/>
+<class name="source.dataon.reimbursement.cancel_claim_form.TDeleteCancelClaimRequest"/>
+
+<class name="source.dataon.reimbursement.claim_form.ERLC.TAddClaimForm"/>
+<class name="source.dataon.reimbursement.claim_form.ERLC.TUpdateClaimForm"/>
+<class name="source.dataon.reimbursement.claim_form.ERLC.TDeleteClaimForm"/>
+
+<class name="source.dataon.reimbursement.claim_form.GST.TAddClaimForm"/>
+<class name="source.dataon.reimbursement.claim_form.GST.TUpdateClaimForm"/>
+<class name="source.dataon.reimbursement.claim_form.GST.TDeleteClaimForm"/>
 
 ```
 </details>
