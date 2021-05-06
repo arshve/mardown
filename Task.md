@@ -20,6 +20,7 @@ Project X
 
 Reset Tag   : ?resetapp=1&recache=1&resetctag=1&forcegen=1 <br>
 Comp Id     : ?sfid=sys.sec.sfinfo&sfchid=sys.sec.func._xdump&param=REQUEST.scookie <br>
+Cek Server CF/Lucee : http://192.168.102.149/sf6/lucee/admin/web.cfm <br>
 
 #### Scheduler <br>
 > DSN schedule task <br>
@@ -142,9 +143,56 @@ t0^1#APA\*g4V
 
 
 ---
+### Subject : _Selenium May
+
+TCK2105-0644797 <br>
+TCK2105-0644798
+
+>  Setting > Performance Setting > KPI Library
+      
+- [x] Add KPI Library type Category
+- [x] Edit KPI Library type Category
+- [x] Delete KPI Library type Category
+- [x] Add KPI Library type Question
+- [x] Edit KPI Library type Question
+- [x] Delete KPI Library type Question
+- [ ] Upload KPI Library
+
+>  Setting > Performance Setting > Appraisal Library
+      
+- [ ] Add Appraisal Library type Category
+- [ ] Edit Appraisal Library type Category
+- [ ] Delete Appraisal Library type Category
+- [ ] Add Appraisal Library type Question
+- [ ] Edit Appraisal Library type Question
+- [ ] Delete Appraisal Library type Question
+- [ ] Upload Apprisal Library
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+<class name="source.dataon.setting.performance_setting.kpi_library.TAddKPICategory"/>
+<class name="source.dataon.setting.performance_setting.kpi_library.TUpdateKPICategory"/>
+<class name="source.dataon.setting.performance_setting.kpi_library.TDeleteKPICategory"/>
+<class name="source.dataon.setting.performance_setting.kpi_library.TAddKPIQuestion"/>
+<class name="source.dataon.setting.performance_setting.kpi_library.TUpdateKPIQuestion"/>
+<class name="source.dataon.setting.performance_setting.kpi_library.TDeleteKPIQuestion"/>
+
+<class name="source.dataon.setting.performance_setting.kpi_library.TUploadKPILibrary"/>
+
+
+
+```
+</details>
+
+---
 ### Subject : _Selenium Maret
 
-TCK2104-0637770
+TCK2104-0637770 <br>
 TCK2104-0637795
 
 >  Reimbursement > Claim Cancellation Request
