@@ -186,7 +186,7 @@ TCK2105-0644798
 
 <class name="source.dataon.setting.performance_setting.appraisal_library.TAddAppraisalCategory"/>
 <class name="source.dataon.setting.performance_setting.appraisal_library.TUpdateAppraisalCategory"/>
-<class name="source.dataon.setting.performance_setting.appraisal_library.TDeleteAppraisalCatego
+<class name="source.dataon.setting.performance_setting.appraisal_library.TDeleteAppraisalCatego"/>
 <class name="source.dataon.setting.performance_setting.appraisal_library.TAddAppraisalQuestion"/>
 <class name="source.dataon.setting.performance_setting.appraisal_library.TUpdateAppraisalQuestion"/>
 <class name="source.dataon.setting.performance_setting.appraisal_library.TDeleteAppraisalQuestion"/>
