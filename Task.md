@@ -156,17 +156,17 @@ TCK2105-0644798
 - [x] Add KPI Library type Question
 - [x] Edit KPI Library type Question
 - [x] Delete KPI Library type Question
-- [ ] Upload KPI Library
+- [x] Upload KPI Library
 
 >  Setting > Performance Setting > Appraisal Library
       
-- [ ] Add Appraisal Library type Category
-- [ ] Edit Appraisal Library type Category
-- [ ] Delete Appraisal Library type Category
-- [ ] Add Appraisal Library type Question
-- [ ] Edit Appraisal Library type Question
-- [ ] Delete Appraisal Library type Question
-- [ ] Upload Apprisal Library
+- [x] Add Appraisal Library type Category
+- [x] Edit Appraisal Library type Category
+- [x] Delete Appraisal Library type Category
+- [x] Add Appraisal Library type Question
+- [x] Edit Appraisal Library type Question
+- [x] Delete Appraisal Library type Question
+- [x] Upload Apprisal Library
 
 ##### Script
 
@@ -184,7 +184,14 @@ TCK2105-0644798
 
 <class name="source.dataon.setting.performance_setting.kpi_library.TUploadKPILibrary"/>
 
-
+<class name="source.dataon.setting.performance_setting.appraisal_library.TAddAppraisalCategory"/>
+<class name="source.dataon.setting.performance_setting.appraisal_library.TUpdateAppraisalCategory"/>
+<class name="source.dataon.setting.performance_setting.appraisal_library.TDeleteAppraisalCatego
+<class name="source.dataon.setting.performance_setting.appraisal_library.TAddAppraisalQuestion"/>
+<class name="source.dataon.setting.performance_setting.appraisal_library.TUpdateAppraisalQuestion"/>
+<class name="source.dataon.setting.performance_setting.appraisal_library.TDeleteAppraisalQuestion"/>
+		
+<class name="source.dataon.setting.performance_setting.appraisal_library.TUploadAppraisalLibrary"/>
 
 ```
 </details>
