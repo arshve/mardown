@@ -177,23 +177,7 @@ t0^1#APA\*g4V
 
 ```JAVA
 
-<class name="source.dataon.setting.performance_setting.kpi_library.TAddKPICategory"/>
-<class name="source.dataon.setting.performance_setting.kpi_library.TUpdateKPICategory"/>
-<class name="source.dataon.setting.performance_setting.kpi_library.TDeleteKPICategory"/>
-<class name="source.dataon.setting.performance_setting.kpi_library.TAddKPIQuestion"/>
-<class name="source.dataon.setting.performance_setting.kpi_library.TUpdateKPIQuestion"/>
-<class name="source.dataon.setting.performance_setting.kpi_library.TDeleteKPIQuestion"/>
 
-<class name="source.dataon.setting.performance_setting.kpi_library.TUploadKPILibrary"/>
-
-<class name="source.dataon.setting.performance_setting.appraisal_library.TAddAppraisalCategory"/>
-<class name="source.dataon.setting.performance_setting.appraisal_library.TUpdateAppraisalCategory"/>
-<class name="source.dataon.setting.performance_setting.appraisal_library.TDeleteAppraisalCategory"/>
-<class name="source.dataon.setting.performance_setting.appraisal_library.TAddAppraisalQuestion"/>
-<class name="source.dataon.setting.performance_setting.appraisal_library.TUpdateAppraisalQuestion"/>
-<class name="source.dataon.setting.performance_setting.appraisal_library.TDeleteAppraisalQuestion"/>
-		
-<class name="source.dataon.setting.performance_setting.appraisal_library.TUploadAppraisalLibrary"/>
 
 ```
 </details>
