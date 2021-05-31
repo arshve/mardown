@@ -143,6 +143,62 @@ t0^1#APA\*g4V
 
 
 ---
+### Subject : _Selenium June
+
+
+
+>  Setting > Performance Setting > Competency Library
+      
+- [ ] Add Competency Library type Category
+- [ ] Edit Competency Library type Category
+- [ ] Delete Competency Library type Category
+  
+> 
+
+- [ ] Add Competency Library type Question Based on Job Family
+- [ ] Add Competency Library type Question Based on Job Title
+- [ ] Edit Competency Library type Question Based on Job Family
+- [ ] Edit Competency Library type Question Based on Job Title
+- [ ] Delete Competency Library type Question Based on Job Family
+- [ ] Delete Competency Library type Question Based on Job Title
+- [ ] Upload Competency Library
+
+>  
+      
+- [ ] Competency Matrix by Job Family
+- [ ] Competency Matrix by Job Title
+- [ ] Competency Matrix by Job Family set Configure with Excel "Yes"
+- [ ] Competency Matrix by Job Title set Configure with Excel "Yes"
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+<class name="source.dataon.setting.performance_setting.kpi_library.TAddKPICategory"/>
+<class name="source.dataon.setting.performance_setting.kpi_library.TUpdateKPICategory"/>
+<class name="source.dataon.setting.performance_setting.kpi_library.TDeleteKPICategory"/>
+<class name="source.dataon.setting.performance_setting.kpi_library.TAddKPIQuestion"/>
+<class name="source.dataon.setting.performance_setting.kpi_library.TUpdateKPIQuestion"/>
+<class name="source.dataon.setting.performance_setting.kpi_library.TDeleteKPIQuestion"/>
+
+<class name="source.dataon.setting.performance_setting.kpi_library.TUploadKPILibrary"/>
+
+<class name="source.dataon.setting.performance_setting.appraisal_library.TAddAppraisalCategory"/>
+<class name="source.dataon.setting.performance_setting.appraisal_library.TUpdateAppraisalCategory"/>
+<class name="source.dataon.setting.performance_setting.appraisal_library.TDeleteAppraisalCategory"/>
+<class name="source.dataon.setting.performance_setting.appraisal_library.TAddAppraisalQuestion"/>
+<class name="source.dataon.setting.performance_setting.appraisal_library.TUpdateAppraisalQuestion"/>
+<class name="source.dataon.setting.performance_setting.appraisal_library.TDeleteAppraisalQuestion"/>
+		
+<class name="source.dataon.setting.performance_setting.appraisal_library.TUploadAppraisalLibrary"/>
+
+```
+</details>
+
+---
 ### Subject : _Selenium May
 
 TCK2105-0644797 <br>
