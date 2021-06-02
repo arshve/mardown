@@ -149,19 +149,19 @@ t0^1#APA\*g4V
 
 >  Setting > Performance Setting > Competency Library
       
-- [ ] Add Competency Library type Category
-- [ ] Edit Competency Library type Category
-- [ ] Delete Competency Library type Category
+- [x] Add Competency Library type Category
+- [x] Edit Competency Library type Category
+- [x] Delete Competency Library type Category
   
 > 
 
-- [ ] Add Competency Library type Question Based on Job Family
-- [ ] Add Competency Library type Question Based on Job Title
-- [ ] Edit Competency Library type Question Based on Job Family
-- [ ] Edit Competency Library type Question Based on Job Title
-- [ ] Delete Competency Library type Question Based on Job Family
-- [ ] Delete Competency Library type Question Based on Job Title
-- [ ] Upload Competency Library
+- [x] Add Competency Library type Question Based on Job Family
+- [x] Add Competency Library type Question Based on Job Title
+- [x] Edit Competency Library type Question Based on Job Family
+- [x] Edit Competency Library type Question Based on Job Title
+- [x] Delete Competency Library type Question Based on Job Family
+- [x] Delete Competency Library type Question Based on Job Title
+- [x] Upload Competency Library
 
 >  
       
@@ -177,8 +177,15 @@ t0^1#APA\*g4V
 
 ```JAVA
 
+<class name="source.dataon.setting.performance_setting.competency_library.TAddCompetencyLibrary"/>
+<class name="source.dataon.setting.performance_setting.competency_library.TUpdateCompetencyLibrary"/>
+<class name="source.dataon.setting.performance_setting.competency_library.TDeleteCompetencyLibrary"/>
 
+<class name="source.dataon.setting.performance_setting.competency_library.TAddCompetencyLibrary"/>
+<class name="source.dataon.setting.performance_setting.competency_library.TUpdateCompetencyLibrary"/>
+<class name="source.dataon.setting.performance_setting.competency_library.TDeleteCompetencyLibrary"/>
 
+<class name="source.dataon.setting.performance_setting.competency_library.TUploadCompetency"/>
 ```
 </details>
 
