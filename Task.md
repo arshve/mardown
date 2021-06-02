@@ -144,17 +144,13 @@ t0^1#APA\*g4V
 
 ---
 ### Subject : _Selenium June
-
-
+TCK2106-0650391
 
 >  Setting > Performance Setting > Competency Library
       
 - [x] Add Competency Library type Category
 - [x] Edit Competency Library type Category
 - [x] Delete Competency Library type Category
-  
-> 
-
 - [x] Add Competency Library type Question Based on Job Family
 - [x] Add Competency Library type Question Based on Job Title
 - [x] Edit Competency Library type Question Based on Job Family
@@ -162,11 +158,9 @@ t0^1#APA\*g4V
 - [x] Delete Competency Library type Question Based on Job Family
 - [x] Delete Competency Library type Question Based on Job Title
 - [x] Upload Competency Library
-
 >  
-      
-- [ ] Competency Matrix by Job Family
-- [ ] Competency Matrix by Job Title
+- [x] Competency Matrix by Job Family
+- [x] Competency Matrix by Job Title
 - [ ] Competency Matrix by Job Family set Configure with Excel "Yes"
 - [ ] Competency Matrix by Job Title set Configure with Excel "Yes"
 
@@ -179,13 +173,11 @@ t0^1#APA\*g4V
 
 <class name="source.dataon.setting.performance_setting.competency_library.TAddCompetencyLibrary"/>
 <class name="source.dataon.setting.performance_setting.competency_library.TUpdateCompetencyLibrary"/>
-<class name="source.dataon.setting.performance_setting.competency_library.TDeleteCompetencyLibrary"/>
-
-<class name="source.dataon.setting.performance_setting.competency_library.TAddCompetencyLibrary"/>
-<class name="source.dataon.setting.performance_setting.competency_library.TUpdateCompetencyLibrary"/>
-<class name="source.dataon.setting.performance_setting.competency_library.TDeleteCompetencyLibrary"/>
-
+<class name="source.dataon.setting.performance_setting.competency_library.TDeleteCompetencyLibrary"/
 <class name="source.dataon.setting.performance_setting.competency_library.TUploadCompetency"/>
+<class name="source.dataon.setting.performance_setting.competency_library.TCompetencyMatrix"/>
+
+
 ```
 </details>
 
