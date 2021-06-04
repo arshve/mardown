@@ -177,6 +177,33 @@ TCK2106-0650391
 <class name="source.dataon.setting.performance_setting.competency_library.TUploadCompetency"/>
 <class name="source.dataon.setting.performance_setting.competency_library.TCompetencyMatrix"/>
 
+```
+
+---
+
+</details>
+
+TCK2106-0650391
+
+>  Setting > Performance Setting > Competency Library
+      
+- [ ] Add Performance Period dengan Period Component "Appraisal", set Configure Main Filter Position
+- [ ] Add Performance Period dengan Period Component "Appraisal", set Configure Main Appraisal Library
+- [ ] Add Performance Period dengan Period Component "Org Unit Kpi", set Configure Main Filter Organization Unit
+- [ ] Add Performance Period dengan Period Component "Org Unit KPI", set Configure Main KPI Library
+- [ ] Add Performance Period dengan Period Component "Personal KPI", set Configure Main Filter Position
+- [ ] Add Performance Period dengan Period Component "Personal KPI", set Configure Main KPI Library
+- [ ] Add Performance Period dengan Period Component "Competency", set Configure
+- [ ] Add Performance Period dengan Period Component "Task" dan "Feedback"
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+
 
 ```
 </details>
