@@ -185,7 +185,7 @@ TCK2106-0650391
 
 TCK2106-0650391
 
->  Setting > Performance Setting > Competency Library
+>  Setting > Performance Setting > Performance Period Setting
       
 - [ ] Add Performance Period dengan Period Component "Appraisal", set Configure Main Filter Position
 - [ ] Add Performance Period dengan Period Component "Appraisal", set Configure Main Appraisal Library
