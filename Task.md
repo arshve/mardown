@@ -187,14 +187,14 @@ TCK2106-0650391
 
 >  Setting > Performance Setting > Performance Period Setting
       
-- [ ] Add Performance Period dengan Period Component "Appraisal", set Configure Main Filter Position
-- [ ] Add Performance Period dengan Period Component "Appraisal", set Configure Main Appraisal Library
-- [ ] Add Performance Period dengan Period Component "Org Unit Kpi", set Configure Main Filter Organization Unit
-- [ ] Add Performance Period dengan Period Component "Org Unit KPI", set Configure Main KPI Library
-- [ ] Add Performance Period dengan Period Component "Personal KPI", set Configure Main Filter Position
-- [ ] Add Performance Period dengan Period Component "Personal KPI", set Configure Main KPI Library
-- [ ] Add Performance Period dengan Period Component "Competency", set Configure
-- [ ] Add Performance Period dengan Period Component "Task" dan "Feedback"
+- [x] Add Performance Period dengan Period Component "Appraisal", set Configure Main Filter Position
+- [x] Add Performance Period dengan Period Component "Appraisal", set Configure Main Appraisal Library
+- [x] Add Performance Period dengan Period Component "Org Unit Kpi", set Configure Main Filter Organization Unit
+- [x] Add Performance Period dengan Period Component "Org Unit KPI", set Configure Main KPI Library
+- [x] Add Performance Period dengan Period Component "Personal KPI", set Configure Main Filter Position
+- [x] Add Performance Period dengan Period Component "Personal KPI", set Configure Main KPI Library
+- [x] Add Performance Period dengan Period Component "Competency", set Configure
+- [x] Add Performance Period dengan Period Component "Task" dan "Feedback"
 
 ##### Script
 
@@ -203,8 +203,11 @@ TCK2106-0650391
 
 ```JAVA
 
-
-
+<class name="source.dataon.setting.performance_setting.performance_period.TPerformancePeriodAppraisal"/>
+<class name="source.dataon.setting.performance_setting.performance_period.TPerformanceOrgUnitKPI"/>
+<class name="source.dataon.setting.performance_setting.performance_period.TPerformancePersonalKPI"/>
+<class name="source.dataon.setting.performance_setting.performance_period.TPerformanceCompTask"/>
+			
 ```
 </details>
 
