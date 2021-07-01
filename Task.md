@@ -22,6 +22,7 @@ Reset Tag   : ?resetapp=1&recache=1&resetctag=1&forcegen=1 <br>
 Reset Menu  : ?resetapp=1&resetctag=1&resetmenu <br>
 Comp Id     : ?sfid=sys.sec.sfinfo&sfchid=sys.sec.func._xdump&param=REQUEST.scookie <br>
 Cek Server CF/Lucee : http://192.168.102.149/sf6/lucee/admin/web.cfm <br>
+Cek DB Akun : ?sfid=sys.sec.sfinfo&sfchid=sys.sec.func._xdump&param=REQUEST.dbdriver <br>
 
 #### Scheduler <br>
 > DSN schedule task <br>
