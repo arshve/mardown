@@ -146,6 +146,66 @@ t0^1#APA\*g4V
 
 ---
 ### Subject : _Selenium June
+TCK2107-0657443
+
+>  Setting > Performance Setting > Competency Library
+      
+- [ ] Competency Matrix by Job Family set Configure with Excel "Yes"
+- [ ] Competency Matrix by Job Title set Configure with Excel "Yes"
+- [ ] Competence Point
+
+TCK2107-0657442
+
+>  Setting > Performance Setting > Competency Library
+
+- [ ] Edit Performance Period dengan ubah bagian General (selain bagian Period Component)
+- [ ] Edit Performance Period dengan ubah bagian Apprisal-Remove Configuration
+- [ ] Edit Performance Period dengan ubah bagian Org Unit KPI-Remove Configuration
+- [ ] Edit Performance Period dengan ubah bagian Personal KPI-Remove Configuration
+- [ ] Edit Performance Period dengan ubah bagian Apprisal-Remove All Configuration
+- [ ] Edit Performance Period dengan ubah bagian Org Unit KPI-Remove All Configuration
+- [ ] Edit Performance Period dengan ubah bagian Personal KPI-Remove All Configuration
+
+TCK2107-0657441
+
+>  Setting > Performance Setting > Competency Library
+
+- [ ] Edit Performance Period dengan ubah bagian General (selain bagian Period Component)
+- [ ] Edit Performance Period dengan ubah bagian Apprisal-submit
+- [ ] Edit Performance Period dengan ubah bagian Org Unit KPI-submit
+- [ ] Edit Performance Period dengan ubah bagian Personal KPI-submit
+- [ ] Edit Performance Period dengan ubah bagian Competency-submit
+- [ ] Edit Performance Period dengan ubah bagian Task
+- [ ] Edit Performance Period dengan ubah bagian Feedback
+- [ ] Delete Performance Period
+- [ ] Preview Form (Ikon pada kolom Preview)
+
+TCK2107-0657439
+
+>  Setting > Performance Setting > Competency Library
+
+- [ ] Add Performance Period dengan Period Component "Appraisal", centang Set Configuration With Excel "Default"
+- [ ] Add Performance Period dengan Period Component "Appraisal", centang Set Configuration With Excel "Weight, Target, Achievement Type"
+- [ ] Add Performance Period dengan Period Component "Org Unit", centang Set Configuration With Excel "Default"
+- [ ] Add Performance Period dengan Period Component "Org Unit", centang Set Configuration With Excel "Org Unit"
+- [ ] Add Performance Period dengan Period Component "Org Unit", centang Set Configuration With Excel "Weight, Target, Achievement Type"
+- [ ] Add Performance Period dengan Period Component "Personal KPI", centang Set Configuration With Excel "Library"
+- [ ] Add Performance Period dengan Period Component "Personal KP", centang Set Configuration With Excel "Position"
+- [ ] Add Performance Period dengan Period Component "Personal KP", centang Set Configuration With Excel "Weight, Target, Achievement Type"
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+
+
+```
+
+---
+### Subject : _Selenium June
 TCK2106-0650391
 
 >  Setting > Performance Setting > Competency Library
