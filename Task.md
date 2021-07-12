@@ -205,6 +205,9 @@ TCK2107-0657439
 ```
 
 ---
+
+</details>
+
 ### Subject : _Selenium June
 TCK2106-0650391
 
