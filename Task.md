@@ -143,9 +143,58 @@ t0^1#APA\*g4V
 - [Sf3](http://192.168.0.185)
 - [Sf4](http://192.168.101.155)
 
+---
+### Subject : _Selenium Augst
+TCK2107-0657443
+
+>  Setting > Performance Setting > Box Analysis
+      
+- [x] Process Box Analysis Add
+- [x] Reprocess
+- [x] Process Box Analysis Delete
+---
+
+TCK2108-0663934
+- [ ] Delete Box Analysis
+- [ ] Edit Box Analysis and set Matrix
+---
+
+TCK2108-0663933
+- [ ] Add Box Analysis data source x Axis dan y axis Total Performance
+- [ ] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Appraisal"
+- [ ] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Org Unit KPI"
+- [ ] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Personal KPI"
+- [ ] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Competency"
+- [ ] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Task"
+- [ ] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Feedback"
+
+TCK2108-0663932
+
+>  Setting > Performance Setting > Succession Parameter
+
+- [x] Add Succession Parameter Within Same Job Family "Yes"
+- [x] Add Succession Parameter Job Family Level "Same Level"
+- [x] Add Succession Parameter Minimum Readiness, Maximum Possibility of Leaving, Maximum Impact of Leaving "Low"
+- [x] Add Succession Parameter Minimum Readiness, Maximum Possibility of Leaving, Maximum Impact of Leaving "Medium"
+- [x] Add Succession Parameter Minimum Readiness, Maximum Possibility of Leaving, Maximum Impact of Leaving "High"
+- [x] Edit Succession Parameter
+- [x] Delete Succession Parameter
+
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+
+```
+
+</details>
 
 ---
-### Subject : _Selenium June
+### Subject : _Selenium July
 TCK2107-0657443
 
 >  Setting > Performance Setting > Competency Library
@@ -156,42 +205,42 @@ TCK2107-0657443
 
 TCK2107-0657442
 
->  Setting > Performance Setting > Competency Library
+>  Setting > Performance Setting > Performance Period Setting
 
-- [ ] Edit Performance Period dengan ubah bagian General (selain bagian Period Component)
-- [ ] Edit Performance Period dengan ubah bagian Apprisal-Remove Configuration
-- [ ] Edit Performance Period dengan ubah bagian Org Unit KPI-Remove Configuration
-- [ ] Edit Performance Period dengan ubah bagian Personal KPI-Remove Configuration
-- [ ] Edit Performance Period dengan ubah bagian Apprisal-Remove All Configuration
-- [ ] Edit Performance Period dengan ubah bagian Org Unit KPI-Remove All Configuration
-- [ ] Edit Performance Period dengan ubah bagian Personal KPI-Remove All Configuration
+- [x] Edit Performance Period dengan ubah bagian General (selain bagian Period Component)
+- [x] Edit Performance Period dengan ubah bagian Apprisal-Remove Configuration
+- [x] Edit Performance Period dengan ubah bagian Org Unit KPI-Remove Configuration
+- [x] Edit Performance Period dengan ubah bagian Personal KPI-Remove Configuration
+- [x] Edit Performance Period dengan ubah bagian Apprisal-Remove All Configuration
+- [x] Edit Performance Period dengan ubah bagian Org Unit KPI-Remove All Configuration
+- [x] Edit Performance Period dengan ubah bagian Personal KPI-Remove All Configuration
 
 TCK2107-0657441
 
->  Setting > Performance Setting > Competency Library
+>  Setting > Performance Setting > Performance Period Setting
 
-- [ ] Edit Performance Period dengan ubah bagian General (selain bagian Period Component)
-- [ ] Edit Performance Period dengan ubah bagian Apprisal-submit
-- [ ] Edit Performance Period dengan ubah bagian Org Unit KPI-submit
-- [ ] Edit Performance Period dengan ubah bagian Personal KPI-submit
-- [ ] Edit Performance Period dengan ubah bagian Competency-submit
-- [ ] Edit Performance Period dengan ubah bagian Task
-- [ ] Edit Performance Period dengan ubah bagian Feedback
-- [ ] Delete Performance Period
-- [ ] Preview Form (Ikon pada kolom Preview)
+- [x] Edit Performance Period dengan ubah bagian General (selain bagian Period Component)
+- [x] Edit Performance Period dengan ubah bagian Apprisal-submit
+- [x] Edit Performance Period dengan ubah bagian Org Unit KPI-submit
+- [x] Edit Performance Period dengan ubah bagian Personal KPI-submit
+- [x] Edit Performance Period dengan ubah bagian Competency-submit
+- [x] Edit Performance Period dengan ubah bagian Task
+- [x] Edit Performance Period dengan ubah bagian Feedback
+- [x] Delete Performance Period
+- [x] Preview Form (Ikon pada kolom Preview)
 
 TCK2107-0657439
 
->  Setting > Performance Setting > Competency Library
+>  Setting > Performance Setting > Performance Period Setting
 
-- [ ] Add Performance Period dengan Period Component "Appraisal", centang Set Configuration With Excel "Default"
-- [ ] Add Performance Period dengan Period Component "Appraisal", centang Set Configuration With Excel "Weight, Target, Achievement Type"
-- [ ] Add Performance Period dengan Period Component "Org Unit", centang Set Configuration With Excel "Default"
-- [ ] Add Performance Period dengan Period Component "Org Unit", centang Set Configuration With Excel "Org Unit"
-- [ ] Add Performance Period dengan Period Component "Org Unit", centang Set Configuration With Excel "Weight, Target, Achievement Type"
-- [ ] Add Performance Period dengan Period Component "Personal KPI", centang Set Configuration With Excel "Library"
-- [ ] Add Performance Period dengan Period Component "Personal KP", centang Set Configuration With Excel "Position"
-- [ ] Add Performance Period dengan Period Component "Personal KP", centang Set Configuration With Excel "Weight, Target, Achievement Type"
+- [x] Add Performance Period dengan Period Component "Appraisal", centang Set Configuration With Excel "Default"
+- [x] Add Performance Period dengan Period Component "Appraisal", centang Set Configuration With Excel "Weight, Target, Achievement Type"
+- [x] Add Performance Period dengan Period Component "Org Unit", centang Set Configuration With Excel "Default"
+- [x] Add Performance Period dengan Period Component "Org Unit", centang Set Configuration With Excel "Org Unit"
+- [x] Add Performance Period dengan Period Component "Org Unit", centang Set Configuration With Excel "Weight, Target, Achievement Type"
+- [x] Add Performance Period dengan Period Component "Personal KPI", centang Set Configuration With Excel "Library"
+- [x] Add Performance Period dengan Period Component "Personal KP", centang Set Configuration With Excel "Position"
+- [x] Add Performance Period dengan Period Component "Personal KP", centang Set Configuration With Excel "Weight, Target, Achievement Type"
 
 ##### Script
 
@@ -200,13 +249,18 @@ TCK2107-0657439
 
 ```JAVA
 
-
+  <class name="source.dataon.setting.performance_setting.performance_period_editonly.TEditPerformanceCompGeneral"/>
+  <class name="source.dataon.setting.performance_setting.performance_period_editonly.TEditPerformanceOrgUnitKPI"/>
+  <class name="source.dataon.setting.performance_setting.performance_period_editonly.TEditPerformancePeriodAppraisal"/>
+  <class name="source.dataon.setting.performance_setting.performance_period_editonly.TEditPerformancePersonalKPI"/>
+  <class name="source.dataon.setting.performance_setting.performance_period_editonly.TEditPerformanceUploadConf"/>
+  <class name="source.dataon.setting.performance_setting.performance_period_editonly.TPerformancePeriodPreview"/>
 
 ```
 
----
-
 </details>
+
+---
 
 ### Subject : _Selenium June
 TCK2106-0650391
