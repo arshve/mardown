@@ -188,6 +188,9 @@ TCK2108-0663932
 
 ```JAVA
 
+  <class name="source.dataon.setting.performance_setting.box_analysis.TBoxAnalysisProcess"/>
+  
+  <class name="source.dataon.setting.performance_setting.succession_param.TSuccessionParameter"/>
 
 ```
 
