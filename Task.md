@@ -152,14 +152,27 @@ TCK2107-0657443
 - [x] Process Box Analysis Add
 - [x] Reprocess
 - [x] Process Box Analysis Delete
----
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+  <class name="source.dataon.setting.performance_setting.box_analysis.TBoxAnalysisProcess"/>
+
+```
+
+</details>
 
 TCK2108-0663934
 - [ ] Delete Box Analysis
 - [ ] Edit Box Analysis and set Matrix
----
+
 
 TCK2108-0663933
+
 - [ ] Add Box Analysis data source x Axis dan y axis Total Performance
 - [ ] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Appraisal"
 - [ ] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Org Unit KPI"
@@ -179,8 +192,6 @@ TCK2108-0663932
 - [x] Add Succession Parameter Minimum Readiness, Maximum Possibility of Leaving, Maximum Impact of Leaving "High"
 - [x] Edit Succession Parameter
 - [x] Delete Succession Parameter
-
-
 ##### Script
 
 <details>
@@ -188,15 +199,11 @@ TCK2108-0663932
 
 ```JAVA
 
-  <class name="source.dataon.setting.performance_setting.box_analysis.TBoxAnalysisProcess"/>
-  
   <class name="source.dataon.setting.performance_setting.succession_param.TSuccessionParameter"/>
 
 ```
-
 </details>
-
----
+<br>
 ### Subject : _Selenium July
 TCK2107-0657443
 
@@ -218,6 +225,21 @@ TCK2107-0657442
 - [x] Edit Performance Period dengan ubah bagian Org Unit KPI-Remove All Configuration
 - [x] Edit Performance Period dengan ubah bagian Personal KPI-Remove All Configuration
 
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+  <class name="source.dataon.setting.performance_setting.performance_period_editonly.TEditPerformanceOrgUnitKPI"/>
+  <class name="source.dataon.setting.performance_setting.performance_period_editonly.TEditPerformancePeriodAppraisal"/>
+  <class name="source.dataon.setting.performance_setting.performance_period_editonly.TEditPerformancePersonalKPI"/>
+  <class name="source.dataon.setting.performance_setting.performance_period_editonly.TEditPerformancePeriodCompetency"/>
+
+```
+</details>
+<br>
 TCK2107-0657441
 
 >  Setting > Performance Setting > Performance Period Setting
@@ -231,7 +253,20 @@ TCK2107-0657441
 - [x] Edit Performance Period dengan ubah bagian Feedback
 - [x] Delete Performance Period
 - [x] Preview Form (Ikon pada kolom Preview)
+##### Script
 
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+  <class name="source.dataon.setting.performance_setting.performance_period_editonly.TEditPerformanceCompGeneral"/>
+  <class name="source.dataon.setting.performance_setting.performance_period_editonly.TPerformancePeriodPreview"/>
+
+```
+
+</details>
+<br>
 TCK2107-0657439
 
 >  Setting > Performance Setting > Performance Period Setting
@@ -252,19 +287,13 @@ TCK2107-0657439
 
 ```JAVA
 
-  <class name="source.dataon.setting.performance_setting.performance_period_editonly.TEditPerformanceCompGeneral"/>
-  <class name="source.dataon.setting.performance_setting.performance_period_editonly.TEditPerformanceOrgUnitKPI"/>
-  <class name="source.dataon.setting.performance_setting.performance_period_editonly.TEditPerformancePeriodAppraisal"/>
-  <class name="source.dataon.setting.performance_setting.performance_period_editonly.TEditPerformancePersonalKPI"/>
   <class name="source.dataon.setting.performance_setting.performance_period_editonly.TEditPerformanceUploadConf"/>
-  <class name="source.dataon.setting.performance_setting.performance_period_editonly.TPerformancePeriodPreview"/>
 
 ```
 
 </details>
 
 ---
-
 ### Subject : _Selenium June
 TCK2106-0650391
 
@@ -300,11 +329,8 @@ TCK2106-0650391
 <class name="source.dataon.setting.performance_setting.competency_library.TCompetencyMatrix"/>
 
 ```
-
----
-
 </details>
-
+<br>
 TCK2106-0650391
 
 >  Setting > Performance Setting > Performance Period Setting
@@ -332,6 +358,7 @@ TCK2106-0650391
 			
 ```
 </details>
+<br>
 
 ---
 ### Subject : _Selenium May
@@ -386,6 +413,7 @@ TCK2105-0644798
 
 ```
 </details>
+<br>
 
 ---
 ### Subject : _Selenium Maret
@@ -432,6 +460,7 @@ TCK2104-0637795
 
 ```
 </details>
+<br>
 
 ---
 ### Subject : _Selenium Maret
@@ -461,6 +490,7 @@ TCK2001-0543247
 
 ```
 </details>
+<br>
 
 ---
 ### Subject : Selenium 01 Mar -31 Mar 2021
