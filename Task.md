@@ -181,6 +181,18 @@ TCK2108-0663933
 - [x] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Task"
 - [x] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Feedback"
 
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+  <class name="source.dataon.setting.performance_setting.box_analysis.TAddBoxAnalysis"/>
+
+```
+</details>
+
 TCK2108-0663932
 
 >  Setting > Performance Setting > Succession Parameter
@@ -192,6 +204,8 @@ TCK2108-0663932
 - [x] Add Succession Parameter Minimum Readiness, Maximum Possibility of Leaving, Maximum Impact of Leaving "High"
 - [x] Edit Succession Parameter
 - [x] Delete Succession Parameter
+
+
 ##### Script
 
 <details>
