@@ -185,13 +185,25 @@ TCK2108-0663934
 
 TCK2108-0663933
 
-- [ ] Add Box Analysis data source x Axis dan y axis Total Performance
-- [ ] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Appraisal"
-- [ ] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Org Unit KPI"
-- [ ] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Personal KPI"
-- [ ] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Competency"
-- [ ] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Task"
-- [ ] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Feedback"
+- [x] Add Box Analysis data source x Axis dan y axis Total Performance
+- [x] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Appraisal"
+- [x] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Org Unit KPI"
+- [x] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Personal KPI"
+- [x] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Competency"
+- [x] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Task"
+- [x] Add Box Analysis data source x Axis dan y axis OtherPerfomanceComp "Feedback"
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+  <class name="source.dataon.setting.performance_setting.box_analysis.TAddBoxAnalysis"/>
+
+```
+</details>
 
 TCK2108-0663932
 
@@ -204,6 +216,8 @@ TCK2108-0663932
 - [x] Add Succession Parameter Minimum Readiness, Maximum Possibility of Leaving, Maximum Impact of Leaving "High"
 - [x] Edit Succession Parameter
 - [x] Delete Succession Parameter
+
+
 ##### Script
 
 <details>
