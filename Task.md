@@ -170,6 +170,18 @@ TCK2108-0663934
 - [ ] Delete Box Analysis
 - [ ] Edit Box Analysis and set Matrix
 
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+  <class name="source.dataon.setting.performance_setting.box_analysis.TSetMatrixBoxAnalysis"/>
+
+```
+
+</details>
 
 TCK2108-0663933
 
