@@ -167,8 +167,8 @@ TCK2107-0657443
 </details>
 
 TCK2108-0663934
-- [ ] Delete Box Analysis
-- [ ] Edit Box Analysis and set Matrix
+- [x] Delete Box Analysis
+- [x] Edit Box Analysis and set Matrix
 
 ##### Script
 
