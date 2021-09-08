@@ -143,6 +143,107 @@ t0^1#APA\*g4V
 - [Sf3](http://192.168.0.185)
 - [Sf4](http://192.168.101.155)
 
+
+---
+### Subject : _Selenium September
+
+TCK2109-0670360
+
+>  Performance > Report > Advanced Performance Report > Box Analysis Report
+      
+- [ ] Preview Box Analysis Report Org Unit All
+- [ ] Preview Box Analysis Report Org Unit Selected
+- [ ] Preview Box Analysis Report Group By Region
+- [ ] Preview Box Analysis Report Group By Organization Unit
+- [ ] Excel Box Analysis Report Org Unit All
+- [ ] Excel Box Analysis Report Org Unit Selected
+- [ ] Excel Box Analysis Report Group By Region
+- [ ] Excel Box Analysis Report Group By Organization Unit
+- [ ] Pdf Box Analysis Report Org Unit All
+- [ ] Pdf Box Analysis Report Org Unit Selected
+- [ ] Pdf Box Analysis Report Group By Region
+- [ ] Pdf Box Analysis Report Group By Organization Unit
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+
+
+```
+
+</details>
+
+TCK2109-0670822
+
+>  Setting > Performance Setting > Performance Form Setting
+
+- [ ] Add Performance Form Setting by Admin
+- [ ] Add Performance Form Setting by User "Credit"
+- [ ] Add Performance Form Setting by User "Percentage"
+- [ ] Edit Performance Form Setting
+- [ ] Delete Performance Form Setting
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+
+
+```
+
+</details>
+
+TCK2109-0670824
+
+>  Setting > Performance Setting > Performance Form Setting
+
+- [ ] Set Question Performance Form Setting "All Positions"
+- [ ] Set Question Performance Form Setting "Certain Positions"
+- [ ] Set Question Performance Form Setting "Question Composition"
+- [ ] Preview Performance Form Setting Question For "All Positions"
+- [ ] Preview Performance Form Setting Question For "Certain Position"
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+  
+
+```
+</details>
+
+TCK2109-0670827
+
+>  Performance Management > Performance Form > Simple Performance Search <br>
+>  Performance Management > Performance Form
+
+- [ ] Search Performance Form
+- [ ] Melakukan pengisian Performance Form Periodic (draft, send, delete)
+- [ ] Melakukan pengisian Performance Form Non Periodic (draft, send, delete)
+
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+  
+
+```
+</details>
+
 ---
 ### Subject : _Selenium Augst
 TCK2107-0657443
@@ -167,9 +268,21 @@ TCK2107-0657443
 </details>
 
 TCK2108-0663934
-- [ ] Delete Box Analysis
-- [ ] Edit Box Analysis and set Matrix
+- [x] Delete Box Analysis
+- [x] Edit Box Analysis and set Matrix
 
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+  <class name="source.dataon.setting.performance_setting.box_analysis.TSetMatrixBoxAnalysis"/>
+
+```
+
+</details>
 
 TCK2108-0663933
 
