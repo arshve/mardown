@@ -204,11 +204,11 @@ TCK2109-0670824
 
 >  Setting > Performance Setting > Performance Form Setting
 
-- [ ] Set Question Performance Form Setting "All Positions"
-- [ ] Set Question Performance Form Setting "Certain Positions"
-- [ ] Set Question Performance Form Setting "Question Composition"
-- [ ] Preview Performance Form Setting Question For "All Positions"
-- [ ] Preview Performance Form Setting Question For "Certain Position"
+- [x] Set Question Performance Form Setting "All Positions"
+- [x] Set Question Performance Form Setting "Certain Positions"
+- [x] Set Question Performance Form Setting "Question Composition"
+- [x] Preview Performance Form Setting Question For "All Positions"
+- [x] Preview Performance Form Setting Question For "Certain Position"
 
 ##### Script
 
@@ -217,7 +217,7 @@ TCK2109-0670824
 
 ```JAVA
 
-  
+  <class name="source.dataon.setting.performance_setting.performance_form.TPerformanceSetQuestion"/>
 
 ```
 </details>
