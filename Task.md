@@ -181,11 +181,11 @@ TCK2109-0670822
 
 >  Setting > Performance Setting > Performance Form Setting
 
-- [ ] Add Performance Form Setting by Admin
-- [ ] Add Performance Form Setting by User "Credit"
-- [ ] Add Performance Form Setting by User "Percentage"
-- [ ] Edit Performance Form Setting
-- [ ] Delete Performance Form Setting
+- [x] Add Performance Form Setting by Admin
+- [x] Add Performance Form Setting by User "Credit"
+- [x] Add Performance Form Setting by User "Percentage"
+- [x] Edit Performance Form Setting
+- [x] Delete Performance Form Setting
 
 ##### Script
 
@@ -194,8 +194,8 @@ TCK2109-0670822
 
 ```JAVA
 
-
-
+  <class name="source.dataon.setting.performance_setting.performance_form.TPerformanceFormSetting"/>
+  
 ```
 
 </details>
