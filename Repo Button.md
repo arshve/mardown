@@ -153,3 +153,32 @@ try {
 Thread.sleep(4000);
 
 ```
+
+# Checkbox Verification
+
+```JAVA
+
+private boolean isChecked;
+
+isChecked = driver.findElement(By.id("iscat_"+st_desc[i])).isSelected();
+if(isChecked) {
+    test.get().pass("<small>[Checkbox]</small> row "+st_desc[i]+" Already Category");
+}else {
+    WebElement cateAdd = fluentWait(By.id("iscat_"+st_desc[i]));
+    cateAdd.click();
+    test.get().pass("<small>[Checkbox]</small> Row "+st_desc[i]+" Set to Category");
+    Thread.sleep(500);
+}
+
+```
+
+# Row Counter
+
+```JAVA
+
+import java.util.List;
+
+List<WebElement> rows = driver.findElements(By.xpath("//*[@id=\"tbl_quest\"]/tr"));
+int count = rows.size();
+
+```
