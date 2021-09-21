@@ -151,18 +151,18 @@ TCK2109-0670360
 
 >  Performance > Report > Advanced Performance Report > Box Analysis Report
       
-- [ ] Preview Box Analysis Report Org Unit All
-- [ ] Preview Box Analysis Report Org Unit Selected
-- [ ] Preview Box Analysis Report Group By Region
-- [ ] Preview Box Analysis Report Group By Organization Unit
-- [ ] Excel Box Analysis Report Org Unit All
-- [ ] Excel Box Analysis Report Org Unit Selected
-- [ ] Excel Box Analysis Report Group By Region
-- [ ] Excel Box Analysis Report Group By Organization Unit
-- [ ] Pdf Box Analysis Report Org Unit All
-- [ ] Pdf Box Analysis Report Org Unit Selected
-- [ ] Pdf Box Analysis Report Group By Region
-- [ ] Pdf Box Analysis Report Group By Organization Unit
+- [x] Preview Box Analysis Report Org Unit All
+- [x] Preview Box Analysis Report Org Unit Selected
+- [x] Preview Box Analysis Report Group By Region
+- [x] Preview Box Analysis Report Group By Organization Unit
+- [x] Excel Box Analysis Report Org Unit All
+- [x] Excel Box Analysis Report Org Unit Selected
+- [x] Excel Box Analysis Report Group By Region
+- [x] Excel Box Analysis Report Group By Organization Unit
+- [x] Pdf Box Analysis Report Org Unit All
+- [x] Pdf Box Analysis Report Org Unit Selected
+- [x] Pdf Box Analysis Report Group By Region
+- [x] Pdf Box Analysis Report Group By Organization Unit
 
 ##### Script
 
@@ -171,7 +171,7 @@ TCK2109-0670360
 
 ```JAVA
 
-
+  <class name="source.dataon.performance.report.TBoxAnalysisReport"/>
 
 ```
 
