@@ -130,11 +130,8 @@ dataon1-dev-gd|https://api.greatdayhr.com/staging5
 <br />
 Shared Folder
 user : dataon\farid.ramadhan
-pass : S7j6h65g4*&^^%$
+pass : IndoDev24@$
 
-<br />
-BugTest PAss
-t0^1#APA\*g4V
 
 </details>
 
@@ -142,6 +139,111 @@ t0^1#APA\*g4V
 - [Sf2](http://192.168.0.170)
 - [Sf3](http://192.168.0.185)
 - [Sf4](http://192.168.101.155)
+---
+### Subject : _Selenium October
+
+TCK2110-0678060
+
+>  Performance > Performance Form
+      
+- [ ] Add Simple Performance > draft
+- [ ] Add Simple Performance > send
+- [ ] View Request Status
+- [ ] Preview Final Score Report
+- [ ] Preview Employee Performance Rank
+- [ ] Preview Performance Status Report
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+  
+
+```
+
+</details>
+
+TCK2110-0678419
+
+>  Performance Management > Performance Planning
+
+- [ ] Mengubah Performance Planning - mengisi weight dan target kemudian draft
+- [ ] Mengubah Performance Planning - mengisi tab Training Plan- lakukan filter
+- [ ] Mengubah Performance Planning - mengisi tab Training Plan- Add Competency Gap lalu Add Row dan add competency gap kembali
+- [ ] Mengubah Performance Planning - mengisi tab Training Plan- Edit Competency Gap
+- [ ] Mengubah Performance Planning - mengisi tab Training Plan- Delete Competency Gap
+- [ ] Mengubah Performance Planning - mengisi tab Development Plan- lakukan filter
+- [ ] Mengubah Performance Planning - mengisi tab Development Plan- Add Row kemudian submit
+- [ ] Mengubah Performance Planning - mengisi tab Development Plan- Edit Description kemudian Submit
+- [ ] Mengubah Performance Planning - mengisi tab Development Plan- Edit Description kemudian Delete
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+  
+  
+```
+
+</details>
+
+TCK2110-0678426
+
+>  Performance Management > Performance Planning
+
+- [ ] Mengubah Performance Planning - mengisi tab Career Plan- lakukan filter
+- [ ] Mengubah Performance Planning - mengisi tab Career Plan- Add Job Title From Career Path Map kemudian submit
+- [ ] Mengubah Performance Planning - mengisi tab Career Plan- Edit Job Title kemudian Submit
+- [ ] Mengubah Performance Planning - mengisi tab Career Plan- Edit Job Title kemudian Delete
+- [ ] View Competency Match
+- [ ] View Box Analysis
+- [ ] View Succession Plan
+- [ ] Mengubah Performance Planning kemudian Sent to Approver
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+  
+
+```
+</details>
+
+TCK2109-0670827
+
+>  Performance Management > Performance Planning
+
+- [ ] View Request Status Performance Planning
+- [ ] lakukan filter dengan klik ikon filter di kanan atas
+- [ ] Delete Performance Planning dengan menggunakan ikon delete di kanan atas
+- [ ] Melakukan Replace Performance Planning
+- [ ] Upload Performance Planning dengan type "Personal", Empty
+- [ ] Upload Performance Planning dengan type "Personal", Fill Template
+- [ ] Upload Performance Planning dengan type "Org Unit", Empty
+- [ ] Upload Performance Planning dengan type "Org Unit", Fill Template
+- [ ] Upload Performance Planning dengan Delete Previous Objective "Yes"
+
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+  
+  
+```
+</details>
 
 
 ---
