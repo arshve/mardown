@@ -160,7 +160,10 @@ TCK2110-0678060
 
 ```JAVA
 
-  
+  <class name="source.dataon.performance.performance_form.TSimplePerformanceForm"/>
+  <class name="source.dataon.performance.simplereport.TPerformanceStatusReport"/>
+  <class name="source.dataon.performance.simplereport.TFinalScoreReport"/>
+  <class name="source.dataon.performance.simplereport.TEmployeePerformanceRank"/>
 
 ```
 
