@@ -146,12 +146,12 @@ TCK2110-0678060
 
 >  Performance > Performance Form
       
-- [ ] Add Simple Performance > draft
-- [ ] Add Simple Performance > send
-- [ ] View Request Status
-- [ ] Preview Final Score Report
-- [ ] Preview Employee Performance Rank
-- [ ] Preview Performance Status Report
+- [x] Add Simple Performance > draft
+- [x] Add Simple Performance > send
+- [x] View Request Status
+- [x] Preview Final Score Report
+- [x] Preview Employee Performance Rank
+- [x] Preview Performance Status Report
 
 ##### Script
 
