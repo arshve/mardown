@@ -146,12 +146,12 @@ TCK2110-0678060
 
 >  Performance > Performance Form
       
-- [ ] Add Simple Performance > draft
-- [ ] Add Simple Performance > send
-- [ ] View Request Status
-- [ ] Preview Final Score Report
-- [ ] Preview Employee Performance Rank
-- [ ] Preview Performance Status Report
+- [x] Add Simple Performance > draft
+- [x] Add Simple Performance > send
+- [x] View Request Status
+- [x] Preview Final Score Report
+- [x] Preview Employee Performance Rank
+- [x] Preview Performance Status Report
 
 ##### Script
 
@@ -173,15 +173,15 @@ TCK2110-0678419
 
 >  Performance Management > Performance Planning
 
-- [ ] Mengubah Performance Planning - mengisi weight dan target kemudian draft
-- [ ] Mengubah Performance Planning - mengisi tab Training Plan- lakukan filter
-- [ ] Mengubah Performance Planning - mengisi tab Training Plan- Add Competency Gap lalu Add Row dan add competency gap kembali
-- [ ] Mengubah Performance Planning - mengisi tab Training Plan- Edit Competency Gap
-- [ ] Mengubah Performance Planning - mengisi tab Training Plan- Delete Competency Gap
-- [ ] Mengubah Performance Planning - mengisi tab Development Plan- lakukan filter
-- [ ] Mengubah Performance Planning - mengisi tab Development Plan- Add Row kemudian submit
-- [ ] Mengubah Performance Planning - mengisi tab Development Plan- Edit Description kemudian Submit
-- [ ] Mengubah Performance Planning - mengisi tab Development Plan- Edit Description kemudian Delete
+- [x] Mengubah Performance Planning - mengisi weight dan target kemudian draft
+- [x] Mengubah Performance Planning - mengisi tab Training Plan- lakukan filter
+- [x] Mengubah Performance Planning - mengisi tab Training Plan- Add Competency Gap lalu Add Row dan add competency gap kembali
+- [x] Mengubah Performance Planning - mengisi tab Training Plan- Edit Competency Gap
+- [x] Mengubah Performance Planning - mengisi tab Training Plan- Delete Competency Gap
+- [x] Mengubah Performance Planning - mengisi tab Development Plan- lakukan filter
+- [x] Mengubah Performance Planning - mengisi tab Development Plan- Add Row kemudian submit
+- [x] Mengubah Performance Planning - mengisi tab Development Plan- Edit Description kemudian Submit
+- [x] Mengubah Performance Planning - mengisi tab Development Plan- Edit Description kemudian Delete
 
 ##### Script
 
@@ -190,7 +190,7 @@ TCK2110-0678419
 
 ```JAVA
 
-  
+  <class name="source.dataon.performance.performance_planning.TPerformancePlanningForm"/>
   
 ```
 

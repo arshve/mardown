@@ -512,3 +512,31 @@ public boolean isElementPresent(By by) {
 </details>
 
 </details>
+
+
+### Additional Script
+
+<details>
+<summary> Code! </summary>
+
+Checking Checkbox Text Value
+
+```JAVA
+import java.util.List;
+
+List<WebElement> checkboxes = driver.findElements(By.cssSelector("input[type=checkbox]"));
+JavascriptExecutor js = (JavascriptExecutor) driver;
+if (checkboxes.isEmpty()) {
+    System.out.println("No Checkbox present in the page");
+} else {
+    for (WebElement checkbox : checkboxes) {
+        if (checkbox.isDisplayed()) {
+            String text=(String) js.executeScript("return arguments[0].nextSibling.textContent.trim();", checkbox);
+            System.out.println(text);
+        }
+    }
+}
+```
+
+
+</details>
