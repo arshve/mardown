@@ -191,7 +191,6 @@ TCK2110-0678419
 ```JAVA
 
   <class name="source.dataon.performance.performance_planning.TPerformancePlanningForm"/>
-  
   https://docs.google.com/spreadsheets/d/12s5tFyU1AB33HlAcWgv4vVW9ygzgv96c8gStbjMWg6A/edit?usp=sharing
   
 ```
@@ -202,14 +201,14 @@ TCK2110-0678426
 
 >  Performance Management > Performance Planning
 
-- [ ] Mengubah Performance Planning - mengisi tab Career Plan- lakukan filter
-- [ ] Mengubah Performance Planning - mengisi tab Career Plan- Add Job Title From Career Path Map kemudian submit
-- [ ] Mengubah Performance Planning - mengisi tab Career Plan- Edit Job Title kemudian Submit
-- [ ] Mengubah Performance Planning - mengisi tab Career Plan- Edit Job Title kemudian Delete
-- [ ] View Competency Match
-- [ ] View Box Analysis
-- [ ] View Succession Plan
-- [ ] Mengubah Performance Planning kemudian Sent to Approver
+- [x] Mengubah Performance Planning - mengisi tab Career Plan- lakukan filter
+- [x] Mengubah Performance Planning - mengisi tab Career Plan- Add Job Title From Career Path Map kemudian submit
+- [x] Mengubah Performance Planning - mengisi tab Career Plan- Edit Job Title kemudian Submit
+- [x] Mengubah Performance Planning - mengisi tab Career Plan- Edit Job Title kemudian Delete
+- [x] View Competency Match
+- [x] View Box Analysis
+- [x] View Succession Plan
+- [x] Mengubah Performance Planning kemudian Sent to Approver
 
 ##### Script
 
@@ -218,7 +217,7 @@ TCK2110-0678426
 
 ```JAVA
 
-  
+  <class name="source.dataon.performance.performance_planning.TPerformancePlanningForm"/>
 
 ```
 </details>
