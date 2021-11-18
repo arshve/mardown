@@ -140,7 +140,108 @@ pass : IndoDev24@$
 - [Sf3](http://192.168.0.185)
 - [Sf4](http://192.168.101.155)
 --- 
+### <span style="color:orange">Subject : _Selenium November</span>
 
+TCK2111-0685351
+
+>  Setting > Performance Setting > Succession Parameter
+      
+- [ ] Script Succession Planning
+- [ ] Add Succession Planning
+- [ ] Edit Succession Planning > Search Successor
+- [ ] Edit Succession Planning > View Lengh of Service
+- [ ] Edit Succession Planning > View Performance
+- [ ] Edit Succession Planning > View Competency
+- [ ] Edit Succession Planning > View Box Analysis
+- [ ] Edit Succession Planning > Drilldown
+- [ ] Edit Succession Planning > Preferred
+- [ ] Edit Succession Planning > Remove
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+
+
+```
+
+</details>
+
+TCK2111-0685352
+
+>  Performance Management > Performance Conclusion Adjustment
+
+- [ ] Upload Performance Conclusion Adjustment, Replace existing data"Yes"
+- [ ] Upload Performance Conclusion Adjustment, Replace existing data"No"
+- [ ] Add Performance Conclusion Adjustment All Grade, All Org Unit, All Position, All Employee kemudian draft
+- [ ] Add Performance Conclusion Adjustment beberapa Grade, beberapa Org Unit, beberapa Position, beberapa Employee kemudian draft
+- [ ] Add Performance Conclusion Adjustment All Grade, All Org Unit, All Position, All Employee kemudian submit
+- [ ] Add Performance Conclusion Adjustment beberapa Grade, beberapa Org Unit, beberapa Position, beberapa Employee kemudian submit
+- [ ] Edit Performance Conclusion Adjustment > Calculate
+- [ ] Edit Performance Conclusion Adjustment > Calculate and Re-adjust
+- [ ] Edit Performance Conclusion Adjustment > View History
+- [ ] Delete Performance Conclusion Adjustment
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+  
+  
+```
+
+</details>
+
+TCK2111-0685350
+
+>  Performance Management > Performance Monitoring
+
+- [ ] Melakukan Performance Monitoring , Verify Monitoring Period, Upload attachment pada tab Org Unit Objective
+- [ ] Melakukan Performance Monitoring , Verify Monitoring Period, Upload attachment pada tab Personal Objective
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+  
+
+```
+</details>
+
+TCK2111-0685349
+
+>  Performance Management > Performance Monitoring
+
+- [ ] View Request Status Performance Monitoring
+- [ ] lakukan filter dengan klik ikon filter di kanan atas
+- [ ] Download template Performance Monitoring
+- [ ] Upload Performance Monitoring
+- [ ] Delete Performance Monitoring dengan menggunakan ikon delete di kanan atas
+
+
+##### Script
+
+<details>
+<summary> Script Class </summary>
+
+```JAVA
+
+  
+  
+```
+</details>
+
+
+---
 ### <span style="color:orange">Subject : _Selenium October</span>
 
 TCK2110-0678060
