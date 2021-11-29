@@ -202,8 +202,8 @@ TCK2111-0685350
 
 >  Performance Management > Performance Monitoring
 
-- [ ] Melakukan Performance Monitoring , Verify Monitoring Period, Upload attachment pada tab Org Unit Objective
-- [ ] Melakukan Performance Monitoring , Verify Monitoring Period, Upload attachment pada tab Personal Objective
+- [x] Melakukan Performance Monitoring , Verify Monitoring Period, Upload attachment pada tab Org Unit Objective
+- [x] Melakukan Performance Monitoring , Verify Monitoring Period, Upload attachment pada tab Personal Objective
 
 ##### Script
 
@@ -212,7 +212,7 @@ TCK2111-0685350
 
 ```JAVA
 
-  
+  <class name="source.dataon.performance.performance_monitoring.TPerformanceMonitoringForm"/>
 
 ```
 </details>
@@ -221,11 +221,11 @@ TCK2111-0685349
 
 >  Performance Management > Performance Monitoring
 
-- [ ] View Request Status Performance Monitoring
-- [ ] lakukan filter dengan klik ikon filter di kanan atas
-- [ ] Download template Performance Monitoring
-- [ ] Upload Performance Monitoring
-- [ ] Delete Performance Monitoring dengan menggunakan ikon delete di kanan atas
+- [x] View Request Status Performance Monitoring
+- [x] lakukan filter dengan klik ikon filter di kanan atas
+- [x] Download template Performance Monitoring
+- [x] Upload Performance Monitoring
+- [x] Delete Performance Monitoring dengan menggunakan ikon delete di kanan atas
 
 
 ##### Script
@@ -235,7 +235,7 @@ TCK2111-0685349
 
 ```JAVA
 
-  
+  <class name="source.dataon.performance.performance_monitoring.TPerformanceMonitoringForm"/>
   
 ```
 </details>
