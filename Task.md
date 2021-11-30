@@ -174,16 +174,16 @@ TCK2111-0685352
 
 >  Performance Management > Performance Conclusion Adjustment
 
-- [ ] Upload Performance Conclusion Adjustment, Replace existing data"Yes"
-- [ ] Upload Performance Conclusion Adjustment, Replace existing data"No"
-- [ ] Add Performance Conclusion Adjustment All Grade, All Org Unit, All Position, All Employee kemudian draft
-- [ ] Add Performance Conclusion Adjustment beberapa Grade, beberapa Org Unit, beberapa Position, beberapa Employee kemudian draft
-- [ ] Add Performance Conclusion Adjustment All Grade, All Org Unit, All Position, All Employee kemudian submit
-- [ ] Add Performance Conclusion Adjustment beberapa Grade, beberapa Org Unit, beberapa Position, beberapa Employee kemudian submit
-- [ ] Edit Performance Conclusion Adjustment > Calculate
-- [ ] Edit Performance Conclusion Adjustment > Calculate and Re-adjust
-- [ ] Edit Performance Conclusion Adjustment > View History
-- [ ] Delete Performance Conclusion Adjustment
+- [x] Upload Performance Conclusion Adjustment, Replace existing data"Yes"
+- [x] Upload Performance Conclusion Adjustment, Replace existing data"No"
+- [x] Add Performance Conclusion Adjustment All Grade, All Org Unit, All Position, All Employee kemudian draft
+- [x] Add Performance Conclusion Adjustment beberapa Grade, beberapa Org Unit, beberapa Position, beberapa Employee kemudian draft
+- [x] Add Performance Conclusion Adjustment All Grade, All Org Unit, All Position, All Employee kemudian submit
+- [x] Add Performance Conclusion Adjustment beberapa Grade, beberapa Org Unit, beberapa Position, beberapa Employee kemudian submit
+- [x] Edit Performance Conclusion Adjustment > Calculate
+- [x] Edit Performance Conclusion Adjustment > Calculate and Re-adjust
+- [x] Edit Performance Conclusion Adjustment > View History
+- [x] Delete Performance Conclusion Adjustment
 
 ##### Script
 
@@ -192,7 +192,7 @@ TCK2111-0685352
 
 ```JAVA
 
-  
+  <class name="source.dataon.performance.TPerformanceConclusionAdjustment"/>
   
 ```
 
