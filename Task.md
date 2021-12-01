@@ -146,16 +146,15 @@ TCK2111-0685351
 
 >  Setting > Performance Setting > Succession Parameter
       
-- [ ] Script Succession Planning
-- [ ] Add Succession Planning
-- [ ] Edit Succession Planning > Search Successor
-- [ ] Edit Succession Planning > View Lengh of Service
-- [ ] Edit Succession Planning > View Performance
-- [ ] Edit Succession Planning > View Competency
-- [ ] Edit Succession Planning > View Box Analysis
-- [ ] Edit Succession Planning > Drilldown
-- [ ] Edit Succession Planning > Preferred
-- [ ] Edit Succession Planning > Remove
+- [x] Add Succession Planning
+- [x] Edit Succession Planning > Search Successor
+- [x] Edit Succession Planning > View Lengh of Service
+- [x] Edit Succession Planning > View Performance
+- [x] Edit Succession Planning > View Competency
+- [x] Edit Succession Planning > View Box Analysis
+- [x] Edit Succession Planning > Drilldown
+- [x] Edit Succession Planning > Preferred
+- [x] Edit Succession Planning > Remove
 
 ##### Script
 
@@ -164,7 +163,7 @@ TCK2111-0685351
 
 ```JAVA
 
-
+  <class name="source.dataon.performance.TSuccessionPlanning"/>
 
 ```
 
