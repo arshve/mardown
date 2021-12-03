@@ -455,7 +455,9 @@ TCK2109-0670827
 ```
 </details>
 </details>
+
 ---
+
 <details>
 <summary><span style="color:orange">Selenium Augst</summary>
 TCK2107-0657443
@@ -636,7 +638,9 @@ TCK2107-0657439
 
 </details>
 </details>
+
 ---
+
 <details>
 <summary><span style="color:orange">Selenium June</span></summary>
 TCK2106-0650391
@@ -704,9 +708,11 @@ TCK2106-0650391
 </details>
 <br>
 </details>
+
 ---
+
 <details>
-<summary> <span style="color:orange">Subject : _Selenium May</span></summary>
+<summary> <span style="color:orange">Selenium May</span></summary>
 
 TCK2105-0644797 <br>
 TCK2105-0644798
@@ -760,9 +766,11 @@ TCK2105-0644798
 </details>
 <br>
 </details>
+
 ---
+
 <details>
-<summary><span style="color:orange">Subject : _Selenium Maret</span></summary>
+<summary><span style="color:orange">Selenium Maret</span></summary>
 
 TCK2104-0637770 <br>
 TCK2104-0637795
@@ -808,7 +816,9 @@ TCK2104-0637795
 </details>
 <br>
 </details>
+
 ---
+
 <details>
 <summary><span style="color:orange">Selenium Maret</span></summary>
 
@@ -872,8 +882,11 @@ TCK2001-0543252
 ```
 </details>
 </details>
+
 ---
-### <span style="color:orange">Subject : _Selenium 01 Des - 04 Des 2020</span>
+
+<details>
+<summary><span style="color:orange">Selenium Desember</span></summary>
 
 TCK2001-0543247
 
@@ -916,10 +929,12 @@ TCK2001-0543247
 
 ```
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 10 Nov - 11 Nov 2020_</span>
+<details>
+<summary><span style="color:orange"> _Selenium 10 Nov - 11 Nov 2020_</span></summary>
 
 TCK2001-0543250
 
@@ -958,10 +973,12 @@ TCK2001-0543250
 
 ```
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 28 Sep - 02 oct 2020_</span>
+<details>
+<summary><span style="color:orange">Selenium 28 Sep - 02 oct 2020_</span></summary>
 
 TCK2009-0587797
 
@@ -987,11 +1004,12 @@ TCK2009-0587797
 <class name="source.dataon.setting.reimbursement_setting.reimbursement_type.TDeleteReimbursementType"/>	
 ```
 </details>
-
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 14 Sep - 18 Sep 2020_</span>
+<details>
+<summary><span style="color:orange"> _Selenium 14 Sep - 18 Sep 2020_</span></summary>
 
 TCK2001-0543251
 
@@ -1022,10 +1040,12 @@ TCK2001-0543251
 <class name="source.dataon.setting.reimbursement_report.TViewReimbursementCancellReqReport"/>	
 ```
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 08 Sep - 11 Sep 2020_</span>
+<details>
+<summary><span style="color:orange">_Selenium 08 Sep - 11 Sep 2020_</span></summary>
 
 TCK2001-0543249
 
@@ -1064,10 +1084,12 @@ TCK2001-0543249
 				
 ```
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 31 Aug - 03 Sep 2020_</span>
+<details>
+<summary><span style="color:orange">_Selenium 31 Aug - 03 Sep 2020_</span></summary>
 
 TCK2001-0543244
 
@@ -1100,10 +1122,12 @@ TCK2001-0543244
 
 ```
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 20 Jul - 24 Jul 2020_</span>
+<details>
+<summary><span style="color:orange">_Selenium 20 Jul - 24 Jul 2020_</span></summary>
 
 TCK2005-0567957
 
@@ -1136,10 +1160,12 @@ TCK2005-0567957
 
 ```
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 13 Jul - 17 Jul 2020_</span>
+<details>
+<summary><span style="color:orange">_Selenium 13 Jul - 17 Jul 2020_</span></summary>
 
 TCK2005-0567956
 
@@ -1166,10 +1192,12 @@ TCK2005-0567956
 
 ```
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 6 Jul - 10 Jul 2020_</span>
+<details>
+<summary><span style="color:orange">Subject : _Selenium 6 Jul - 10 Jul 2020_</span></summary>
 
 TCK2005-0567955
 
@@ -1198,10 +1226,12 @@ TCK2005-0567955
 
 ```
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 29 June - 03 July_</span>
+<details>
+<summary><span style="color:orange">_Selenium 29 June - 03 July_</span></summary>
 
 TCK2005-0567954
 
@@ -1245,10 +1275,12 @@ TCK2005-0567954
 ```
 
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 22 June - 26 June_</span>
+<details>
+<summary><span style="color:orange">_Selenium 22 June - 26 June_</span></summary>
 
 TCK2005-0567951
 
@@ -1288,10 +1320,12 @@ TCK2005-0567951
 ```
 
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 15 June - 19 June_</span>
+<details>
+<summary><span style="color:orange">_Selenium 15 June - 19 June_</span></summary>
 
 TCK2005-0567946
 
@@ -1354,10 +1388,12 @@ TCK2005-0567949
 ```
 
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 8 June - 12 June_</span>
+<details>
+<summary><span style="color:orange">_Selenium 8 June - 12 June_</span></summary>
 
 TCK2005-0567946
 
@@ -1398,10 +1434,12 @@ TCK2005-0567946
 ```
 
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 2 June - 5 June_</span>
+<details>
+<summary><span style="color:orange">_Selenium 2 June - 5 June_</span></summary>
 
 TCK2005-0567944
 
@@ -1445,10 +1483,12 @@ TCK2005-0567944
 ```
 
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 14 May - 18 May_</span>
+<details>
+<summary><span style="color:orange">_Selenium 14 May - 18 May_</span></summary>
 
 TCK2001-0543231
 
@@ -1492,10 +1532,12 @@ TCK2001-0543231
 ```
 
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 05 May - 15 May_</span>
+<details>
+<summary><span style="color:orange">_Selenium 05 May - 15 May_</span></summary>
 
 TCK2001-0543228
 
@@ -1544,10 +1586,12 @@ TCK2001-0543228
 ```
 
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 13 Apr - 17 Apr_</span>
+<details>
+<summary><span style="color:orange">_Selenium 13 Apr - 17 Apr_</span></summary>
 
 TCK2002-0548712
 
@@ -1573,10 +1617,12 @@ TCK2002-0548712
 ```
 
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 6 Apr - 9 Apr_</span>
+<details>
+<summary><span style="color:orange">_Selenium 6 Apr - 9 Apr_</span></summary>
 
 TCK2002-0548711
 
@@ -1619,10 +1665,12 @@ TCK2002-0548711
 ```
 
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 30 Mar - 3 Apr_</span>
+<details>
+<summary><span style="color:orange">_Selenium 30 Mar - 3 Apr_</span></summary>
 
 TCK2002-0548710
 
@@ -1660,10 +1708,12 @@ TCK2002-0548710
 ```
 
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 23 Mar - 27 Mar_</span>
+<details>
+<summary><span style="color:orange">_Selenium 23 Mar - 27 Mar_</span></summary>
 
 TCK2002-0548709
 
@@ -1697,10 +1747,12 @@ TCK2002-0548709
 ```
 
 </details>
+</details>
 
 ---
 
-### <span style="color:orange">Subject : _Selenium 9 Mar - 20 Mar_</span>
+<details>
+<summary><span style="color:orange">_Selenium 9 Mar - 20 Mar_</span></summary>
 
 TCK2002-0548708
 
@@ -1736,6 +1788,7 @@ TCK2002-0548708
 
 ```
 
+</details>
 </details>
 
 ---
