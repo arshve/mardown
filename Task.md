@@ -140,7 +140,8 @@ pass : IndoDev24@$
 - [Sf3](http://192.168.0.185)
 - [Sf4](http://192.168.101.155)
 --- 
-### <span style="color:orange">Subject : _Selenium November</span>
+<details>
+<summary> <span style="color:orange">Selenium November</span> </summary>
 
 TCK2111-0685351
 
@@ -238,10 +239,12 @@ TCK2111-0685349
   
 ```
 </details>
-
+</details>
 
 ---
-### <span style="color:orange">Subject : _Selenium October</span>
+
+<details>
+<summary> <span style="color:orange">Selenium October</span></summary>
 
 TCK2110-0678060
 
@@ -327,15 +330,15 @@ TCK2109-0670827
 
 >  Performance Management > Performance Planning
 
-- [ ] View Request Status Performance Planning
-- [ ] lakukan filter dengan klik ikon filter di kanan atas
-- [ ] Delete Performance Planning dengan menggunakan ikon delete di kanan atas
-- [ ] Melakukan Replace Performance Planning
-- [ ] Upload Performance Planning dengan type "Personal", Empty
-- [ ] Upload Performance Planning dengan type "Personal", Fill Template
-- [ ] Upload Performance Planning dengan type "Org Unit", Empty
-- [ ] Upload Performance Planning dengan type "Org Unit", Fill Template
-- [ ] Upload Performance Planning dengan Delete Previous Objective "Yes"
+- [x] View Request Status Performance Planning
+- [x] lakukan filter dengan klik ikon filter di kanan atas
+- [x] Delete Performance Planning dengan menggunakan ikon delete di kanan atas
+- [x] Melakukan Replace Performance Planning
+- [x] Upload Performance Planning dengan type "Personal", Empty
+- [x] Upload Performance Planning dengan type "Personal", Fill Template
+- [x] Upload Performance Planning dengan type "Org Unit", Empty
+- [x] Upload Performance Planning dengan type "Org Unit", Fill Template
+- [x] Upload Performance Planning dengan Delete Previous Objective "Yes"
 
 
 ##### Script
@@ -345,14 +348,15 @@ TCK2109-0670827
 
 ```JAVA
 
-  
+  <class name="source.dataon.performance.performance_planning.TPerformancePlanningFormOP"/>
   
 ```
 </details>
-
+</details>
 
 ---
-### <span style="color:orange">Subject : _Selenium September</span>
+<details>
+<summary><span style="color:orange">Selenium September</span></summary>
 
 TCK2109-0670360
 
@@ -450,9 +454,10 @@ TCK2109-0670827
   
 ```
 </details>
-
+</details>
 ---
-### <span style="color:orange">Subject : _Selenium Augst</span>
+<details>
+<summary><span style="color:orange">Selenium Augst</summary>
 TCK2107-0657443
 
 >  Setting > Performance Setting > Box Analysis
@@ -538,9 +543,11 @@ TCK2108-0663932
 ```
 </details>
 <br>
+</details>
 
 ---
-### <span style="color:orange">Subject : _Selenium July</span>
+<details>
+<summary><span style="color:orange">Selenium July</span></summary>
 TCK2107-0657443
 
 >  Setting > Performance Setting > Competency Library
@@ -628,9 +635,10 @@ TCK2107-0657439
 ```
 
 </details>
-
+</details>
 ---
-### <span style="color:orange">Subject : _Selenium June</span>
+<details>
+<summary><span style="color:orange">Selenium June</span></summary>
 TCK2106-0650391
 
 >  Setting > Performance Setting > Competency Library
@@ -695,9 +703,10 @@ TCK2106-0650391
 ```
 </details>
 <br>
-
+</details>
 ---
-### <span style="color:orange">Subject : _Selenium May</span>
+<details>
+<summary> <span style="color:orange">Subject : _Selenium May</span></summary>
 
 TCK2105-0644797 <br>
 TCK2105-0644798
@@ -750,9 +759,10 @@ TCK2105-0644798
 ```
 </details>
 <br>
-
+</details>
 ---
-### <span style="color:orange">Subject : _Selenium Maret</span>
+<details>
+<summary><span style="color:orange">Subject : _Selenium Maret</span></summary>
 
 TCK2104-0637770 <br>
 TCK2104-0637795
@@ -797,9 +807,10 @@ TCK2104-0637795
 ```
 </details>
 <br>
-
+</details>
 ---
-### <span style="color:orange">Subject : _Selenium Maret</span>
+<details>
+<summary><span style="color:orange">Selenium Maret</span></summary>
 
 TCK2001-0543247
 
@@ -860,7 +871,7 @@ TCK2001-0543252
 
 ```
 </details>
-
+</details>
 ---
 ### <span style="color:orange">Subject : _Selenium 01 Des - 04 Des 2020</span>
 
