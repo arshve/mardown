@@ -119,3 +119,19 @@ System.out.println(xpathCount);
 
 
 ```
+
+# isAlertPresent
+
+```JAVA
+
+	public boolean isAlertPresent() { 
+	    try { 
+	        driver.switchTo().alert();
+	        return true; 
+	    }   // try 
+	    catch (NoAlertPresentException Ex) { 
+	        return false; 
+	    }   // catch 
+	}  
+    
+```
