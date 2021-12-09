@@ -235,7 +235,9 @@ TCK2111-0685349
 
 ```JAVA
 
-  <class name="source.dataon.performance.performance_monitoring.TPerformanceMonitoringForm"/>
+  <class name="source.dataon.performance.performance_monitoring.TPerformanceMonitoringViewStatus"/>
+  <class name="source.dataon.performance.performance_monitoring.TAddDelPerformanceMonitoringForm"/>
+  <class name="source.dataon.performance.performance_monitoring.TPerformanceMonitoringUpload"/>
   
 ```
 </details>
